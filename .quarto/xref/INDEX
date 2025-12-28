@@ -1,0 +1,104 @@
+{
+  "index.qmd": {
+    "index.html": "1001a513"
+  },
+  "data.qmd": {
+    "data.html": "6372d040"
+  },
+  "glossary.qmd": {
+    "glossary.html": "6c8c0da6"
+  },
+  "lectures.qmd": {
+    "lectures.html": "5efb590c"
+  },
+  "references.qmd": {
+    "references.html": "fd3cb3af"
+  },
+  "lecture1_1.qmd": {
+    "lecture1_1.html": "73f2f593"
+  },
+  "lecture2_2.qmd": {
+    "lecture2_2.html": "0d91895d"
+  },
+  "lectures/lecture1.qmd": {
+    "lecture1.html": "9457897e"
+  },
+  "lectures/lecture2.qmd": {
+    "lecture2.html": "f911d11e"
+  },
+  "lectures/lectures.qmd": {
+    "lectures.html": "2388fab6"
+  },
+  "resources/data.qmd": {
+    "data.html": "62f4b743"
+  },
+  "resources/glossary.qmd": {
+    "glossary.html": "e757e394"
+  },
+  "resources/references.qmd": {
+    "references.html": "6dbe22b9"
+  },
+  "lectures/lecture1_1.qmd": {
+    "lecture1_1.html": "03d26ff7"
+  },
+  "lectures/lecture2_1.qmd": {
+    "lecture2_1.html": "65eacd4b"
+  },
+  "lectures/synopsis.qmd": {
+    "synopsis.html": "e998fafb"
+  },
+  "lectures/lecture22.qmd": {
+    "lecture22.html": "136c161e"
+  },
+  "lectures/1intro.qmd": {
+    "1intro.html": "ce5695ac"
+  },
+  "lectures/2data_used.qmd": {
+    "2data_used.html": "b843132a"
+  },
+  "lectures/data_quality.qmd": {
+    "data_quality.html": "940a86aa"
+  },
+  "lectures/1_intro.qmd": {
+    "1_intro.html": "6ecb9077"
+  },
+  "lectures/2_data_used.qmd": {
+    "2_data_used.html": "ae836149"
+  },
+  "lectures/3_unit_stock.qmd": {
+    "3_unit_stock.html": "8e631ddd"
+  },
+  "lectures/module1_presentation.qmd": {
+    "module1_presentation.html": "091152c4"
+  },
+  "lectures/module2_presentation.qmd": {
+    "module2_presentation.html": "5ca16fa3"
+  },
+  "lectures/module3_presentation.qmd": {
+    "module3_presentation.html": "69285b71"
+  },
+  "lectures/3_popl_dynamics.qmd": {
+    "3_popl_dynamics.html": "e2c40d22"
+  },
+  "lectures/5_unit_stock.qmd": {
+    "5_unit_stock.html": "343f2174"
+  },
+  "lectures/course_outline.qmd": {
+    "course_outline.html": "015c62fd"
+  },
+  "lectures/module1_introduction.qmd": {
+    "module1_introduction.html": "4dae4aaf"
+  },
+  "lectures/4_mortality_pop_models.qmd": {
+    "4_mortality_pop_models.html": "1284c951"
+  },
+  "lectures/lbspr_stock_assessment.qmd": {
+    "lbspr_stock_assessment.html": "6eac8f11"
+  },
+  "lectures/lbspr_assessment.qmd": {
+    "lbspr_assessment.html": "bcc93380"
+  },
+  "lectures/length_weight_relationship.qmd": {
+    "length_weight_relationship.html": "795e1920"
+  }
+}

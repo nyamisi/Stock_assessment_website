@@ -1,0 +1,104 @@
+---
+title: "Course Modules"
+subtitle: "AQ 232 -- Fish Population Dynamics and Stock Assessment"
+author: "Nyamisi Peter"
+format: html
+date: "today"
+execute: 
+  echo: false
+  warning: false
+  message: false
+  comment: ""
+code-fold: false
+code-line-numbers: true
+css: style.css
+---
+
+## Welcome to AQ 232
+
+This course covers the fundamental concepts and methods used in fish stock assessments, including population dynamics, data collection, and analytical approaches for sustainable fisheries management.
+
+
+## Course Modules
+
+### Module 1: Course Introduction
+- Introduction to population dynamics
+- Introduction to stock assessment
+- Aim of stock assessment
+- Definition of key terms
+
+### Module 2: Data used in Stock Assessment
+- Types of data used in stock assessment
+- Fishery-Dependent Data
+- Fishery-Independent Data
+- Data Requirements for Stock Assessments
+- Data Quality and Uncertainty
+
+### Module 3: Population Dynamics
+- Basic concepts of fish population dynamics
+- Population structure
+  - Age structure
+  - Size structure
+  - Sex ratio
+- Vital rates
+  - Birth (Recruitment)
+  - Death (Mortality)
+  - Growth
+- Population models
+- Surplus production models
+- Age-structured population models
+- Equilibrium versus dynamic concepts
+- Length-based assessment methods
+
+
+### Module 4: The Unit Stock
+- **Distribution and Abundance**
+  - Geographic distribution of fish populations
+  - Spatial and temporal variation in abundance
+  - Habitat requirements and factors affecting distribution
+  - Environmental influences on stock distribution
+- **Methods of Estimating Fish Stock Abundance**
+  - Direct methods (surveys and sampling)
+  - Catch per unit effort (CPUE) indices
+  - Mark-recapture and tagging studies
+  - Acoustic surveys
+  - Visual surveys and underwater observation
+  - Population estimation models
+  - Biomass indices and standardized indices
+  
+
+
+
+
+
+
+- **[Lecture 2: Advanced Data Topics](lectures/lecture2.html)** - Data quality, biological data collection, data management, effort standardization, gear selectivity, sampling design, and environmental data.
+
+
+
+## Learning Outcomes
+
+By the end of this course, you will be able to:
+
+- Understand the principles of fish population dynamics
+- Identify appropriate data collection methods for stock assessments
+- Apply statistical methods to analyze fishery data
+- Evaluate stock status and provide management recommendations
+- Consider ecosystem and social dimensions of fisheries management
+
+## Course Materials
+
+All lecture materials are available in this course website. Each lecture includes:
+
+- Slide presentations (HTML format)
+- Key concepts and definitions
+- Data examples and case studies
+- References and further reading
+
+## Getting Started
+
+Select a module above to begin exploring the course content. Each lecture is self-contained but builds on previous material.
+
+---
+
+*Last updated: December 2025*

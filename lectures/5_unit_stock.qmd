@@ -1,0 +1,352 @@
+---
+title: "AQ 232 -- Fish Population Dynamics and Stock Assessment"
+subtitle: "The Unit Stock"
+author: "Nyamisi Peter"
+date: "today"
+format: 
+    revealjs:
+      standalone: true
+      embed-resources: true
+      reference-location: document
+      theme: serif
+      highlight-style: ayu-mirage
+execute: 
+  echo: false
+  warning: false
+  message: false
+  comment: ""
+slide-number: true
+theme: "journal"
+code-fold: false
+scrollable: true
+code-line-numbers: true
+css: ../style.css
+---
+
+## Introduction
+
+A unit stock is the fundamental management unit in fisheries. Understanding the distribution, abundance, and methods for estimating these parameters is critical for effective stock assessment and sustainable fisheries management.
+
+---
+
+## Part 1: Distribution and Abundance
+
+### 1.1 Geographic Distribution of Fish Populations
+
+**Definition:** Geographic distribution refers to the spatial area where a fish stock is found, including the boundaries of its range.
+
+**Key Concepts:**
+- Fish populations are not uniformly distributed across all suitable habitats
+- Distribution patterns change seasonally (spawning, feeding, wintering areas)
+- Some species have discrete distributions while others have overlapping ranges
+- Distribution limits are determined by temperature, salinity, bathymetry, and food availability
+
+**Examples:**
+- Migratory species (salmon) move between coastal and riverine habitats
+- Demersal species (bottom-dwelling) have specific depth distributions
+- Pelagic species distribute widely in open water
+
+**Management Implications:**
+- Fishing effort should target areas of highest concentration
+- Seasonal closures may protect aggregations during vulnerable periods
+- International boundaries may complicate management of stocks crossing borders
+
+---
+
+### 1.2 Spatial and Temporal Variation in Abundance
+
+**Temporal Variation:**
+- **Seasonal changes** - Abundance fluctuates with feeding, spawning, and migration cycles
+- **Interannual variation** - Year-to-year changes in recruitment and survival
+- **Long-term trends** - Decadal-scale changes related to fishing pressure or environmental conditions
+
+**Spatial Variation:**
+- **Patchiness** - Fish concentrate in certain areas (spawning grounds, feeding areas)
+- **Gradients** - Density changes across depth, latitude, or habitat types
+- **Hotspots** - Areas of consistently high abundance
+
+**Measurement Challenges:**
+- Detecting aggregations requires spatially intensive sampling
+- Small-scale variability requires high sampling effort to quantify accurately
+- Temporal dynamics require time series of observations
+
+---
+
+### 1.3 Habitat Requirements and Factors Affecting Distribution
+
+**Abiotic Factors:**
+- **Temperature** - Most critical factor; thermal preferences vary by species
+- **Salinity** - Freshwater, brackish, or marine preferences
+- **Dissolved oxygen** - Required for respiration; anaerobic zones are avoided
+- **Bathymetry** - Depth preferences related to light and pressure tolerance
+- **Substrate type** - Bottom type affects benthic food availability
+
+**Biotic Factors:**
+- **Food availability** - Distribution follows food resources
+- **Predation risk** - Avoidance of predator-rich areas
+- **Competition** - Space partitioning with other species
+- **Reproductive habitat** - Essential for spawning and nursery grounds
+
+**Habitat Quality:**
+- Optimal habitat supports higher population densities
+- Marginal habitat may be temporarily occupied but has lower reproductive success
+- Loss or degradation of critical habitat can limit population size
+
+---
+
+### 1.4 Environmental Influences on Stock Distribution
+
+**Physical Oceanography:**
+- Ocean currents transport larvae and affect distribution
+- Upwelling events create productive feeding areas
+- Coastal current patterns structure population distributions
+
+**Climate and Weather:**
+- Climate change shifts suitable habitat ranges
+- Seasonal weather events (storms, cold snaps) cause temporary distribution changes
+- Long-term climate trends alter distribution boundaries
+
+**Environmental Monitoring:**
+- Temperature and oxygen monitoring identify suitable habitat
+- Satellite data tracks ocean color, temperature, and currents
+- Integrated environmental monitoring helps predict abundance changes
+
+---
+
+## Part 2: Methods of Estimating Fish Stock Abundance
+
+### 2.1 Direct Methods (Surveys and Sampling)
+
+**Trawl Surveys:**
+- Bottom or mid-water trawling in systematic grid pattern
+- Standardized vessels, gear, and protocols ensure comparability
+- Provides age/size composition data
+- Index of relative abundance (CPUE)
+- **Advantages:** Direct observation, compositional data
+- **Disadvantages:** Gear selectivity, avoidance behavior, high cost
+
+**Dredges and Dip Nets:**
+- For benthic and demersal species
+- Smaller spatial coverage than trawls
+- High observation effort per area
+
+**Seining and Gillnetting:**
+- Specialized methods for coastal and nearshore areas
+- Often used in smaller-scale fisheries
+
+---
+
+### 2.2 Catch Per Unit Effort (CPUE) Indices
+
+**Definition:** CPUE is the catch obtained per standardized unit of fishing effort.
+
+**Formula:**
+$$\text{CPUE} = \frac{\text{Total Catch}}{\text{Total Effort}}$$
+
+Where effort could be:
+- Fishing hours
+- Days at sea
+- Number of hooks (for longline)
+- Distance trawled
+- Number of traps
+
+**Standardization:**
+- Raw CPUE must be standardized for differences in:
+  - Vessel characteristics (size, power, technology)
+  - Seasonal effects
+  - Geographic area
+  - Environmental variables
+- Generalized Linear Models (GLM) or other statistical methods used
+
+**Advantages:**
+- Uses existing commercial fishing data
+- Cost-effective
+- Long time series available
+- Real-time updates possible
+
+**Disadvantages:**
+- Affected by fisher behavior (targeting, avoidance)
+- Changes in technology affect catchability
+- Assumes effort is independent
+
+---
+
+### 2.3 Mark-Recapture and Tagging Studies
+
+**Basic Principle:**
+1. Capture, mark, and release a known number of fish (N₁)
+2. Recapture a sample (n₂)
+3. Count marked individuals in recapture (m)
+4. Estimate population size using Lincoln-Petersen formula:
+
+$$\hat{N} = \frac{N_1 \times n_2}{m}$$
+
+**Modified Approaches:**
+- Multiple recapture events (Schnabel method)
+- Robust design (closed sessions within open population)
+- Bayesian approaches for uncertainty quantification
+
+**Advantages:**
+- Direct abundance estimate for specific area
+- Provides movement and survival information
+- Useful for smaller populations
+
+**Disadvantages:**
+- Tagging causes stress and mortality
+- Tag loss reduces accuracy
+- Expensive and labor-intensive
+- Limited to feasible population sizes
+
+---
+
+### 2.4 Acoustic Surveys
+
+**Principle:**
+- Sound waves detect fish schools through differences in density
+- Returns are converted to fish density estimates
+- High spatial resolution (meters)
+
+**Technology:**
+- Single-beam and split-beam echosounders
+- Multibeam systems for 3D mapping
+- Autonomous underwater vehicles for remote surveys
+
+**Target Strength:**
+- Measured in dB (decibels)
+- Relates to fish size and species
+- Must be calibrated for reliable estimates
+
+**Advantages:**
+- Rapid spatial coverage
+- Non-lethal
+- Good for pelagic fish schools
+- Can estimate fish size distribution
+
+**Disadvantages:**
+- Species identification challenging
+- Shallow water complications (near-field effects)
+- Environmental noise affects detection
+- Expensive equipment
+
+---
+
+### 2.5 Visual Surveys and Underwater Observation
+
+**Snorkeling and Diving:**
+- Direct observation of fish density
+- Limited to clear water and shallow depths
+- Good for reef or estuarine species
+- High survey cost per area
+
+**Underwater Video:**
+- Remote operated vehicles (ROVs) for deeper water
+- Fixed cameras at monitoring stations
+- Reduces observer effects
+- Good for benthic species
+
+**Aerial Surveys:**
+- Visual observation from aircraft
+- Limited to shallow, clear water
+- Fast coverage of large areas
+- Good for surface schooling species
+
+**Advantages:**
+- Direct observation (reduced assumptions)
+- Species identification possible
+- Behavioral information
+
+**Disadvantages:**
+- High labor cost
+- Limited to specific conditions
+- Depth and visibility constraints
+
+---
+
+### 2.6 Population Estimation Models
+
+**Statistical Catch-at-Age Models:**
+- Fit population models to catch and survey data
+- Estimate population numbers by age and time
+- Account for fishing mortality and natural mortality
+- Provide uncertainty estimates
+
+**Integrated Assessment Models:**
+- Combine multiple data sources (catch, CPUE, surveys, biology)
+- Increase precision of estimates through data integration
+- Common models: CASAL, Stock Synthesis, ADMB
+
+**Bayesian Approaches:**
+- Incorporate prior knowledge about population parameters
+- Provide posterior distributions of population estimates
+- Better uncertainty quantification
+
+**Virtual Population Analysis (VPA):**
+- Back-calculate cohort abundance from catch and natural mortality
+- Limited to data with strong age structure
+
+---
+
+### 2.7 Biomass Indices and Standardized Indices
+
+**Simple Biomass Indices:**
+- Aggregate CPUE across fleets or time periods
+- Index of relative abundance
+- Assumes catchability constant
+
+**Standardized Indices:**
+- Remove effects of:
+  - Seasonal variation
+  - Vessel and gear differences
+  - Environmental variables
+- More reliable trend indicators
+
+**Abundance Indices vs. Biomass Indices:**
+- **Abundance index:** Number of fish per unit effort
+- **Biomass index:** Weight per unit effort
+  - More relevant for fisheries management
+  - Accounts for size differences
+
+**Index Combination:**
+- Multiple indices increased reliability
+- Weighted by inverse variance
+- Accounts for different spatial and temporal coverage
+
+---
+
+## Synthesis: Choosing Methods
+
+### Decision Framework
+
+| Situation | Recommended Method |
+|-----------|-------------------|
+| Large pelagic stock | Acoustic + CPUE standardization |
+| Small demersal stock | Trawl survey + tagging |
+| Commercial fishery with long history | CPUE standardization |
+| Data-limited situation | Visual survey + simple models |
+| High-value species | Multiple methods for comparison |
+
+### Best Practices
+
+1. **Use multiple methods** - Cross-validation improves confidence
+2. **Standardize protocols** - Ensures comparability over time
+3. **Include uncertainty** - All estimates have limits
+4. **Regular calibration** - Maintain data quality
+5. **Integrate data sources** - Combine for maximum information
+
+---
+
+## Conclusion
+
+Estimating fish stock abundance requires understanding both the biological characteristics of the stock and the strengths/limitations of available methods. No single method is perfect; successful stock assessment typically combines multiple approaches to maximize accuracy and precision of estimates.
+
+---
+
+## References and Further Reading
+
+- Quinn, T. J., & Deriso, R. B. (1999). Quantitative Fish Dynamics. Oxford University Press.
+- Hilborn, R., & Walters, C. J. (1992). Quantitative Fisheries Stock Assessment. Chapman & Hall.
+- Petitgas, P. (1998). Geostatistics in fisheries survey design and stock assessment. FAO Fisheries Technical Paper 368.
+
+---
+
+*Last updated: December 2025*

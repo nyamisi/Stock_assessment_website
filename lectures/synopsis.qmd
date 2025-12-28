@@ -1,0 +1,53 @@
+---
+title: "Content and Objectives"
+author: "Nyamisi Peter"
+date: "today"
+format: 
+    revealjs:
+      standalone: true
+      embed-resources: true
+      reference-location: document
+      theme: serif
+      highlight-style: ayu-mirage
+execute: 
+  echo: false
+  warning: false
+  message: false
+  comment: ""
+
+slide-number: true
+theme: "journal"
+code-fold: false
+scrollable: true
+code-line-numbers: true
+css: ../style.css
+---
+
+## [Course Synopsis/contents]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Module 1: Course Introduction
+- Module 2: Data used in stock assessment
+- Module 3: The Unit stock
+    - Distribution  and abundance
+    - Methods of estimating fish stock abundance
+- Module 4: Key Biological Parameters
+    - Fish population Growth
+    - Fish  recruitment
+    - Fish Mortality
+- Module 5: Population Dynamics
+    - Basic concepts of fish population dynamics
+    - Population models
+    - Surplus production models
+    - Age-structured population models
+    - Equilibrium versus dynamic concepts
+
+## [Course Objectives]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- At the end of the course, you  should be able to;
+  - Understand what a fish population is and 
+  - Identify and define a fish stock and its properties 
+  - Estimate the abundance of fish stocks
+  - Explain how fish populations are affected by external and internal influences i.e growth, recruitment and mortality.
+  - Use models to forecast on future trends of a fishery
+
+

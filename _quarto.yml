@@ -1,0 +1,65 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Fish Stock Assessment Course"
+  navbar:
+    title: "AQ 232"
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Presentations"
+
+        menu:
+          - text: "Course Introduction"
+            href: lectures/1_intro.qmd
+          - text: "Data used in stock assessment"
+            href: lectures/2_data_used.qmd
+          - text: "Fish Population Dynamics"
+            href: lectures/3_popl_dynamics.qmd
+          - text: "Mortality population models"
+            href: lectures/4_mortality_pop_models.qmd
+          # - text: "The Unit Stock"
+          #   href: lectures/5_unit_stock.qmd
+      - text: "Resources"
+        menu:
+          - text: "Data"
+            href: resources/data.qmd
+          - text: "Glossary"
+            href: resources/glossary.qmd
+    right:
+      - icon: github
+        href: https://github.com/nyamisi
+        aria-label: GitHub
+
+  sidebar:
+    - title: "Course Modules"
+      contents:
+        - index.qmd
+        - section: "Course synopsis"
+          contents: 
+            - lectures/synopsis.qmd
+        # - section: "Module 1: Introduction"
+        #   contents:
+        #     - lectures/lecture1.qmd
+        # - section: "Module 2: Data Collection"
+        #   contents:
+        #     - lectures/lecture1.qmd
+        #     - lectures/lecture2.qmd
+
+  page-footer:
+    left: "Fish Stock Assessment Course | AQ 232"
+    right: "© 2025 Nyamisi Peter"
+
+format:
+  html:
+    theme: yeti
+    css: style.css
+    toc: true
+    toc-depth: 3
+    code-fold: false
+    code-tools: false
+    
+
