@@ -23,6 +23,11 @@ website:
             href: lectures/4_mortality_pop_models.qmd
           # - text: "The Unit Stock"
           #   href: lectures/5_unit_stock.qmd
+      - text: "Practicals"
+        menu:
+          - text: "Length-Weight Relationships"
+            href: practical/length_weight_practical.qmd
+
       - text: "Resources"
         menu:
           - text: "Data"

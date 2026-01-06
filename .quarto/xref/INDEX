@@ -100,5 +100,8 @@
   },
   "lectures/length_weight_relationship.qmd": {
     "length_weight_relationship.html": "795e1920"
+  },
+  "practical/length_weight_practical.qmd": {
+    "length_weight_practical.html": "df295948"
   }
 }

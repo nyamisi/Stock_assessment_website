@@ -23,95 +23,798 @@ code-line-numbers: true
 css: ../style.css
 ---
 
-## Introduction
+## [Introduction]{style="background: #4a1035ff; color: #bebe56ff"}
 
-A unit stock is the fundamental management unit in fisheries. Understanding the distribution, abundance, and methods for estimating these parameters is critical for effective stock assessment and sustainable fisheries management.
+- Fish stock assessment was developed in the temperate regions where there are very few species of fish.
+- It was based on a single species
+- However, such a consideration is not very applicable for tropical fisheries where we have multi-species fisheries because;
 
----
+  + Different species are mixed up
+  + There is very high interaction among species
 
-## Part 1: Distribution and Abundance
+- Fish populations are divided into **stocks** for management and assessment purposes
+- Understanding the distribution, abundance, and methods for estimating these parameters is critical for effective stock assessment and sustainable fisheries management.
 
-### 1.1 Geographic Distribution of Fish Populations
+## [Unit Stock]{style="background: #4a1035ff; color: #bebe56ff"}
 
-**Definition:** Geographic distribution refers to the spatial area where a fish stock is found, including the boundaries of its range.
+- **A unit stock** is a population of fish, either of a single or different species, grouped together for assessment purposes which may or may not include all the fish in a stock. 
+- A unit stock is a group of fish that:
 
-**Key Concepts:**
+  - **Share a common gene pool** -- can interbreed
+  - **Occupy a defined geographical area** -- have a specific distribution
+  - **Exhibit similar life history traits** -- growth, reproduction, mortality
+  - **Are subject to similar fishing pressures** -- exploited by the same fisheries
+  - **Are managed as a single entity** -- for conservation and exploitation, -- Can be managed independently from other stocks
+
+## [Determination of a Unit Stock]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Unit stocks can be determined through various biological and ecological characteristics, including:
+
+  - Distribution patterns -- Where unit stocks are located
+  - Spawning behavior -- Different stocks spawn in different areas
+  - Population parameters -- Recruitment, growth and mortality rates, morphometric differences
+  - Physiological traits -- Temperature at hatching, vertebrae structure, scale decorations, parasite types
+
+
+## [Distribution and Abundance]{style="background: #4a1035ff; color: #bebe56ff"}
+
+### [Geographic Distribution]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- **Geographic distribution** refers to the spatial area where a fish stock is found, including the boundaries of its range.
+
+**Key concepts:**
+
 - Fish populations are not uniformly distributed across all suitable habitats
 - Distribution patterns change seasonally (spawning, feeding, wintering areas)
 - Some species have discrete distributions while others have overlapping ranges
 - Distribution limits are determined by temperature, salinity, bathymetry, and food availability
 
+### [Geographic Distribution]{style="background: #4a1035ff; color: #bebe56ff"}
+
 **Examples:**
+
 - Migratory species (salmon) move between coastal and riverine habitats
 - Demersal species (bottom-dwelling) have specific depth distributions
 - Pelagic species distribute widely in open water
 
-**Management Implications:**
+**Management implications:**
+
 - Fishing effort should target areas of highest concentration
 - Seasonal closures may protect aggregations during vulnerable periods
 - International boundaries may complicate management of stocks crossing borders
 
----
-
-### 1.2 Spatial and Temporal Variation in Abundance
+## [Spatial and Temporal Variation in Abundance]{style="background: #4a1035ff; color: #bebe56ff"}
 
 **Temporal Variation:**
+
 - **Seasonal changes** - Abundance fluctuates with feeding, spawning, and migration cycles
 - **Interannual variation** - Year-to-year changes in recruitment and survival
 - **Long-term trends** - Decadal-scale changes related to fishing pressure or environmental conditions
 
+## [Spatial and Temporal Variation...]{style="background: #4a1035ff; color: #bebe56ff"}
+
 **Spatial Variation:**
+
 - **Patchiness** - Fish concentrate in certain areas (spawning grounds, feeding areas)
 - **Gradients** - Density changes across depth, latitude, or habitat types
 - **Hotspots** - Areas of consistently high abundance
 
-**Measurement Challenges:**
+## [Spatial and Temporal Variation...]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Measurement challenges:**
+
 - Detecting aggregations requires spatially intensive sampling
 - Small-scale variability requires high sampling effort to quantify accurately
 - Temporal dynamics require time series of observations
 
----
 
-### 1.3 Habitat Requirements and Factors Affecting Distribution
+## [Habitat Requirements and Factors Affecting Distribution]{style="background: #4a1035ff; color: #bebe56ff"}
 
 **Abiotic Factors:**
+
 - **Temperature** - Most critical factor; thermal preferences vary by species
 - **Salinity** - Freshwater, brackish, or marine preferences
 - **Dissolved oxygen** - Required for respiration; anaerobic zones are avoided
 - **Bathymetry** - Depth preferences related to light and pressure tolerance
 - **Substrate type** - Bottom type affects benthic food availability
 
+## [Habitat Requirements...]{style="background: #4a1035ff; color: #bebe56ff"}
+
 **Biotic Factors:**
+
 - **Food availability** - Distribution follows food resources
 - **Predation risk** - Avoidance of predator-rich areas
 - **Competition** - Space partitioning with other species
 - **Reproductive habitat** - Essential for spawning and nursery grounds
 
+## [Habitat Requirements...]{style="background: #4a1035ff; color: #bebe56ff"}
+
 **Habitat Quality:**
+
 - Optimal habitat supports higher population densities
 - Marginal habitat may be temporarily occupied but has lower reproductive success
 - Loss or degradation of critical habitat can limit population size
 
----
-
-### 1.4 Environmental Influences on Stock Distribution
+## [Environmental Influences on Stock Distribution]{style="background: #4a1035ff; color: #bebe56ff"}
 
 **Physical Oceanography:**
+
 - Ocean currents transport larvae and affect distribution
 - Upwelling events create productive feeding areas
 - Coastal current patterns structure population distributions
 
+## [Environmental Influences...]{style="background: #4a1035ff; color: #bebe56ff"}
+
 **Climate and Weather:**
+
 - Climate change shifts suitable habitat ranges
 - Seasonal weather events (storms, cold snaps) cause temporary distribution changes
 - Long-term climate trends alter distribution boundaries
 
-**Environmental Monitoring:**
-- Temperature and oxygen monitoring identify suitable habitat
-- Satellite data tracks ocean color, temperature, and currents
-- Integrated environmental monitoring helps predict abundance changes
+## [Straddling stock and highly migratory fish stock]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- With 1982's United Nations Convention on the Law of the Sea (UNCLOS), coastal nations were given the right to manage fisheries within their Exclusive Economic Zones (EEZ)
+- But of course, fish don't adhere to imaginary lines in the ocean.
+- The management of two groups -- **straddling and highly migratory fish stocks** became problem after the 1982 Convention.
+
+## [Straddling stock]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- **Straddling stocks** are fish stocks that migrate across more than one EEZ and the high seas
+- - **Straddling stocks** is the stocks of fish which migrate between, or occur in both, the Exclusive Economic Exclusion Zone (EEZ) of one or more states and the high seas
+- Fish stocks that migrate through, or occur in, more than one exclusive economic zone.
+- They include species such as swordfish and marlin.
+
+## [Highly migratory fishes]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- **Highly migratory fishes** are the ones that travel long distances across international waters
+- These include tuna and tuna-like species, such as marlin, swordfish and sharks.
+
+
+## [Management of Straddling stock and Highly migratory fishes]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Management of the straddling stock and highly migratory fishes is a shared responsibility between coastal states and the international community.
+- The 1995 United Nations Fish Stocks Agreement (UNFSA), an international treaty designed to further implement provisions of the 1982 Convention which;
+
+  - ***Ensure the long-term conservation and sustainable use of straddling fish stocks and highly migratory fish stocks***
+  
+
+## [Management...]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Sovereign responsibility must be worked out in collaboration with neighboring coastal states and fishing entities.
+- Regional Fisheries Management Organizations (RFMOs) are established to manage these stocks collaboratively.
+- **Transboundary stock** range in the EEZs of at least two countries. 
+- A stock can be both transboundary and straddling.
+
+# [Examples from Tanzania Marine Waters]{style="background: #4a1035ff; color: #bebe56ff"}
+
+## [Tanzanian Exclusive Economic Zone (EEZ)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+::: {.columns}
+::: {.column}
+- Tanzania has an EEZ of approximately **220,000 km²**
+- Extends 200 nautical miles from the coastline
+- Bordered by Kenya (north), Mozambique (south)
+- Manages several important fish stocks
+- Home to both regional and international fisheries
+:::
+::: {.column}
+
+![Tanzania marine zones](graphics/marine_zones.png){width=400px}
+:::
+:::
+
+##
+
+## [1: Yellowfin Tuna (Highly Migratory)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+::: {.columns}
+::: {.column width="70%"}
+
+**Species:** Yellowfin tuna (*Thunnus albacares*)
+
+**Distribution:**
+
+- Found throughout Indian Ocean
+- Migrates across multiple EEZs (Tanzania, Kenya, Mozambique, Seychelles)
+- Extends beyond EEZs into high seas
+- Seasonal movements following monsoon patterns
+
+:::
+::: {.column width="30%"}
+![*Thunnus albacares*](graphics/yellow_fin.jpg)
+:::
+::: 
+
+## [Yellowfin Tuna (Highly Migratory)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+::: {.columns}
+::: {.column width="70%"}
+**Management:**
+
+- **Managed by IOTC** (Indian Ocean Tuna Commission)
+- Tanzania is member state of IOTC
+- IOTC sets total allowable catch (TAC) for entire Indian Ocean
+- Allocates quota to member countries
+- Tanzania receives annual catch quota
+
+:::
+::: {.column width="30%"}
+
+![*Thunnus albacares*](graphics/yellow_fin.jpg)
+
+:::
+::: 
+
+
+## [Yellowfin Tuna (Highly Migratory)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+::: {.columns}
+::: {.column width="70%"}
+
+**Challenges:**
+
+- Illegal, Unreported, Unregulated (IUU) fishing common
+- Foreign vessels fish in Tanzanian EEZ without permits
+- High seas component beyond any nation's control
+- Requires international cooperation and monitoring
+
+:::
+::: {.column width="30%"}
+
+![*Thunnus albacares*](graphics/yellow_fin.jpg)
+
+:::
+::: 
+
+## [2: Indian Ocean Bigeye Tuna (Deep-Diving, Overfished)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+::: {.columns}
+::: {.column width="60%"}
+
+**Species:** Bigeye tuna (*Thunnus obesus*)
+
+**Distribution:**
+- Found in tropical/subtropical Indian Ocean waters
+- Deep-diving species (300-400 m daytime depth)
+- Migratory across multiple EEZs
+- Year-round presence in productive upwelling zones
+:::
+::: {.column width="40%"}
+
+![*Thunnus obesus*](graphics/bigeye_tuna.jpg)
+:::
+:::
+
+##
+
+**Fishery:**
+- Caught by longlining (deep hooks target night feeders)
+- High value for sashimi market (Japan, SE Asia)
+- Tanzania vessels and foreign fleets participate
+- Increasing fishing pressure in recent decade
+
+**Status:**
+- **OVERFISHED** according to latest IOTC assessments
+- Stock experiencing recruitment overfishing
+- Fishing mortality exceeds target reference points
+- International concern about sustainability
+
+**Management Issues:**
+- Growth to high value before reaching maturity
+- Young fish size matches market preference
+- Catches may contain immature individuals
+- Difficult to monitor deep-diving behavior
+- Data-limited assessments due to depth complexity
 
 ---
+
+## [Case Study 3: Indian Ocean Swordfish (Straddling)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Species:** Swordfish (*Xiphias gladius*)
+
+### Swordfish Illustration
+
+
+**Distribution Pattern:**
+- Throughout Indian Ocean
+- Some stocks straddle between:
+  - Tanzanian EEZ
+  - Mozambican EEZ
+  - High seas regions
+
+**Fishery:**
+- Caught by long-line vessels (surface and deep long-lines)
+- Mixed catch with other tunas
+- Important for artisanal fisheries in coastal areas
+
+**Management Issues:**
+- Some populations overfished historically
+- Requires coordination between Tanzania and Mozambique
+- IOTC sets recommendations but enforcement challenging
+- Difficult to distinguish stocks at sea
+
+
+
+## [Case Study 4: East African Kingfish and Snappers (Transboundary)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Species:** Kingfish (emperors, jobfish) and red snappers
+
+
+
+**Distribution:**
+- Demersal species (bottom-dwelling)
+- Found along continental shelf
+- Occur in both Tanzanian and Kenyan EEZs
+- Limited high seas component
+
+**Characteristics:**
+- **Transboundary stock** (occurs in 2+ EEZs)
+- NOT highly migratory
+- More localized movement
+- Important for both commercial and artisanal fleets
+
+**Management:**
+- Less formal international coordination
+- Tanzania and Kenya set own regulations
+- Bilateral discussions through regional bodies
+- Lake Victoria has similar transboundary stocks (Nile Perch)
+
+---
+
+## [Case Study 5: Small Pelagics (Sardines and Anchovies) - Straddling]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Species:** 
+- Sardines (Sardinella species)
+- Anchovies (Engraulis species)
+
+
+
+**Distribution:**
+- Occur in coastal zones
+- Some stocks straddle Tanzanian-Mozambican border
+- Influenced by Indian Ocean upwelling systems
+- Seasonal migrations with monsoon currents
+
+**Fishery:**
+- Primarily artisanal and semi-industrial
+- Important for food security
+- Canned fish export product
+- Growing demand from aquaculture feed
+
+**Management Challenge:**
+- Straddling populations with limited coordination
+- Tanzania and Mozambique have weak management data sharing
+- Environmental variability affects distribution
+- Recruitment highly variable (climate-dependent)
+
+
+## [Tanzania's Management Framework]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**National Level:**
+- **Ministry of Livestock and Fisheries** sets regulations
+- Licensing system for foreign vessels
+- Catch monitoring and reporting requirements
+- Port state measures to prevent IUU fishing
+
+**Regional Level:**
+- **IOTC member** - Complies with tuna management
+- **SWIOFC** (Southwest Indian Ocean Fisheries Commission)
+- **Nairobi Convention** for shared environmental concerns
+
+**International Level:**
+- Bilateral agreements with neighbors (Kenya, Mozambique)
+- Participation in IOTC decisions
+- Port state inspection of foreign vessels
+- Market-based measures (catch documentation)
+
+
+## [Key Challenges for Tanzania]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**1. IUU Fishing:**
+- Foreign vessels fishing without permits
+- Catch not reported to IOTC
+- Undermines quota system
+- Reduces resource access for legitimate fishers
+
+**2. Limited Monitoring, Control, and Surveillance (MCS):**
+- Few patrol vessels available
+- Large EEZ difficult to monitor
+- Weak port state infrastructure
+- Limited satellite monitoring systems
+
+**3. Data Limitations:**
+- Incomplete catch reporting from artisanal sector
+- Species identification challenges at sea
+- Limited biological sampling programs
+- Weak data sharing with neighbors
+
+**4. Stock Mixing:**
+- Cannot distinguish stocks at sea
+- Straddling populations require coordination
+- Enforcement of bilateral limits difficult
+
+
+## [Regional Cooperation Initiatives]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**IOTC Resolutions affecting Tanzania:**
+- Yellowfin tuna catch limits (annual review)
+- Bigeye tuna closure during spawning season
+- Vessel monitoring systems (VMS) requirements
+- Port state inspection protocols
+
+**SWIOFC Initiatives:**
+- Shared research on migrant stocks
+- Harmonized data collection protocols
+- Capacity building for stock assessment
+- Training in compliance monitoring
+
+**Bilateral with Mozambique:**
+- Joint assessment of shared demersal stocks
+- Coordinated licensing in border areas
+- Shared research surveys
+- Joint enforcement patrols (periodic)
+
+
+## [Summary: Tanzania Context]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Highly Migratory Stocks in Tanzanian Waters:**
+- Yellowfin tuna, bigeye tuna, swordfish
+- Managed through IOTC
+- Require international compliance
+- Subject to scientific stock assessments
+
+**Straddling Stocks:**
+- Small pelagics, some demersal species
+- Require bilateral coordination
+- Limited formal management
+- Data sharing challenges
+
+**Transboundary Stocks:**
+- Kingfish, snappers in shared EEZs
+- Bilateral management with Kenya
+- Weaker international framework
+- Growing importance for food security
+
+**Management Lesson:**
+Fish migration patterns require management cooperation that extends beyond national borders. Tanzania's challenge is balancing:
+- National fishing industry needs
+- International obligation compliance
+- Regional cooperation requirements
+- Limited resources for monitoring and enforcement
+
+---
+
+## [Priority Fisheries in Tanzania]{style="background: #4a1035ff; color: #bebe56ff"}
+
+Tanzania's fisheries are strategically important for food security, employment, and economic development. Priority ranking considers:
+- Economic value (export revenue)
+- Food security contribution (protein supply)
+- Employment (fisher livelihoods)
+- Management feasibility (data availability)
+
+### [Priority 1: Indian Ocean Tuna (Yellowfin, Bigeye, Skipjack)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Economic Importance:**
+- Highest export value (~$40-60 million annually)
+- Large foreign fleet participation (revenue from licenses)
+- International market: Japan, SE Asia, EU
+- Premium sashimi prices drive fishing pressure
+
+**Current Status:**
+- Yellowfin: Fully exploited (IOTC assessments)
+- Bigeye: Overfished (recruitment concerns)
+- Skipjack: Lightly exploited (increasing catches)
+
+**Management Structure:**
+- IOTC sets scientific advice
+- Tanzania implements catch limits through:
+  - Vessel licensing system
+  - Landing requirements
+  - Port state measures
+  
+**Challenges:**
+- IUU fishing reduces legitimate catch opportunities
+- Data reporting gaps (underreporting common)
+- Limited monitoring capacity for high seas
+- Seasonal catchability variations
+
+**Priority Actions:**
+1. Strengthen vessel monitoring systems (VMS)
+2. Improve port state inspection protocols
+3. Enhance catch documentation compliance
+4. Support scientific observer programs on vessels
+5. Develop capacity for onboard monitoring
+
+---
+
+### [Priority 2: Small Pelagics (Sardines, Anchovies)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Food Security Importance:**
+- Essential protein source for coastal communities
+- ~15-20% of national fish production
+- Affordable for low-income households
+- Direct human consumption (not reduction fishery)
+
+**Current Status:**
+- Stocks: Moderately exploited to fully exploited
+- Fluctuating catches (environmental variability high)
+- Limited biological data
+- Data-limited stock assessment conditions
+
+**Fishery Characteristics:**
+- Artisanal and semi-industrial vessels
+- Gill nets, beach seines common gear
+- Peak season: June-September (southwest monsoon)
+- Limited export (mostly domestic consumption)
+
+**Management Issues:**
+- Weak regulatory enforcement
+- Poor catch statistics from artisanal sector
+- Straddling stocks (shared with Mozambique)
+- Climate vulnerability (upwelling dependent)
+
+**Priority Actions:**
+1. Implement length-based assessment methods (LBSPR)
+2. Improve artisanal catch monitoring (fisher interviews)
+3. Establish landing sites with standardized sampling
+4. Bilateral coordination with Mozambique
+5. Climate-informed management strategies
+
+---
+
+### [Priority 3: Demersal Fish (Kingfish, Snappers, Emperors)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Fishery Importance:**
+- Economic value: Medium ($20-30 million)
+- Food security: Important for protein supply
+- Employment: Primarily artisanal fisher groups
+- Cultural significance in coastal communities
+
+**Current Status:**
+- Many stocks: Overexploited (catch declining despite effort)
+- Size structure: Skewed toward younger/smaller fish
+- Growth overfishing evident (young fish caught)
+- Reproductive capacity reduced
+
+**Fishing Methods:**
+- Long-lines (commercial vessels)
+- Hand-lines (artisanal fishers)
+- Small seines (coastal communities)
+- Traps (specialized gear)
+
+**Management Structure:**
+- National Ministry of Livestock and Fisheries sets regulations
+- Bilateral with Kenya (transboundary stocks)
+- Limited IOTC involvement (not highly migratory)
+- Data-limited assessments typical
+
+**Priority Actions:**
+1. Implement minimum size limits (protect juveniles)
+2. Develop sustainable fishing practices training
+3. Establish marine protected areas (MPAs) for spawning
+4. Improve landing site monitoring
+5. Gear selectivity improvements (escape gaps)
+
+---
+
+### [Priority 4: Lake Victoria Fish Stocks (Nile Perch, Tilapia)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Fishery Importance:**
+- Food security: ~10% of national fish production
+- Employment: Important for inland fishing communities
+- Regional trade: East Africa (Kenya, Uganda)
+- Export potential: Limited (local species)
+
+**Current Status:**
+- Nile Perch: Overfished in some areas, recovering in others
+- Tilapia: Depleted stocks in many zones
+- Cichlid species: Declining biodiversity
+- Ecological restructuring from invasive species
+
+**Management Context:**
+- Shared: Tanzania, Kenya, Uganda
+- Lake Victoria Fisheries Organization (LVFO)
+- Complex governance (multiple countries, agencies)
+- Transboundary challenges significant
+
+**Priority Actions:**
+1. Strengthen LVFO coordination mechanisms
+2. Implement area-based management plans
+3. Improve data collection infrastructure
+4. Support artisanal fisher livelihoods (alternative incomes)
+5. Environmental monitoring (pollution, climate impacts)
+
+---
+
+### [Priority 4B: Lake Tanganyika Fish Stocks]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Lake Context:**
+- World's second-deepest freshwater lake (1,470 m)
+- Shared by 4 countries: Tanzania, DRC, Burundi, Zambia
+- 68,800 km² surface area
+- Unique cichlid-dominated ecosystem (>1,000 endemic species)
+
+**Fishery Importance:**
+- Food security: ~5-10% of national fish production
+- Employment: Important for inland fishing communities (especially Kigoma region)
+- Regional trade: Dried fish to DRC, Kenya
+- Economic value: ~$10-15 million annually
+- Protein source for ~1 million people around lake
+
+**Key Fish Stocks:**
+- **Cichlids** (Lates niloticus - Nile perch, Clarias species)
+  - Nile perch: Introduced 1950s, now dominant predator
+  - Clarias catfish: Traditional species, declining
+  - Native cichlids: Drastically reduced by Nile perch predation
+  
+- **Sardine-like fish** (Limnothrissa, Stolothrissa)
+  - Small pelagics forming basis of food web
+  - Traditional food fish (dagaa equivalent)
+  - Seasonal variations (water mixing)
+
+**Current Status:**
+- Nile perch: Overexploited in northern basin
+  - Size structure declining (fewer large individuals)
+  - Recruitment variable (climate dependent)
+  - Recovery potential unclear
+  
+- Cichlid diversity: Severely depleted
+  - Biodiversity loss continues
+  - Ecosystem function altered
+  - Native species near extinction risk
+  
+- Pelagic fish: Variable productivity
+  - Oxygen minimum zone expanding (climate change)
+  - Recruitment highly variable
+  - Catch fluctuations 50-100% year-to-year
+
+**Fishery Characteristics:**
+- Primarily artisanal vessels (small boats, dugout canoes)
+- Gill nets, hand-lines, traps common gear
+- Seasonal fisheries (migration, water temperature patterns)
+- Multi-species, multi-gear fishery (very mixed)
+- Limited cold chain (dried/salted products)
+
+**Management Structure:**
+- Shared by Lake Tanganyika Catchment Management Project
+- Limited formal international body (unlike Lake Victoria with LVFO)
+- National regulations by each country (inconsistent)
+- Data exchange minimal between countries
+- Transboundary coordination weak
+
+**Challenges:**
+- Overfishing: Catch-per-unit-effort declining
+- Data deficiency: Poor catch statistics (artisanal sector)
+- Limited biological knowledge: Few stock assessments
+- Pollution: Mining, agriculture runoff affecting water quality
+- Climate impacts: Oxygen depletion, temperature shifts
+- Invasive species: Nile perch interactions with natives
+- Governance gaps: No Lake Tanganyika Organization equivalent
+- Regional conflicts: DRC illegal fishing in Tanzanian waters
+
+**Priority Actions:**
+1. Establish Lake Tanganyika Fisheries Commission (formal structure)
+2. Conduct baseline biodiversity and stock surveys
+3. Implement artisanal catch monitoring (beach landing sites)
+4. Develop minimum size regulations with region-wide coordination
+5. Create marine protected areas (MPAs) in deep basins for spawning
+
+**Unique Considerations:**
+- Deep-water ecosystem: Complexity of thermal stratification
+- Anoxic zone: Limited suitable habitat at depth
+- Productivity: Lower than Lake Victoria (oligotrophic)
+- Endemic species conservation: Global biodiversity significance
+- Climate vulnerability: Warming rates higher in tropics
+- Livelihood diversity: Need alternative income sources
+
+---
+
+### [Priority 5: Emerging Fisheries (Cephalopods, Deep-Sea Fish)]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Development Status:**
+- Octopus fishery: Growing (traditional + commercial)
+- Deep-sea shrimps: Limited exploitation
+- Unexploited species: High seas potential
+
+**Economic Potential:**
+- Octopus: High export value (~$5-10 million)
+- Specialty markets: Europe, Japan
+- Employment: Coastal communities (seasonal)
+
+**Current Status:**
+- Limited biological knowledge
+- Data-deficient stocks (IUCN Red List classifications)
+- Catch statistics incomplete
+- No formal stock assessment
+
+**Management Needs:**
+1. Develop baseline biological surveys
+2. Establish catch monitoring systems
+3. Set precautionary catch limits
+4. Environmental impact assessments
+5. Community-based management trials
+
+---
+
+## [Management Priorities Matrix]{style="background: #4a1035ff; color: #bebe56ff"}
+
+| Fishery | Economic Value | Food Security | Employment | Data Status | Management Priority |
+|---------|---|---|---|---|---|
+| **Tuna (Ocean)** | Very High | Medium | High | Good (IOTC) | **Tier 1** |
+| **Small Pelagics** | Medium | Very High | High | Poor | **Tier 1** |
+| **Demersal Fish** | Medium | High | Very High | Poor | **Tier 2** |
+| **Lake Victoria** | Low | High | High | Poor | **Tier 2** |
+| **Emerging** | Potential | Low | Low | Very Poor | **Tier 3** |
+
+---
+
+## [Integrated Management Strategy]{style="background: #4a1035ff; color: #bebe56ff"}
+
+**Short-term (1-2 years):**
+- Improve catch monitoring across all sectors
+- Enhance data collection infrastructure
+- Build capacity in stock assessment methods
+- Strengthen port state controls
+
+**Medium-term (3-5 years):**
+- Implement harvest control rules for priority stocks
+- Develop marine spatial planning
+- Establish management strategy evaluations (MSE)
+- Regional cooperation protocols
+
+**Long-term (5+ years):**
+- Ecosystem-based fisheries management
+- Climate adaptation strategies
+- Sustainable livelihood diversification
+- Capacity for advanced stock assessments
+
+---
+
+## Mixed stock 
+
+
+- **A mixed stock fishery** is a fishery stock of variety ages, sizes, species, geographic or genetic origins or any combination of these variables. 
+
+- It has some challenges in management due to difficulties in targeting a specific fish type using a certain fishing methods. 
+
+- Mixed stock of a species has significant differences in morphological and biological characteristics. 
+
+- The mixed stock population may unite into a unit stock by gene flow.
+
+
+## Mixed stock... 
+
+- The morphometric characters and meristic characters are to be taken for different stocks/populations of a species. 
+
+- The population are to be segregated using PCA statistical test
+
+- Mixed stock of a species is common in tropical waters. 
+
+- Assessment of such tropical stocks becomes difficult by using conventional models. 
+
+
+
+
+## Mixed stock... 
+
+- Refinements are needed for proper assessment. 
+
+- The aging becomes difficult in a mixed stock of tropical species.
+
+- Usually many cohorts are released from a tropical stock; hence the assessment becomes a problem on tropical stocks of a mixed species. 
+
+- Mixed stock of a species has varied spawning seasons and the calculation of length at first maturity and growth gets varied
+
+## Limitations in the assessment of tropical fish stocks
+
+- For calculation of stock assessment of mixed stock of a species, the conventional models framed for temperate species should be used in caution. 
+
+-  The mortality parameters such as F and M, fishing effort and growth parameters are to be calculated separately
+
+- Because these parameters form input data for estimation of stock in conventional models.
+
+
+
 
 ## Part 2: Methods of Estimating Fish Stock Abundance
 

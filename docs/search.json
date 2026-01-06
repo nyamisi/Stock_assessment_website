@@ -70,6 +70,30 @@
     "text": "Questions About Data?\nContact the course instructor for clarification on data contents, collection methods, or appropriate usage."
   },
   {
+    "objectID": "lectures/synopsis.html#course-synopsiscontents",
+    "href": "lectures/synopsis.html#course-synopsiscontents",
+    "title": "Content and Objectives",
+    "section": "Course Synopsis/contents",
+    "text": "Course Synopsis/contents\n\nModule 1: Course Introduction\nModule 2: Data used in stock assessment\nModule 3: The Unit stock\n\nDistribution and abundance\nMethods of estimating fish stock abundance\n\nModule 4: Key Biological Parameters\n\nFish population Growth\nFish recruitment\nFish Mortality\n\nModule 5: Population Dynamics\n\nBasic concepts of fish population dynamics\nPopulation models\nSurplus production models\nAge-structured population models\nEquilibrium versus dynamic concepts",
+    "crumbs": [
+      "Home",
+      "Course synopsis",
+      "Content and Objectives"
+    ]
+  },
+  {
+    "objectID": "lectures/synopsis.html#course-objectives",
+    "href": "lectures/synopsis.html#course-objectives",
+    "title": "Content and Objectives",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nAt the end of the course, you should be able to;\n\nUnderstand what a fish population is and\nIdentify and define a fish stock and its properties\nEstimate the abundance of fish stocks\nExplain how fish populations are affected by external and internal influences i.e growth, recruitment and mortality.\nUse models to forecast on future trends of a fishery",
+    "crumbs": [
+      "Home",
+      "Course synopsis",
+      "Content and Objectives"
+    ]
+  },
+  {
     "objectID": "lectures/course_outline.html",
     "href": "lectures/course_outline.html",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
@@ -656,7 +680,7 @@
     "href": "index.html#course-modules",
     "title": "Course Modules",
     "section": "Course Modules",
-    "text": "Course Modules\n\nModule 1: Course Introduction\n\nIntroduction to population dynamics\nIntroduction to stock assessment\nAim of stock assessment\nDefinition of key terms\n\n\n\nModule 2: Data used in Stock Assessment\n\nTypes of data used in stock assessment\nFishery-Dependent Data\nFishery-Independent Data\nData Requirements for Stock Assessments\nData Quality and Uncertainty\n\n\n\nModule 3: Population Dynamics\n\nBasic concepts of fish population dynamics\nPopulation structure\n\nAge structure\nSize structure\nSex ratio\n\nVital rates\n\nBirth (Recruitment)\nDeath (Mortality)\nGrowth\n\nLength-based assessment methods\nPopulation models\nSurplus production models\nAge-structured population models\nEquilibrium versus dynamic concepts\n\n\n\nModule 4: The Unit Stock\n\nDistribution and Abundance\n\nGeographic distribution of fish populations\nSpatial and temporal variation in abundance\nHabitat requirements and factors affecting distribution\nEnvironmental influences on stock distribution\n\nMethods of Estimating Fish Stock Abundance\n\nDirect methods (surveys and sampling)\nCatch per unit effort (CPUE) indices\nMark-recapture and tagging studies\nAcoustic surveys\nVisual surveys and underwater observation\nPopulation estimation models\nBiomass indices and standardized indices\n\nLecture 2: Advanced Data Topics - Data quality, biological data collection, data management, effort standardization, gear selectivity, sampling design, and environmental data.",
+    "text": "Course Modules\n\nModule 1: Course Introduction\n\nIntroduction to population dynamics\nIntroduction to stock assessment\nAim of stock assessment\nDefinition of key terms\n\n\n\nModule 2: Data used in Stock Assessment\n\nTypes of data used in stock assessment\nFishery-Dependent Data\nFishery-Independent Data\nData Requirements for Stock Assessments\nData Quality and Uncertainty\n\n\n\nModule 3: Population Dynamics\n\nBasic concepts of fish population dynamics\nPopulation structure\n\nAge structure\nSize structure\nSex ratio\n\nVital rates\n\nBirth (Recruitment)\nDeath (Mortality)\nGrowth\n\nPopulation models\nSurplus production models\nAge-structured population models\nEquilibrium versus dynamic concepts\nLength-based assessment methods\n\n\n\nModule 4: The Unit Stock\n\nDistribution and Abundance\n\nGeographic distribution of fish populations\nSpatial and temporal variation in abundance\nHabitat requirements and factors affecting distribution\nEnvironmental influences on stock distribution\n\nMethods of Estimating Fish Stock Abundance\n\nDirect methods (surveys and sampling)\nCatch per unit effort (CPUE) indices\nMark-recapture and tagging studies\nAcoustic surveys\nVisual surveys and underwater observation\nPopulation estimation models\nBiomass indices and standardized indices\n\nLecture 2: Advanced Data Topics - Data quality, biological data collection, data management, effort standardization, gear selectivity, sampling design, and environmental data.",
     "crumbs": [
       "Home",
       "Course Modules"
@@ -994,14 +1018,259 @@
     "href": "lectures/5_unit_stock.html#introduction",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Introduction",
-    "text": "Introduction\nA unit stock is the fundamental management unit in fisheries. Understanding the distribution, abundance, and methods for estimating these parameters is critical for effective stock assessment and sustainable fisheries management."
+    "text": "Introduction\n\nFish stock assessment was developed in the temperate regions where there are very few species of fish.\nIt was based on a single species\nHowever, such a consideration is not very applicable for tropical fisheries where we have multi-species fisheries because;\n\nDifferent species are mixed up\nThere is very high interaction among species\n\nFish populations are divided into stocks for management and assessment purposes\nUnderstanding the distribution, abundance, and methods for estimating these parameters is critical for effective stock assessment and sustainable fisheries management."
   },
   {
-    "objectID": "lectures/5_unit_stock.html#part-1-distribution-and-abundance",
-    "href": "lectures/5_unit_stock.html#part-1-distribution-and-abundance",
+    "objectID": "lectures/5_unit_stock.html#unit-stock",
+    "href": "lectures/5_unit_stock.html#unit-stock",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Part 1: Distribution and Abundance",
-    "text": "Part 1: Distribution and Abundance\n1.1 Geographic Distribution of Fish Populations\nDefinition: Geographic distribution refers to the spatial area where a fish stock is found, including the boundaries of its range.\nKey Concepts: - Fish populations are not uniformly distributed across all suitable habitats - Distribution patterns change seasonally (spawning, feeding, wintering areas) - Some species have discrete distributions while others have overlapping ranges - Distribution limits are determined by temperature, salinity, bathymetry, and food availability\nExamples: - Migratory species (salmon) move between coastal and riverine habitats - Demersal species (bottom-dwelling) have specific depth distributions - Pelagic species distribute widely in open water\nManagement Implications: - Fishing effort should target areas of highest concentration - Seasonal closures may protect aggregations during vulnerable periods - International boundaries may complicate management of stocks crossing borders"
+    "section": "Unit Stock",
+    "text": "Unit Stock\n\nA unit stock is a population of fish, either of a single or different species, grouped together for assessment purposes which may or may not include all the fish in a stock.\nA unit stock is a group of fish that:\n\nShare a common gene pool – can interbreed\nOccupy a defined geographical area – have a specific distribution\nExhibit similar life history traits – growth, reproduction, mortality\nAre subject to similar fishing pressures – exploited by the same fisheries\nAre managed as a single entity – for conservation and exploitation, – Can be managed independently from other stocks"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#determination-of-a-unit-stock",
+    "href": "lectures/5_unit_stock.html#determination-of-a-unit-stock",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Determination of a Unit Stock",
+    "text": "Determination of a Unit Stock\n\nUnit stocks can be determined through various biological and ecological characteristics, including:\n\nDistribution patterns – Where unit stocks are located\nSpawning behavior – Different stocks spawn in different areas\nPopulation parameters – Recruitment, growth and mortality rates, morphometric differences\nPhysiological traits – Temperature at hatching, vertebrae structure, scale decorations, parasite types"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#distribution-and-abundance",
+    "href": "lectures/5_unit_stock.html#distribution-and-abundance",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Distribution and Abundance",
+    "text": "Distribution and Abundance\nGeographic Distribution\n\nGeographic distribution refers to the spatial area where a fish stock is found, including the boundaries of its range.\n\nKey concepts:\n\nFish populations are not uniformly distributed across all suitable habitats\nDistribution patterns change seasonally (spawning, feeding, wintering areas)\nSome species have discrete distributions while others have overlapping ranges\nDistribution limits are determined by temperature, salinity, bathymetry, and food availability\n\nGeographic Distribution\nExamples:\n\nMigratory species (salmon) move between coastal and riverine habitats\nDemersal species (bottom-dwelling) have specific depth distributions\nPelagic species distribute widely in open water\n\nManagement implications:\n\nFishing effort should target areas of highest concentration\nSeasonal closures may protect aggregations during vulnerable periods\nInternational boundaries may complicate management of stocks crossing borders"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#spatial-and-temporal-variation-in-abundance",
+    "href": "lectures/5_unit_stock.html#spatial-and-temporal-variation-in-abundance",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Spatial and Temporal Variation in Abundance",
+    "text": "Spatial and Temporal Variation in Abundance\nTemporal Variation:\n\nSeasonal changes - Abundance fluctuates with feeding, spawning, and migration cycles\nInterannual variation - Year-to-year changes in recruitment and survival\nLong-term trends - Decadal-scale changes related to fishing pressure or environmental conditions"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#spatial-and-temporal-variation",
+    "href": "lectures/5_unit_stock.html#spatial-and-temporal-variation",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Spatial and Temporal Variation…",
+    "text": "Spatial and Temporal Variation…\nSpatial Variation:\n\nPatchiness - Fish concentrate in certain areas (spawning grounds, feeding areas)\nGradients - Density changes across depth, latitude, or habitat types\nHotspots - Areas of consistently high abundance"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#spatial-and-temporal-variation-1",
+    "href": "lectures/5_unit_stock.html#spatial-and-temporal-variation-1",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Spatial and Temporal Variation…",
+    "text": "Spatial and Temporal Variation…\nMeasurement challenges:\n\nDetecting aggregations requires spatially intensive sampling\nSmall-scale variability requires high sampling effort to quantify accurately\nTemporal dynamics require time series of observations"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#habitat-requirements-and-factors-affecting-distribution",
+    "href": "lectures/5_unit_stock.html#habitat-requirements-and-factors-affecting-distribution",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Habitat Requirements and Factors Affecting Distribution",
+    "text": "Habitat Requirements and Factors Affecting Distribution\nAbiotic Factors:\n\nTemperature - Most critical factor; thermal preferences vary by species\nSalinity - Freshwater, brackish, or marine preferences\nDissolved oxygen - Required for respiration; anaerobic zones are avoided\nBathymetry - Depth preferences related to light and pressure tolerance\nSubstrate type - Bottom type affects benthic food availability"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#habitat-requirements",
+    "href": "lectures/5_unit_stock.html#habitat-requirements",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Habitat Requirements…",
+    "text": "Habitat Requirements…\nBiotic Factors:\n\nFood availability - Distribution follows food resources\nPredation risk - Avoidance of predator-rich areas\nCompetition - Space partitioning with other species\nReproductive habitat - Essential for spawning and nursery grounds"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#habitat-requirements-1",
+    "href": "lectures/5_unit_stock.html#habitat-requirements-1",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Habitat Requirements…",
+    "text": "Habitat Requirements…\nHabitat Quality:\n\nOptimal habitat supports higher population densities\nMarginal habitat may be temporarily occupied but has lower reproductive success\nLoss or degradation of critical habitat can limit population size"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#environmental-influences-on-stock-distribution",
+    "href": "lectures/5_unit_stock.html#environmental-influences-on-stock-distribution",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Environmental Influences on Stock Distribution",
+    "text": "Environmental Influences on Stock Distribution\nPhysical Oceanography:\n\nOcean currents transport larvae and affect distribution\nUpwelling events create productive feeding areas\nCoastal current patterns structure population distributions"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#environmental-influences",
+    "href": "lectures/5_unit_stock.html#environmental-influences",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Environmental Influences…",
+    "text": "Environmental Influences…\nClimate and Weather:\n\nClimate change shifts suitable habitat ranges\nSeasonal weather events (storms, cold snaps) cause temporary distribution changes\nLong-term climate trends alter distribution boundaries"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#straddling-stock-and-highly-migratory-fish-stock",
+    "href": "lectures/5_unit_stock.html#straddling-stock-and-highly-migratory-fish-stock",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Straddling stock and highly migratory fish stock",
+    "text": "Straddling stock and highly migratory fish stock\n\nWith 1982’s United Nations Convention on the Law of the Sea (UNCLOS), coastal nations were given the right to manage fisheries within their Exclusive Economic Zones (EEZ)\nBut of course, fish don’t adhere to imaginary lines in the ocean.\nThe management of two groups – straddling and highly migratory fish stocks became problem after the 1982 Convention."
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#straddling-stock",
+    "href": "lectures/5_unit_stock.html#straddling-stock",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Straddling stock",
+    "text": "Straddling stock\n\nStraddling stocks are fish stocks that migrate across more than one EEZ and the high seas\n\nStraddling stocks is the stocks of fish which migrate between, or occur in both, the Exclusive Economic Exclusion Zone (EEZ) of one or more states and the high seas\n\nFish stocks that migrate through, or occur in, more than one exclusive economic zone.\nThey include species such as swordfish and marlin."
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#highly-migratory-fishes",
+    "href": "lectures/5_unit_stock.html#highly-migratory-fishes",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Highly migratory fishes",
+    "text": "Highly migratory fishes\n\nHighly migratory fishes are the ones that travel long distances across international waters\nThese include tuna and tuna-like species, such as marlin, swordfish and sharks."
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#management-of-straddling-stock-and-highly-migratory-fishes",
+    "href": "lectures/5_unit_stock.html#management-of-straddling-stock-and-highly-migratory-fishes",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Management of Straddling stock and Highly migratory fishes",
+    "text": "Management of Straddling stock and Highly migratory fishes\n\nManagement of the straddling stock and highly migratory fishes is a shared responsibility between coastal states and the international community.\nThe 1995 United Nations Fish Stocks Agreement (UNFSA), an international treaty designed to further implement provisions of the 1982 Convention which;\n\nEnsure the long-term conservation and sustainable use of straddling fish stocks and highly migratory fish stocks"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#management",
+    "href": "lectures/5_unit_stock.html#management",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Management…",
+    "text": "Management…\n\nSovereign responsibility must be worked out in collaboration with neighboring coastal states and fishing entities.\nRegional Fisheries Management Organizations (RFMOs) are established to manage these stocks collaboratively.\nTransboundary stock range in the EEZs of at least two countries.\nA stock can be both transboundary and straddling."
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#tanzanian-exclusive-economic-zone-eez",
+    "href": "lectures/5_unit_stock.html#tanzanian-exclusive-economic-zone-eez",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Tanzanian Exclusive Economic Zone (EEZ)",
+    "text": "Tanzanian Exclusive Economic Zone (EEZ)\n\n\n\nTanzania has an EEZ of approximately 220,000 km²\nExtends 200 nautical miles from the coastline\nBordered by Kenya (north), Mozambique (south)\nManages several important fish stocks\nHome to both regional and international fisheries\n\n\n\n\n\nTanzania marine zones"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory",
+    "href": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "1: Yellowfin Tuna (Highly Migratory)",
+    "text": "1: Yellowfin Tuna (Highly Migratory)\n\n\nSpecies: Yellowfin tuna (Thunnus albacares)\nDistribution:\n\nFound throughout Indian Ocean\nMigrates across multiple EEZs (Tanzania, Kenya, Mozambique, Seychelles)\nExtends beyond EEZs into high seas\nSeasonal movements following monsoon patterns\n\n\n\n\n\nThunnus albacares"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory-1",
+    "href": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory-1",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Yellowfin Tuna (Highly Migratory)",
+    "text": "Yellowfin Tuna (Highly Migratory)\n\n\nManagement:\n\nManaged by IOTC (Indian Ocean Tuna Commission)\nTanzania is member state of IOTC\nIOTC sets total allowable catch (TAC) for entire Indian Ocean\nAllocates quota to member countries\nTanzania receives annual catch quota\n\n\n\n\n\nThunnus albacares"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory-2",
+    "href": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory-2",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Yellowfin Tuna (Highly Migratory)",
+    "text": "Yellowfin Tuna (Highly Migratory)\n\n\nChallenges:\n\nIllegal, Unreported, Unregulated (IUU) fishing common\nForeign vessels fish in Tanzanian EEZ without permits\nHigh seas component beyond any nation’s control\nRequires international cooperation and monitoring\n\n\n\n\n\nThunnus albacares"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#indian-ocean-bigeye-tuna-deep-diving-overfished",
+    "href": "lectures/5_unit_stock.html#indian-ocean-bigeye-tuna-deep-diving-overfished",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "2: Indian Ocean Bigeye Tuna (Deep-Diving, Overfished)",
+    "text": "2: Indian Ocean Bigeye Tuna (Deep-Diving, Overfished)\n\n\nSpecies: Bigeye tuna (Thunnus obesus)\nDistribution: - Found in tropical/subtropical Indian Ocean waters - Deep-diving species (300-400 m daytime depth) - Migratory across multiple EEZs - Year-round presence in productive upwelling zones\n\n\n\n\nThunnus obesus"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#section-1",
+    "href": "lectures/5_unit_stock.html#section-1",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "",
+    "text": "Fishery: - Caught by longlining (deep hooks target night feeders) - High value for sashimi market (Japan, SE Asia) - Tanzania vessels and foreign fleets participate - Increasing fishing pressure in recent decade\nStatus: - OVERFISHED according to latest IOTC assessments - Stock experiencing recruitment overfishing - Fishing mortality exceeds target reference points - International concern about sustainability\nManagement Issues: - Growth to high value before reaching maturity - Young fish size matches market preference - Catches may contain immature individuals - Difficult to monitor deep-diving behavior - Data-limited assessments due to depth complexity"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#case-study-3-indian-ocean-swordfish-straddling",
+    "href": "lectures/5_unit_stock.html#case-study-3-indian-ocean-swordfish-straddling",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Case Study 3: Indian Ocean Swordfish (Straddling)",
+    "text": "Case Study 3: Indian Ocean Swordfish (Straddling)\nSpecies: Swordfish (Xiphias gladius)\nSwordfish Illustration\nDistribution Pattern: - Throughout Indian Ocean - Some stocks straddle between: - Tanzanian EEZ - Mozambican EEZ - High seas regions\nFishery: - Caught by long-line vessels (surface and deep long-lines) - Mixed catch with other tunas - Important for artisanal fisheries in coastal areas\nManagement Issues: - Some populations overfished historically - Requires coordination between Tanzania and Mozambique - IOTC sets recommendations but enforcement challenging - Difficult to distinguish stocks at sea"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#case-study-4-east-african-kingfish-and-snappers-transboundary",
+    "href": "lectures/5_unit_stock.html#case-study-4-east-african-kingfish-and-snappers-transboundary",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Case Study 4: East African Kingfish and Snappers (Transboundary)",
+    "text": "Case Study 4: East African Kingfish and Snappers (Transboundary)\nSpecies: Kingfish (emperors, jobfish) and red snappers\nDistribution: - Demersal species (bottom-dwelling) - Found along continental shelf - Occur in both Tanzanian and Kenyan EEZs - Limited high seas component\nCharacteristics: - Transboundary stock (occurs in 2+ EEZs) - NOT highly migratory - More localized movement - Important for both commercial and artisanal fleets\nManagement: - Less formal international coordination - Tanzania and Kenya set own regulations - Bilateral discussions through regional bodies - Lake Victoria has similar transboundary stocks (Nile Perch)"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#case-study-5-small-pelagics-sardines-and-anchovies---straddling",
+    "href": "lectures/5_unit_stock.html#case-study-5-small-pelagics-sardines-and-anchovies---straddling",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Case Study 5: Small Pelagics (Sardines and Anchovies) - Straddling",
+    "text": "Case Study 5: Small Pelagics (Sardines and Anchovies) - Straddling\nSpecies: - Sardines (Sardinella species) - Anchovies (Engraulis species)\nDistribution: - Occur in coastal zones - Some stocks straddle Tanzanian-Mozambican border - Influenced by Indian Ocean upwelling systems - Seasonal migrations with monsoon currents\nFishery: - Primarily artisanal and semi-industrial - Important for food security - Canned fish export product - Growing demand from aquaculture feed\nManagement Challenge: - Straddling populations with limited coordination - Tanzania and Mozambique have weak management data sharing - Environmental variability affects distribution - Recruitment highly variable (climate-dependent)"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#tanzanias-management-framework",
+    "href": "lectures/5_unit_stock.html#tanzanias-management-framework",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Tanzania’s Management Framework",
+    "text": "Tanzania’s Management Framework\nNational Level: - Ministry of Livestock and Fisheries sets regulations - Licensing system for foreign vessels - Catch monitoring and reporting requirements - Port state measures to prevent IUU fishing\nRegional Level: - IOTC member - Complies with tuna management - SWIOFC (Southwest Indian Ocean Fisheries Commission) - Nairobi Convention for shared environmental concerns\nInternational Level: - Bilateral agreements with neighbors (Kenya, Mozambique) - Participation in IOTC decisions - Port state inspection of foreign vessels - Market-based measures (catch documentation)"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#key-challenges-for-tanzania",
+    "href": "lectures/5_unit_stock.html#key-challenges-for-tanzania",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Key Challenges for Tanzania",
+    "text": "Key Challenges for Tanzania\n1. IUU Fishing: - Foreign vessels fishing without permits - Catch not reported to IOTC - Undermines quota system - Reduces resource access for legitimate fishers\n2. Limited Monitoring, Control, and Surveillance (MCS): - Few patrol vessels available - Large EEZ difficult to monitor - Weak port state infrastructure - Limited satellite monitoring systems\n3. Data Limitations: - Incomplete catch reporting from artisanal sector - Species identification challenges at sea - Limited biological sampling programs - Weak data sharing with neighbors\n4. Stock Mixing: - Cannot distinguish stocks at sea - Straddling populations require coordination - Enforcement of bilateral limits difficult"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#regional-cooperation-initiatives",
+    "href": "lectures/5_unit_stock.html#regional-cooperation-initiatives",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Regional Cooperation Initiatives",
+    "text": "Regional Cooperation Initiatives\nIOTC Resolutions affecting Tanzania: - Yellowfin tuna catch limits (annual review) - Bigeye tuna closure during spawning season - Vessel monitoring systems (VMS) requirements - Port state inspection protocols\nSWIOFC Initiatives: - Shared research on migrant stocks - Harmonized data collection protocols - Capacity building for stock assessment - Training in compliance monitoring\nBilateral with Mozambique: - Joint assessment of shared demersal stocks - Coordinated licensing in border areas - Shared research surveys - Joint enforcement patrols (periodic)"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#summary-tanzania-context",
+    "href": "lectures/5_unit_stock.html#summary-tanzania-context",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Summary: Tanzania Context",
+    "text": "Summary: Tanzania Context\nHighly Migratory Stocks in Tanzanian Waters: - Yellowfin tuna, bigeye tuna, swordfish - Managed through IOTC - Require international compliance - Subject to scientific stock assessments\nStraddling Stocks: - Small pelagics, some demersal species - Require bilateral coordination - Limited formal management - Data sharing challenges\nTransboundary Stocks: - Kingfish, snappers in shared EEZs - Bilateral management with Kenya - Weaker international framework - Growing importance for food security\nManagement Lesson: Fish migration patterns require management cooperation that extends beyond national borders. Tanzania’s challenge is balancing: - National fishing industry needs - International obligation compliance - Regional cooperation requirements - Limited resources for monitoring and enforcement"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#priority-fisheries-in-tanzania",
+    "href": "lectures/5_unit_stock.html#priority-fisheries-in-tanzania",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Priority Fisheries in Tanzania",
+    "text": "Priority Fisheries in Tanzania\nTanzania’s fisheries are strategically important for food security, employment, and economic development. Priority ranking considers: - Economic value (export revenue) - Food security contribution (protein supply) - Employment (fisher livelihoods) - Management feasibility (data availability)\nPriority 1: Indian Ocean Tuna (Yellowfin, Bigeye, Skipjack)\nEconomic Importance: - Highest export value (~$40-60 million annually) - Large foreign fleet participation (revenue from licenses) - International market: Japan, SE Asia, EU - Premium sashimi prices drive fishing pressure\nCurrent Status: - Yellowfin: Fully exploited (IOTC assessments) - Bigeye: Overfished (recruitment concerns) - Skipjack: Lightly exploited (increasing catches)\nManagement Structure: - IOTC sets scientific advice - Tanzania implements catch limits through: - Vessel licensing system - Landing requirements - Port state measures\nChallenges: - IUU fishing reduces legitimate catch opportunities - Data reporting gaps (underreporting common) - Limited monitoring capacity for high seas - Seasonal catchability variations\nPriority Actions: 1. Strengthen vessel monitoring systems (VMS) 2. Improve port state inspection protocols 3. Enhance catch documentation compliance 4. Support scientific observer programs on vessels 5. Develop capacity for onboard monitoring"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#management-priorities-matrix",
+    "href": "lectures/5_unit_stock.html#management-priorities-matrix",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Management Priorities Matrix",
+    "text": "Management Priorities Matrix\n\n\n\n\n\n\n\n\n\n\n\nFishery\nEconomic Value\nFood Security\nEmployment\nData Status\nManagement Priority\n\n\n\n\nTuna (Ocean)\nVery High\nMedium\nHigh\nGood (IOTC)\nTier 1\n\n\nSmall Pelagics\nMedium\nVery High\nHigh\nPoor\nTier 1\n\n\nDemersal Fish\nMedium\nHigh\nVery High\nPoor\nTier 2\n\n\nLake Victoria\nLow\nHigh\nHigh\nPoor\nTier 2\n\n\nEmerging\nPotential\nLow\nLow\nVery Poor\nTier 3"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#integrated-management-strategy",
+    "href": "lectures/5_unit_stock.html#integrated-management-strategy",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Integrated Management Strategy",
+    "text": "Integrated Management Strategy\nShort-term (1-2 years): - Improve catch monitoring across all sectors - Enhance data collection infrastructure - Build capacity in stock assessment methods - Strengthen port state controls\nMedium-term (3-5 years): - Implement harvest control rules for priority stocks - Develop marine spatial planning - Establish management strategy evaluations (MSE) - Regional cooperation protocols\nLong-term (5+ years): - Ecosystem-based fisheries management - Climate adaptation strategies - Sustainable livelihood diversification - Capacity for advanced stock assessments"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#mixed-stock",
+    "href": "lectures/5_unit_stock.html#mixed-stock",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Mixed stock",
+    "text": "Mixed stock\n\nA mixed stock fishery is a fishery stock of variety ages, sizes, species, geographic or genetic origins or any combination of these variables.\nIt has some challenges in management due to difficulties in targeting a specific fish type using a certain fishing methods.\nMixed stock of a species has significant differences in morphological and biological characteristics.\nThe mixed stock population may unite into a unit stock by gene flow."
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#mixed-stock-1",
+    "href": "lectures/5_unit_stock.html#mixed-stock-1",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Mixed stock…",
+    "text": "Mixed stock…\n\nThe morphometric characters and meristic characters are to be taken for different stocks/populations of a species.\nThe population are to be segregated using PCA statistical test\nMixed stock of a species is common in tropical waters.\nAssessment of such tropical stocks becomes difficult by using conventional models."
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#mixed-stock-2",
+    "href": "lectures/5_unit_stock.html#mixed-stock-2",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Mixed stock…",
+    "text": "Mixed stock…\n\nRefinements are needed for proper assessment.\nThe aging becomes difficult in a mixed stock of tropical species.\nUsually many cohorts are released from a tropical stock; hence the assessment becomes a problem on tropical stocks of a mixed species.\nMixed stock of a species has varied spawning seasons and the calculation of length at first maturity and growth gets varied"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#limitations-in-the-assessment-of-tropical-fish-stocks",
+    "href": "lectures/5_unit_stock.html#limitations-in-the-assessment-of-tropical-fish-stocks",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Limitations in the assessment of tropical fish stocks",
+    "text": "Limitations in the assessment of tropical fish stocks\n\nFor calculation of stock assessment of mixed stock of a species, the conventional models framed for temperate species should be used in caution.\nThe mortality parameters such as F and M, fishing effort and growth parameters are to be calculated separately\nBecause these parameters form input data for estimation of stock in conventional models."
   },
   {
     "objectID": "lectures/5_unit_stock.html#part-2-methods-of-estimating-fish-stock-abundance",
@@ -1030,51 +1299,6 @@
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "References and Further Reading",
     "text": "References and Further Reading\n\nQuinn, T. J., & Deriso, R. B. (1999). Quantitative Fish Dynamics. Oxford University Press.\nHilborn, R., & Walters, C. J. (1992). Quantitative Fisheries Stock Assessment. Chapman & Hall.\nPetitgas, P. (1998). Geostatistics in fisheries survey design and stock assessment. FAO Fisheries Technical Paper 368."
-  },
-  {
-    "objectID": "lectures/synopsis.html#course-synopsiscontents",
-    "href": "lectures/synopsis.html#course-synopsiscontents",
-    "title": "Content and Objectives",
-    "section": "Course Synopsis/contents",
-    "text": "Course Synopsis/contents\n\nModule 1: Course Introduction\nModule 2: Data used in stock assessment\nModule 3: The Unit stock\n\nDistribution and abundance\nMethods of estimating fish stock abundance\n\nModule 4: Key Biological Parameters\n\nFish population Growth\nFish recruitment\nFish Mortality\n\nModule 5: Population Dynamics\n\nBasic concepts of fish population dynamics\nPopulation models\nSurplus production models\nAge-structured population models\nEquilibrium versus dynamic concepts",
-    "crumbs": [
-      "Home",
-      "Course synopsis",
-      "Content and Objectives"
-    ]
-  },
-  {
-    "objectID": "lectures/synopsis.html#course-objectives",
-    "href": "lectures/synopsis.html#course-objectives",
-    "title": "Content and Objectives",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nAt the end of the course, you should be able to;\n\nUnderstand what a fish population is and\nIdentify and define a fish stock and its properties\nEstimate the abundance of fish stocks\nExplain how fish populations are affected by external and internal influences i.e growth, recruitment and mortality.\nUse models to forecast on future trends of a fishery",
-    "crumbs": [
-      "Home",
-      "Course synopsis",
-      "Content and Objectives"
-    ]
-  },
-  {
-    "objectID": "resources/glossary.html",
-    "href": "resources/glossary.html",
-    "title": "Glossary",
-    "section": "",
-    "text": "Abundance Index A relative measure of population size derived from survey data or fishery catch-per-unit-effort. Does not provide absolute population size but indicates trends over time.\nAge Determination The process of estimating fish age through methods such as otolith reading, scale reading, or vertebral section examination.\nAge-Structured Model A stock assessment model that divides the population into age classes and projects each class forward through time, accounting for growth, mortality, and reproduction.\n\n\n\n\nBycatch Fish species or individuals caught incidentally while targeting other species. Often discarded or of lower commercial value.\nBiomass Total weight of all fish in a population or stock at a given time.\n\n\n\n\nCatchability (q) The proportion of the population in an area that is caught per unit of fishing effort. Ranges from 0 to 1.\nCatch-per-Unit-Effort (CPUE) Total catch divided by total fishing effort. Used as an index of fish abundance (CPUE = q × Abundance).\nCatch Assessment Survey (CAS) A systematic survey designed to estimate total catch from a fishery based on sampling landing sites or fishing effort and using raising factors.\nCoefficient of Variation (CV) Standard deviation expressed as a percentage of the mean. Used to measure relative variability in estimates.\n\n\n\n\nDiscard Fish that are caught but returned to the sea, either dead or alive. Often occurs when catch regulations are exceeded or fish have low market value.\nDiscardability The proportion of catch that is discarded.\n\n\n\n\nEffort A measure of fishing intensity, including number of vessels, fishing time, gear quantity, or other measures of fishing activity.\nExclusive Economic Zone (EEZ) A zone extending 200 nautical miles from a country’s coastline where the country has exclusive rights to exploit natural resources.\n\n\n\n\nFishery-Dependent Data Data collected directly from the fishing process itself, including landing records, onboard observer data, and fisher reports.\nFishery-Independent Data Data collected through research activities independent of the fishing process, such as research surveys and tagging experiments.\nFecundity The number of eggs produced by a female fish, often related to body size.\nFrame Survey A census-based survey that collects data on all fishing vessels, gear, and landing sites to establish a sampling frame and generate raising factors.\n\n\n\n\nGear Selectivity The property of fishing gear to catch fish of certain sizes more readily than others. Typically expressed as a selectivity curve.\nGonad The reproductive organ in fish. Examination of gonad development determines maturity status.\n\n\n\n\nHarvest Rate The proportion of the population removed by fishing in a given time period (usually annually).\n\n\n\n\nLanding Records Official records of fish catch that are landed and sold at ports. The most common source of fishery-dependent data.\nLength-Weight Relationship A mathematical relationship between fish length and weight, typically expressed as W = aL^b.\n\n\n\n\nMaturity Staging Classification of fish gonad development (immature, maturing, mature, spent) to determine reproductive status.\nMortality The rate at which fish are lost from a population. Includes natural mortality, fishing mortality, and other causes.\n\n\n\n\nOnboard Observer A government personnel who rides aboard fishing vessels to collect catch, bycatch, discard, and other data.\nOtolith The ear bone of fish used for age determination. Growth rings (annuli) indicate age similar to tree rings.\n\n\n\n\nPortside Sampling Collection of biological data (length, age, sex, maturity) from a sample of catch at landing sites.\nPopulation Parameter A characteristic of the population such as abundance, growth rate, mortality rate, or reproduction rate.\n\n\n\n\nRaising Factor A multiplier used to expand sample data to population estimates. Calculated as the ratio of population size to sample size.\nRecruitment The addition of new, juvenile fish to the exploitable population through reproduction and growth.\nReference Point A target or limit value for a population parameter (e.g., biomass, harvest rate) used in fisheries management.\n\n\n\n\nSampling Frame A complete listing of all units (e.g., vessels, landing sites) in a population from which a sample is drawn.\nSelectivity Curve A mathematical function describing how gear selectivity varies with fish size.\nSexual Maturity The developmental stage when fish become capable of reproduction.\nStandardization A statistical process to adjust catch-per-unit-effort data for effects of non-biological factors (vessel characteristics, season, environmental conditions) to obtain a more accurate abundance index.\nStock A population of fish of the same species in a geographic area that shares similar ecological characteristics and is managed as a unit.\nStock Assessment An evaluation of the current status and trends of a fish stock using collected data and mathematical models.\nSurplus Production The amount of biomass growth available for sustainable harvest from a population.\n\n\n\n\nVessel Monitoring System (VMS) Electronic device that automatically records and transmits the location of a fishing vessel, used for monitoring fishing effort and spatial distribution.\nVon Bertalanffy Growth Equation The standard mathematical model for describing fish growth: L(t) = L∞(1 - e^(-K(t-t0)))\n\n\n\n\nYear Class All fish born during the same breeding season or calendar year."
-  },
-  {
-    "objectID": "resources/glossary.html#stock-assessment-terms",
-    "href": "resources/glossary.html#stock-assessment-terms",
-    "title": "Glossary",
-    "section": "",
-    "text": "Abundance Index A relative measure of population size derived from survey data or fishery catch-per-unit-effort. Does not provide absolute population size but indicates trends over time.\nAge Determination The process of estimating fish age through methods such as otolith reading, scale reading, or vertebral section examination.\nAge-Structured Model A stock assessment model that divides the population into age classes and projects each class forward through time, accounting for growth, mortality, and reproduction.\n\n\n\n\nBycatch Fish species or individuals caught incidentally while targeting other species. Often discarded or of lower commercial value.\nBiomass Total weight of all fish in a population or stock at a given time.\n\n\n\n\nCatchability (q) The proportion of the population in an area that is caught per unit of fishing effort. Ranges from 0 to 1.\nCatch-per-Unit-Effort (CPUE) Total catch divided by total fishing effort. Used as an index of fish abundance (CPUE = q × Abundance).\nCatch Assessment Survey (CAS) A systematic survey designed to estimate total catch from a fishery based on sampling landing sites or fishing effort and using raising factors.\nCoefficient of Variation (CV) Standard deviation expressed as a percentage of the mean. Used to measure relative variability in estimates.\n\n\n\n\nDiscard Fish that are caught but returned to the sea, either dead or alive. Often occurs when catch regulations are exceeded or fish have low market value.\nDiscardability The proportion of catch that is discarded.\n\n\n\n\nEffort A measure of fishing intensity, including number of vessels, fishing time, gear quantity, or other measures of fishing activity.\nExclusive Economic Zone (EEZ) A zone extending 200 nautical miles from a country’s coastline where the country has exclusive rights to exploit natural resources.\n\n\n\n\nFishery-Dependent Data Data collected directly from the fishing process itself, including landing records, onboard observer data, and fisher reports.\nFishery-Independent Data Data collected through research activities independent of the fishing process, such as research surveys and tagging experiments.\nFecundity The number of eggs produced by a female fish, often related to body size.\nFrame Survey A census-based survey that collects data on all fishing vessels, gear, and landing sites to establish a sampling frame and generate raising factors.\n\n\n\n\nGear Selectivity The property of fishing gear to catch fish of certain sizes more readily than others. Typically expressed as a selectivity curve.\nGonad The reproductive organ in fish. Examination of gonad development determines maturity status.\n\n\n\n\nHarvest Rate The proportion of the population removed by fishing in a given time period (usually annually).\n\n\n\n\nLanding Records Official records of fish catch that are landed and sold at ports. The most common source of fishery-dependent data.\nLength-Weight Relationship A mathematical relationship between fish length and weight, typically expressed as W = aL^b.\n\n\n\n\nMaturity Staging Classification of fish gonad development (immature, maturing, mature, spent) to determine reproductive status.\nMortality The rate at which fish are lost from a population. Includes natural mortality, fishing mortality, and other causes.\n\n\n\n\nOnboard Observer A government personnel who rides aboard fishing vessels to collect catch, bycatch, discard, and other data.\nOtolith The ear bone of fish used for age determination. Growth rings (annuli) indicate age similar to tree rings.\n\n\n\n\nPortside Sampling Collection of biological data (length, age, sex, maturity) from a sample of catch at landing sites.\nPopulation Parameter A characteristic of the population such as abundance, growth rate, mortality rate, or reproduction rate.\n\n\n\n\nRaising Factor A multiplier used to expand sample data to population estimates. Calculated as the ratio of population size to sample size.\nRecruitment The addition of new, juvenile fish to the exploitable population through reproduction and growth.\nReference Point A target or limit value for a population parameter (e.g., biomass, harvest rate) used in fisheries management.\n\n\n\n\nSampling Frame A complete listing of all units (e.g., vessels, landing sites) in a population from which a sample is drawn.\nSelectivity Curve A mathematical function describing how gear selectivity varies with fish size.\nSexual Maturity The developmental stage when fish become capable of reproduction.\nStandardization A statistical process to adjust catch-per-unit-effort data for effects of non-biological factors (vessel characteristics, season, environmental conditions) to obtain a more accurate abundance index.\nStock A population of fish of the same species in a geographic area that shares similar ecological characteristics and is managed as a unit.\nStock Assessment An evaluation of the current status and trends of a fish stock using collected data and mathematical models.\nSurplus Production The amount of biomass growth available for sustainable harvest from a population.\n\n\n\n\nVessel Monitoring System (VMS) Electronic device that automatically records and transmits the location of a fishing vessel, used for monitoring fishing effort and spatial distribution.\nVon Bertalanffy Growth Equation The standard mathematical model for describing fish growth: L(t) = L∞(1 - e^(-K(t-t0)))\n\n\n\n\nYear Class All fish born during the same breeding season or calendar year."
-  },
-  {
-    "objectID": "resources/glossary.html#symbols-and-abbreviations",
-    "href": "resources/glossary.html#symbols-and-abbreviations",
-    "title": "Glossary",
-    "section": "Symbols and Abbreviations",
-    "text": "Symbols and Abbreviations\n\n\n\nSymbol/Abbreviation\nDefinition\n\n\n\n\nB\nBiomass\n\n\nBMU\nBeach Management Unit\n\n\nCAS\nCatch Assessment Survey\n\n\nCPUE\nCatch Per Unit Effort\n\n\nCV\nCoefficient of Variation\n\n\nEEZ\nExclusive Economic Zone\n\n\nF\nFishing Mortality Rate\n\n\nFAO\nFood and Agriculture Organization of the UN\n\n\nFSA\nFish Stock Assessment\n\n\nGLM\nGeneral Linear Model\n\n\nK\nBrody’s growth coefficient (von Bertalanffy)\n\n\nL∞\nAsymptotic maximum length (von Bertalanffy)\n\n\nM\nNatural Mortality Rate\n\n\nN\nPopulation abundance (number of fish)\n\n\nq\nCatchability coefficient\n\n\nRF\nRaising Factor\n\n\nVMS\nVessel Monitoring System\n\n\nW\nWeight\n\n\n\n\nLast updated: December 2025"
   },
   {
     "objectID": "lectures/length_weight_relationship.html#length-weight-relationship",
@@ -1215,5 +1439,75 @@
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
     "section": "Resources & References",
     "text": "Resources & References\nKey References:\n\nFroese, R. (2006). “Cube law, condition factor and weight-length relationships: History, meta-analysis and recommendations”\nWootton, R.J. (1990). Ecology of Teleost Fishes - Chapter on growth and body form\nFishBase (www.fishbase.org) - Comprehensive L-W parameters by species\n\nSoftware: - R packages: FSA, TropFishR - Excel spreadsheets for simple calculations - Online L-W calculators"
+  },
+  {
+    "objectID": "practical/length_weight_practical.html",
+    "href": "practical/length_weight_practical.html",
+    "title": "Practical on Length-weight measurements",
+    "section": "",
+    "text": "The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:\n\\[\nW = a * L^b\n\\]\nWhere:\n\n W  = weight of the fish (in grams),\n L  = length of the fish (in centimeters),\n a  = intercept (a coefficient related to the condition factor of the fish),\n b  = slope (an exponent indicating the type of growth).\n\nFor easier statistical analysis, the equation is typically converted to a linear form using logarithms:\n\\[\nLog(W) = Log(a) + b * Log(L)\n\\]"
+  },
+  {
+    "objectID": "practical/length_weight_practical.html#overview",
+    "href": "practical/length_weight_practical.html#overview",
+    "title": "Practical on Length-weight measurements",
+    "section": "",
+    "text": "The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:\n\\[\nW = a * L^b\n\\]\nWhere:\n\n W  = weight of the fish (in grams),\n L  = length of the fish (in centimeters),\n a  = intercept (a coefficient related to the condition factor of the fish),\n b  = slope (an exponent indicating the type of growth).\n\nFor easier statistical analysis, the equation is typically converted to a linear form using logarithms:\n\\[\nLog(W) = Log(a) + b * Log(L)\n\\]"
+  },
+  {
+    "objectID": "practical/length_weight_practical.html#growth-patterns-based-on-the-exponent-b",
+    "href": "practical/length_weight_practical.html#growth-patterns-based-on-the-exponent-b",
+    "title": "Practical on Length-weight measurements",
+    "section": "Growth Patterns Based on the Exponent ‘b’",
+    "text": "Growth Patterns Based on the Exponent ‘b’\nThe exponent b in the length-weight relationship provides insights into the growth patterns of fish. \nThe value of b typically ranges between 2.5 and 3.5 in natural environments.\n\nIsometric Growth (b=3): The fish maintains its shape as it grows, with weight increasing in proportion to the cube of its length.\nPositive Allometric Growth (b&gt;3): The fish becomes “plumper” or heavier as it increases in length.\nNegative Allometric Growth (b&lt;3): The fish becomes “slimmer” or more elongated as it grows."
+  },
+  {
+    "objectID": "practical/length_weight_practical.html#group-work",
+    "href": "practical/length_weight_practical.html#group-work",
+    "title": "Practical on Length-weight measurements",
+    "section": "Group work",
+    "text": "Group work\nStudents should be divided into groups of 7-8 members. Each group will perform length and weight measurements of fish specimens provided. Each group will have different species of fish to work with. Every group should record their measurements and observations in a their own document. After this exercise, each group will present their findings to the class."
+  },
+  {
+    "objectID": "practical/length_weight_practical.html#measurement-of-length-and-weight-of-fish",
+    "href": "practical/length_weight_practical.html#measurement-of-length-and-weight-of-fish",
+    "title": "Practical on Length-weight measurements",
+    "section": "Measurement of length and weight of fish",
+    "text": "Measurement of length and weight of fish\n\nEach group will receive a fish specimens.\nUsing a measuring tape or ruler, measure the total length of the fish from the tip of the snout to the end of the tail fin. Record the measurement in centimeters (cm).\nUsing a digital scale, weigh the fish specimen. Record the weight in grams (g).\nRepeat the measurements for all fish specimens provided to your group.\nRecord the length and weight of each individual fish provided in microsoft excel format and present the results as indicated below:\n\n\n\n\nFish ID\nLength (cm)\nWeight (g)\n\n\n\n\n1\n\n\n\n\n2\n\n\n\n\n3\n\n\n\n\n4\n\n\n\n\n5"
+  },
+  {
+    "objectID": "practical/length_weight_practical.html#data-analysis",
+    "href": "practical/length_weight_practical.html#data-analysis",
+    "title": "Practical on Length-weight measurements",
+    "section": "Data Analysis",
+    "text": "Data Analysis\n\nUsing any computer programme, plot a scatter plot of Length (cm) on the x-axis and Weight (g) on the y-axis using the recorded data.\nUse a best line to fit to the data and determine the relationship between length and weight.\nUse the length-weight relationship equation provided below to estimate the values of a and b for your fish specimens: \\[ W = a * L^b \\]\nDiscuss the biological significance of the length-weight relationship observed in your fish specimens.\nCompare the length-weight relationship of your fish species with other species in the class. Discuss any differences or similarities observed."
+  },
+  {
+    "objectID": "practical/length_weight_practical.html#estimation-of-fultons-condition-factor-k",
+    "href": "practical/length_weight_practical.html#estimation-of-fultons-condition-factor-k",
+    "title": "Practical on Length-weight measurements",
+    "section": "Estimation of Fulton’s Condition Factor (K)",
+    "text": "Estimation of Fulton’s Condition Factor (K)\nThe Condition Factor (K) is a measure of the ‘plumpness’ or ‘well-being’ of fish. It is calculated using the formula:\n\\[\nK = \\frac{W}{L^3} * 100\n\\]\nWhere:\n\nK = Condition Factor,\nW = weight of the fish (in grams),\nL = length of the fish (in centimeters).\n\n\nCalculate the Condition Factor (K) for each fish specimen using the recorded length and weight data and present your results in a table as shown below:\n\n\n\n\nFish ID\nLength (cm)\nWeight (g)\nCondition Factor (K)\n\n\n\n\n1\n\n\n\n\n\n2\n\n\n\n\n\n3\n\n\n\n\n\n4\n\n\n\n\n\n5\n\n\n\n\n\n\n\nUsing the length and weight data provided, calculate the mean length and weight for your fish specimens.\nUse the mean length and weight data to calculate the Condition Factor (K) for the fish species.\nDiscuss the implications of the Condition Factor (K) values obtained in terms of their health and well-being of the fish for the individual fish specimen recorded in the table and the mean values calculated.\nCompare the Condition Factor (K) value of your fish species and the value of the intercept (a) obtained from the length-weight relationship. Discuss any similarities or differences observed.\nPresent your findings to the class, highlighting the length-weight relationship, the values of a and b and Condition Factor (K) for your fish species."
+  },
+  {
+    "objectID": "resources/glossary.html",
+    "href": "resources/glossary.html",
+    "title": "Glossary",
+    "section": "",
+    "text": "Abundance Index A relative measure of population size derived from survey data or fishery catch-per-unit-effort. Does not provide absolute population size but indicates trends over time.\nAge Determination The process of estimating fish age through methods such as otolith reading, scale reading, or vertebral section examination.\nAge-Structured Model A stock assessment model that divides the population into age classes and projects each class forward through time, accounting for growth, mortality, and reproduction.\n\n\n\n\nBycatch Fish species or individuals caught incidentally while targeting other species. Often discarded or of lower commercial value.\nBiomass Total weight of all fish in a population or stock at a given time.\n\n\n\n\nCatchability (q) The proportion of the population in an area that is caught per unit of fishing effort. Ranges from 0 to 1.\nCatch-per-Unit-Effort (CPUE) Total catch divided by total fishing effort. Used as an index of fish abundance (CPUE = q × Abundance).\nCatch Assessment Survey (CAS) A systematic survey designed to estimate total catch from a fishery based on sampling landing sites or fishing effort and using raising factors.\nCoefficient of Variation (CV) Standard deviation expressed as a percentage of the mean. Used to measure relative variability in estimates.\n\n\n\n\nDiscard Fish that are caught but returned to the sea, either dead or alive. Often occurs when catch regulations are exceeded or fish have low market value.\nDiscardability The proportion of catch that is discarded.\n\n\n\n\nEffort A measure of fishing intensity, including number of vessels, fishing time, gear quantity, or other measures of fishing activity.\nExclusive Economic Zone (EEZ) A zone extending 200 nautical miles from a country’s coastline where the country has exclusive rights to exploit natural resources.\n\n\n\n\nFishery-Dependent Data Data collected directly from the fishing process itself, including landing records, onboard observer data, and fisher reports.\nFishery-Independent Data Data collected through research activities independent of the fishing process, such as research surveys and tagging experiments.\nFecundity The number of eggs produced by a female fish, often related to body size.\nFrame Survey A census-based survey that collects data on all fishing vessels, gear, and landing sites to establish a sampling frame and generate raising factors.\n\n\n\n\nGear Selectivity The property of fishing gear to catch fish of certain sizes more readily than others. Typically expressed as a selectivity curve.\nGonad The reproductive organ in fish. Examination of gonad development determines maturity status.\n\n\n\n\nHarvest Rate The proportion of the population removed by fishing in a given time period (usually annually).\n\n\n\n\nLanding Records Official records of fish catch that are landed and sold at ports. The most common source of fishery-dependent data.\nLength-Weight Relationship A mathematical relationship between fish length and weight, typically expressed as W = aL^b.\n\n\n\n\nMaturity Staging Classification of fish gonad development (immature, maturing, mature, spent) to determine reproductive status.\nMortality The rate at which fish are lost from a population. Includes natural mortality, fishing mortality, and other causes.\n\n\n\n\nOnboard Observer A government personnel who rides aboard fishing vessels to collect catch, bycatch, discard, and other data.\nOtolith The ear bone of fish used for age determination. Growth rings (annuli) indicate age similar to tree rings.\n\n\n\n\nPortside Sampling Collection of biological data (length, age, sex, maturity) from a sample of catch at landing sites.\nPopulation Parameter A characteristic of the population such as abundance, growth rate, mortality rate, or reproduction rate.\n\n\n\n\nRaising Factor A multiplier used to expand sample data to population estimates. Calculated as the ratio of population size to sample size.\nRecruitment The addition of new, juvenile fish to the exploitable population through reproduction and growth.\nReference Point A target or limit value for a population parameter (e.g., biomass, harvest rate) used in fisheries management.\n\n\n\n\nSampling Frame A complete listing of all units (e.g., vessels, landing sites) in a population from which a sample is drawn.\nSelectivity Curve A mathematical function describing how gear selectivity varies with fish size.\nSexual Maturity The developmental stage when fish become capable of reproduction.\nStandardization A statistical process to adjust catch-per-unit-effort data for effects of non-biological factors (vessel characteristics, season, environmental conditions) to obtain a more accurate abundance index.\nStock A population of fish of the same species in a geographic area that shares similar ecological characteristics and is managed as a unit.\nStock Assessment An evaluation of the current status and trends of a fish stock using collected data and mathematical models.\nSurplus Production The amount of biomass growth available for sustainable harvest from a population.\n\n\n\n\nVessel Monitoring System (VMS) Electronic device that automatically records and transmits the location of a fishing vessel, used for monitoring fishing effort and spatial distribution.\nVon Bertalanffy Growth Equation The standard mathematical model for describing fish growth: L(t) = L∞(1 - e^(-K(t-t0)))\n\n\n\n\nYear Class All fish born during the same breeding season or calendar year."
+  },
+  {
+    "objectID": "resources/glossary.html#stock-assessment-terms",
+    "href": "resources/glossary.html#stock-assessment-terms",
+    "title": "Glossary",
+    "section": "",
+    "text": "Abundance Index A relative measure of population size derived from survey data or fishery catch-per-unit-effort. Does not provide absolute population size but indicates trends over time.\nAge Determination The process of estimating fish age through methods such as otolith reading, scale reading, or vertebral section examination.\nAge-Structured Model A stock assessment model that divides the population into age classes and projects each class forward through time, accounting for growth, mortality, and reproduction.\n\n\n\n\nBycatch Fish species or individuals caught incidentally while targeting other species. Often discarded or of lower commercial value.\nBiomass Total weight of all fish in a population or stock at a given time.\n\n\n\n\nCatchability (q) The proportion of the population in an area that is caught per unit of fishing effort. Ranges from 0 to 1.\nCatch-per-Unit-Effort (CPUE) Total catch divided by total fishing effort. Used as an index of fish abundance (CPUE = q × Abundance).\nCatch Assessment Survey (CAS) A systematic survey designed to estimate total catch from a fishery based on sampling landing sites or fishing effort and using raising factors.\nCoefficient of Variation (CV) Standard deviation expressed as a percentage of the mean. Used to measure relative variability in estimates.\n\n\n\n\nDiscard Fish that are caught but returned to the sea, either dead or alive. Often occurs when catch regulations are exceeded or fish have low market value.\nDiscardability The proportion of catch that is discarded.\n\n\n\n\nEffort A measure of fishing intensity, including number of vessels, fishing time, gear quantity, or other measures of fishing activity.\nExclusive Economic Zone (EEZ) A zone extending 200 nautical miles from a country’s coastline where the country has exclusive rights to exploit natural resources.\n\n\n\n\nFishery-Dependent Data Data collected directly from the fishing process itself, including landing records, onboard observer data, and fisher reports.\nFishery-Independent Data Data collected through research activities independent of the fishing process, such as research surveys and tagging experiments.\nFecundity The number of eggs produced by a female fish, often related to body size.\nFrame Survey A census-based survey that collects data on all fishing vessels, gear, and landing sites to establish a sampling frame and generate raising factors.\n\n\n\n\nGear Selectivity The property of fishing gear to catch fish of certain sizes more readily than others. Typically expressed as a selectivity curve.\nGonad The reproductive organ in fish. Examination of gonad development determines maturity status.\n\n\n\n\nHarvest Rate The proportion of the population removed by fishing in a given time period (usually annually).\n\n\n\n\nLanding Records Official records of fish catch that are landed and sold at ports. The most common source of fishery-dependent data.\nLength-Weight Relationship A mathematical relationship between fish length and weight, typically expressed as W = aL^b.\n\n\n\n\nMaturity Staging Classification of fish gonad development (immature, maturing, mature, spent) to determine reproductive status.\nMortality The rate at which fish are lost from a population. Includes natural mortality, fishing mortality, and other causes.\n\n\n\n\nOnboard Observer A government personnel who rides aboard fishing vessels to collect catch, bycatch, discard, and other data.\nOtolith The ear bone of fish used for age determination. Growth rings (annuli) indicate age similar to tree rings.\n\n\n\n\nPortside Sampling Collection of biological data (length, age, sex, maturity) from a sample of catch at landing sites.\nPopulation Parameter A characteristic of the population such as abundance, growth rate, mortality rate, or reproduction rate.\n\n\n\n\nRaising Factor A multiplier used to expand sample data to population estimates. Calculated as the ratio of population size to sample size.\nRecruitment The addition of new, juvenile fish to the exploitable population through reproduction and growth.\nReference Point A target or limit value for a population parameter (e.g., biomass, harvest rate) used in fisheries management.\n\n\n\n\nSampling Frame A complete listing of all units (e.g., vessels, landing sites) in a population from which a sample is drawn.\nSelectivity Curve A mathematical function describing how gear selectivity varies with fish size.\nSexual Maturity The developmental stage when fish become capable of reproduction.\nStandardization A statistical process to adjust catch-per-unit-effort data for effects of non-biological factors (vessel characteristics, season, environmental conditions) to obtain a more accurate abundance index.\nStock A population of fish of the same species in a geographic area that shares similar ecological characteristics and is managed as a unit.\nStock Assessment An evaluation of the current status and trends of a fish stock using collected data and mathematical models.\nSurplus Production The amount of biomass growth available for sustainable harvest from a population.\n\n\n\n\nVessel Monitoring System (VMS) Electronic device that automatically records and transmits the location of a fishing vessel, used for monitoring fishing effort and spatial distribution.\nVon Bertalanffy Growth Equation The standard mathematical model for describing fish growth: L(t) = L∞(1 - e^(-K(t-t0)))\n\n\n\n\nYear Class All fish born during the same breeding season or calendar year."
+  },
+  {
+    "objectID": "resources/glossary.html#symbols-and-abbreviations",
+    "href": "resources/glossary.html#symbols-and-abbreviations",
+    "title": "Glossary",
+    "section": "Symbols and Abbreviations",
+    "text": "Symbols and Abbreviations\n\n\n\nSymbol/Abbreviation\nDefinition\n\n\n\n\nB\nBiomass\n\n\nBMU\nBeach Management Unit\n\n\nCAS\nCatch Assessment Survey\n\n\nCPUE\nCatch Per Unit Effort\n\n\nCV\nCoefficient of Variation\n\n\nEEZ\nExclusive Economic Zone\n\n\nF\nFishing Mortality Rate\n\n\nFAO\nFood and Agriculture Organization of the UN\n\n\nFSA\nFish Stock Assessment\n\n\nGLM\nGeneral Linear Model\n\n\nK\nBrody’s growth coefficient (von Bertalanffy)\n\n\nL∞\nAsymptotic maximum length (von Bertalanffy)\n\n\nM\nNatural Mortality Rate\n\n\nN\nPopulation abundance (number of fish)\n\n\nq\nCatchability coefficient\n\n\nRF\nRaising Factor\n\n\nVMS\nVessel Monitoring System\n\n\nW\nWeight\n\n\n\n\nLast updated: December 2025"
   }
 ]
