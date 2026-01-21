@@ -21,12 +21,18 @@ website:
             href: lectures/3_popl_dynamics.qmd
           - text: "Mortality population models"
             href: lectures/4_mortality_pop_models.qmd
-          # - text: "The Unit Stock"
-          #   href: lectures/5_unit_stock.qmd
+          - text: "The Unit Stock"
+            href: lectures/5_unit_stock.qmd
+          # - text: "Methods for estimating stock abundance"
+          #   href: lectures/6_methods_stock_abundance.qmd
+
       - text: "Practicals"
         menu:
           - text: "Length-Weight Relationships"
             href: practical/length_weight_practical.qmd
+          - text: "Length-Weight Relationships (Using R)"
+            href: practical/length_weight_isometric.qmd
+
 
       - text: "Resources"
         menu:

@@ -10,7 +10,7 @@ author: "Nyamisi Peter"
 The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:
 
 $$
-W = a * L^b
+W = a \times L^b
 $$
 
 Where:
@@ -23,7 +23,7 @@ Where:
 For easier statistical analysis, the equation is typically converted to a linear form using logarithms:
 
 $$
-Log(W) = Log(a) + b * Log(L)
+Log(W) = Log(a) + b \times Log(L)
 $$
 
 ## Growth Patterns Based on the Exponent 'b'

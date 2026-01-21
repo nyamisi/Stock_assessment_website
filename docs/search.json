@@ -70,161 +70,466 @@
     "text": "Questions About Data?\nContact the course instructor for clarification on data contents, collection methods, or appropriate usage."
   },
   {
-    "objectID": "lectures/synopsis.html#course-synopsiscontents",
-    "href": "lectures/synopsis.html#course-synopsiscontents",
-    "title": "Content and Objectives",
-    "section": "Course Synopsis/contents",
-    "text": "Course Synopsis/contents\n\nModule 1: Course Introduction\nModule 2: Data used in stock assessment\nModule 3: The Unit stock\n\nDistribution and abundance\nMethods of estimating fish stock abundance\n\nModule 4: Key Biological Parameters\n\nFish population Growth\nFish recruitment\nFish Mortality\n\nModule 5: Population Dynamics\n\nBasic concepts of fish population dynamics\nPopulation models\nSurplus production models\nAge-structured population models\nEquilibrium versus dynamic concepts",
-    "crumbs": [
-      "Home",
-      "Course synopsis",
-      "Content and Objectives"
-    ]
-  },
-  {
-    "objectID": "lectures/synopsis.html#course-objectives",
-    "href": "lectures/synopsis.html#course-objectives",
-    "title": "Content and Objectives",
-    "section": "Course Objectives",
-    "text": "Course Objectives\n\nAt the end of the course, you should be able to;\n\nUnderstand what a fish population is and\nIdentify and define a fish stock and its properties\nEstimate the abundance of fish stocks\nExplain how fish populations are affected by external and internal influences i.e growth, recruitment and mortality.\nUse models to forecast on future trends of a fishery",
-    "crumbs": [
-      "Home",
-      "Course synopsis",
-      "Content and Objectives"
-    ]
-  },
-  {
-    "objectID": "lectures/course_outline.html",
-    "href": "lectures/course_outline.html",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "objectID": "practical/length_weight_isometric.html",
+    "href": "practical/length_weight_isometric.html",
+    "title": "Length-Weight Relationship Analysis",
     "section": "",
-    "text": "This course provides a comprehensive introduction to fish population dynamics and stock assessment methods in the context of modern global fisheries challenges. Students will learn to assess fish populations using contemporary scientific approaches while considering ecosystem, social, and climate dimensions of sustainable fisheries management."
+    "text": "This practical exercise demonstrates the analysis of length-weight relationships in fish, using a case study of Snappers (Family Lutjanidae) from Tanzanian coastal waters. Snappers are important demersal fish in Tanzania’s fisheries and exhibit approximately isometric growth, meaning their body shape remains relatively constant as they grow.\nThe length-weight relationship is described by the equation:\n\\[W = a \\times L^b\\]\nwhere:\n\nW = Weight (in grams)\nL = Length (in centimeters)\na = Intercept (related to body shape/condition)\nb = Slope (scaling exponent, typically ~3 for isometric growth)"
   },
   {
-    "objectID": "lectures/course_outline.html#course-overview",
-    "href": "lectures/course_outline.html#course-overview",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "objectID": "practical/length_weight_isometric.html#introduction",
+    "href": "practical/length_weight_isometric.html#introduction",
+    "title": "Length-Weight Relationship Analysis",
     "section": "",
-    "text": "This course provides a comprehensive introduction to fish population dynamics and stock assessment methods in the context of modern global fisheries challenges. Students will learn to assess fish populations using contemporary scientific approaches while considering ecosystem, social, and climate dimensions of sustainable fisheries management."
+    "text": "This practical exercise demonstrates the analysis of length-weight relationships in fish, using a case study of Snappers (Family Lutjanidae) from Tanzanian coastal waters. Snappers are important demersal fish in Tanzania’s fisheries and exhibit approximately isometric growth, meaning their body shape remains relatively constant as they grow.\nThe length-weight relationship is described by the equation:\n\\[W = a \\times L^b\\]\nwhere:\n\nW = Weight (in grams)\nL = Length (in centimeters)\na = Intercept (related to body shape/condition)\nb = Slope (scaling exponent, typically ~3 for isometric growth)"
   },
   {
-    "objectID": "lectures/course_outline.html#module-1-introduction-context",
-    "href": "lectures/course_outline.html#module-1-introduction-context",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 1: Introduction & Context",
-    "text": "MODULE 1: Introduction & Context\n\nTopics\n\nHistorical perspective: From single-species to ecosystem-based management\nGlobal fisheries crisis: Current state of world fish stocks\nSustainable Development Goals (SDG 14): Life Below Water\nKey definitions: Stock, recruitment, sustainability, overfishing\nCareer pathways in fisheries science\n\n\n\nLearning Objectives\n\nUnderstand the evolution of fisheries science and management\nRecognize global challenges in sustaining fish stocks\nDefine fundamental concepts and terminology\nExplore career opportunities in fisheries"
+    "objectID": "practical/length_weight_isometric.html#objectives",
+    "href": "practical/length_weight_isometric.html#objectives",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Objectives",
+    "text": "Objectives\n\nAnalyze length-weight data from a Tanzanian marine fish species\nFit a linear regression model to log-transformed data\nVisualize the relationship using ggplot2\nExtract parameter estimates (a and b)\nInterpret biological significance of the results"
   },
   {
-    "objectID": "lectures/course_outline.html#module-2-fundamentals-of-fish-population-dynamics",
-    "href": "lectures/course_outline.html#module-2-fundamentals-of-fish-population-dynamics",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 2: Fundamentals of Fish Population Dynamics",
-    "text": "MODULE 2: Fundamentals of Fish Population Dynamics\n\nTopics\n\nPopulation structure: Age, size, sex ratios\nVital rates: Birth (recruitment), death (natural & fishing mortality), growth\nPopulation models:\n\nExponential and logistic growth\nBeverton-Holt and Ricker stock-recruitment models\nAge-structured population models\nSize-structured models (relevant for data-limited stocks)\n\nEquilibrium vs. dynamic concepts\nDensity-dependent processes\n\n\n\nKey Equations\nExponential growth: \\[N_t = N_0 e^{rt}\\]\nLogistic growth: \\[\\frac{dN}{dt} = rN\\left(1 - \\frac{N}{K}\\right)\\]\nBeverton-Holt recruitment: \\[R_t = \\frac{aS_t}{1 + bS_t}\\]\nRicker recruitment: \\[R_t = aS_t e^{-bS_t}\\]\n\n\nLearning Objectives\n\nUnderstand population structure and vital rates\nApply growth models to fish populations\nInterpret stock-recruitment relationships\nRecognize density-dependent effects in fish populations"
+    "objectID": "practical/length_weight_isometric.html#data-generation",
+    "href": "practical/length_weight_isometric.html#data-generation",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Data Generation",
+    "text": "Data Generation\nWe’ll create realistic length-weight data for Red Snapper (Lutjanus campechanus) caught in Tanzanian waters. For isometric growth, we expect b ≈ 3.\n\n# Load libraries\nlibrary(tidyverse)\nlibrary(tidyplots)\n\n\n# Set seed for reproducibility\nset.seed(642)\n\n# Generate length-weight data for Red Snapper (isometric growth)\n# Parameters based on typical Tanzanian snapper populations\n\nn_samples &lt;- 80\n\nlw_data &lt;- tibble(\n  # Length in cm (realistic range for snappers: 15-65 cm)\n  length_cm = rnorm(n_samples, mean = 38, sd = 12) %&gt;% \n    pmax(15) %&gt;% pmin(65),  # Constrain to realistic range\n  \n  # Weight in grams, calculated from isometric relationship\n  # For snappers: W = 0.015 * L^3.02 (approximately isometric)\n  weight_g = 0.015 * (length_cm ^ 3.02) + rnorm(n_samples, mean = 0, sd = 15)\n) %&gt;%\n  # Ensure positive weights\n  filter(weight_g &gt; 0) %&gt;%\n  arrange(length_cm)"
   },
   {
-    "objectID": "lectures/course_outline.html#module-3-the-unit-stock",
-    "href": "lectures/course_outline.html#module-3-the-unit-stock",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 3: The Unit Stock",
-    "text": "MODULE 3: The Unit Stock\n\nTopics\n\nDefining management units in the modern context\nDistribution patterns:\n\nGeographic distribution and boundaries\nSeasonal migrations and habitat use\nClimate change impacts on range shifts\n\nAbundance estimation methods:\n\nSurvey design (trawls, acoustic, visual)\nCPUE standardization (commercial data)\nMark-recapture and tagging\nEmerging technologies (eDNA, environmental DNA monitoring)\nAutonomous platforms (drones, gliders)\n\n\n\n\nKey Concepts\n\nA unit stock is the fundamental management unit in fisheries\nDelineation depends on biological, physical, and political factors\nDistribution is dynamic and changing with climate\nMultiple methods provide complementary information on abundance\n\n\n\nLearning Objectives\n\nDefine and delineate appropriate unit stocks\nDesign surveys to estimate stock abundance\nEvaluate advantages and limitations of different methods\nIntegrate multiple data sources for robust estimates"
+    "objectID": "practical/length_weight_isometric.html#linear-regression-analysis",
+    "href": "practical/length_weight_isometric.html#linear-regression-analysis",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Linear Regression Analysis",
+    "text": "Linear Regression Analysis\nTo extract the parameters a and b, we fit a linear model to the log-transformed equation:\n\nlw_data |&gt; \n  ggplot(aes(x = length_cm, y = weight_g)) +\n  geom_point(size = 3, alpha = 0.8, color = \"#2E86AB\") +\n  geom_smooth(method = \"lm\", se = TRUE, formula = y ~ poly(x, 3), color = \"#A23B72\", size = 1) +\n  # ggpubr::stat_regline_equation() +\n  labs(\n    title = \"Length-Weight Scatter Plot\",\n    x = \"Length (cm)\",\n    y = \"Weight (g)\"\n  ) +\n  theme_minimal()+\n  theme(\n    plot.title = element_text(size = 14, face = \"bold\", hjust = 0.5),\n    axis.title = element_text(size = 12, face = \"bold\")\n  )\n\n\n\n\n\n\n\n\n\\[\\log(W) = \\log(a) + b \\times \\log(L)\\]\nThis transforms the power-law relationship into a linear relationship suitable for regression analysis.\n\nlw_log = lw_data |&gt; \n  mutate(log_length = log(length_cm),\n        log_weight = log(weight_g)) \n\nfit_lw = lm(log_weight ~ log_length, data = lw_log) # model fitting\n\ny_intercept = coef(fit_lw)[1]\nslope = coef(fit_lw)[2]\n\n# Calculating values for a\n\n# log(a) = y_intercept =&gt; a = exp(y_intercept)\n\na = exp(y_intercept) # 0.01080354 \nb = slope  # 3.110061\n\n\nlw_log  |&gt;\n  ggplot(aes(x = log_length, y = log_weight)) +\n  geom_point(size = 3, alpha = 0.6, color = \"#2E86AB\") +\n  geom_smooth(method = \"lm\", se = TRUE, formula = y ~ x, color = \"#A23B72\", size = 1) +\n  ggpubr::stat_regline_equation() +\n  labs(\n    title = \"Length-Weight Scatter Plot\",\n    x = \"Log of Length\",\n    y = \"Log of Weight\"\n  ) +\n  theme_minimal()+\n  theme(\n    plot.title = element_text(size = 14, face = \"bold\", hjust = 0.5),\n    axis.title = element_text(size = 12, face = \"bold\")\n  )"
   },
   {
-    "objectID": "lectures/course_outline.html#module-4-data-collection-quality",
-    "href": "lectures/course_outline.html#module-4-data-collection-quality",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 4: Data Collection & Quality",
-    "text": "MODULE 4: Data Collection & Quality\n\nTopics\n\nTypes of data:\n\nFishery-dependent (commercial catch, effort, size/age composition)\nFishery-independent (research surveys, ecosystem monitoring)\nBiological data (maturity, fecundity, diet, parasite load)\nEnvironmental data (temperature, oxygen, currents, ecosystem indicators)\n\nData-limited approaches: Tools for developing nations/underfunded fisheries\nData quality assurance: Bias detection and correction\nReal-time monitoring: Vessel monitoring systems (VMS), electronic logbooks\nBig Data in fisheries: Machine learning for pattern recognition\n\n\n\nBest Practices\n\nEstablish standardized protocols for data collection\nImplement quality control measures\nDocument data collection metadata\nBalance cost with data precision requirements\nEngage with stakeholders in data collection planning\n\n\n\nLearning Objectives\n\nDesign data collection programs appropriate to context\nAssess data quality and identify biases\nUnderstand advantages of different data types\nApply data-limited approaches when necessary\nUse modern technology for monitoring"
+    "objectID": "practical/length_weight_isometric.html#condition-factor-analysis",
+    "href": "practical/length_weight_isometric.html#condition-factor-analysis",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Condition Factor Analysis",
+    "text": "Condition Factor Analysis\nThe condition factor (K or CF) is a measure of the fish’s health and robustness. It is calculated as:\n\\[K = \\frac{W}{L^b} \\times 100\\]\nwhere:\n\nW = Weight (in grams)\nL = Length (in centimeters)\nb = Slope from the length-weight equation (scaling exponent)\n\nThe condition factor indicates whether a fish is in good condition (higher values) or poor condition (lower values) relative to its size.\n\n# Calculate condition factor for each fish\nk_data &lt;- lw_data %&gt;%\n  mutate(\n    condition_factor = (weight_g / (length_cm ^ slope)) * 100,\n    # Also calculate relative condition factor (K_rel)\n    # Expected weight based on regression\n    expected_weight = a * (length_cm ^ slope),\n    relative_condition = (weight_g / expected_weight) * 100\n  )"
   },
   {
-    "objectID": "lectures/course_outline.html#module-5-stock-assessment-methods",
-    "href": "lectures/course_outline.html#module-5-stock-assessment-methods",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 5: Stock Assessment Methods",
-    "text": "MODULE 5: Stock Assessment Methods\n\nTopics\n\nTraditional approaches:\n\nVirtual Population Analysis (VPA)\nSurplus production models (Schaefer, Fox)\nAge-structured models (Stock Synthesis, CASAL2)\n\nModern integrated approaches:\n\nBayesian methods and uncertainty quantification\nState-space models\nMulti-species and ecosystem models\n\nData-limited methods:\n\nLength-based spawning potential ratio (LB-SPR)\nCatch-only models\nLife-history-based approaches\n\nModel selection and validation\nUncertainty in assessment: Propagation and communication\n\n\n\nSchaefer Surplus Production Model\n\\[C_t = q \\cdot E_t \\cdot B_t\\]\n\\[B_{t+1} = B_t + rB_t\\left(1 - \\frac{B_t}{K}\\right) - C_t\\]\nWhere: - \\(C_t\\) = catch at time t - \\(q\\) = catchability coefficient - \\(E_t\\) = fishing effort - \\(B_t\\) = biomass - \\(r\\) = intrinsic rate of increase - \\(K\\) = carrying capacity\n\n\nLearning Objectives\n\nSelect appropriate assessment methods for different contexts\nUnderstand assumptions underlying each method\nImplement and interpret assessment models\nCommunicate uncertainty appropriately\nValidate model outputs"
+    "objectID": "practical/length_weight_isometric.html#condition-factor-visualization",
+    "href": "practical/length_weight_isometric.html#condition-factor-visualization",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Condition Factor Visualization",
+    "text": "Condition Factor Visualization\nVisualize how condition factor varies with fish size."
   },
   {
-    "objectID": "lectures/course_outline.html#module-6-key-biological-parameters",
-    "href": "lectures/course_outline.html#module-6-key-biological-parameters",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 6: Key Biological Parameters",
-    "text": "MODULE 6: Key Biological Parameters\n\nTopics\n\nGrowth: Von Bertalanffy models, environmental effects\nRecruitment: Spawner-recruit relationships, recruitment variability\n\nClimate drivers of recruitment (oceanographic indices)\nEarly life-stage survival\n\nMortality:\n\nNatural mortality estimation\nFishing mortality and selectivity\nEstimating discard mortality\n\nReproductive biology: Maturity schedules, fecundity, sex ratios\nGenetic population structure: Implications for management boundaries\n\n\n\nVon Bertalanffy Growth Model\n\\[L_t = L_\\infty(1 - e^{-K(t - t_0)})\\]\nWhere: - \\(L_t\\) = length at age t - \\(L_\\infty\\) = asymptotic length - \\(K\\) = growth rate coefficient - \\(t_0\\) = theoretical age at zero length\n\n\nLearning Objectives\n\nEstimate biological parameters from data\nUnderstand environmental effects on biological rates\nApply parameter estimates to population models\nRecognize importance of genetic structure"
+    "objectID": "practical/length_weight_isometric.html#plot-1-condition-factor-vs.-length",
+    "href": "practical/length_weight_isometric.html#plot-1-condition-factor-vs.-length",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Plot 1: Condition factor vs. length",
+    "text": "Plot 1: Condition factor vs. length\n\nplot_cf_length &lt;- k_data %&gt;%\n  ggplot(aes(x = length_cm, y = condition_factor)) +\n  geom_point(size = 3, alpha = 0.6, color = \"#E63946\") +\n  geom_smooth(\n    method = \"loess\",\n    se = TRUE,\n    color = \"#457B9D\",\n    fill = \"#457B9D\",\n    alpha = 0.2,\n    size = 1\n  ) +\n  geom_hline(\n    yintercept = mean(k_data$condition_factor),\n    linetype = \"dashed\",\n    color = \"#2A9D8F\",\n    size = 1\n  ) +\n  theme_bw() +\n  labs(\n    title = \"Condition Factor vs. Fish Length\",\n    subtitle = \"Dashed line indicates mean condition factor\",\n    x = \"Length (cm)\",\n    y = \"Condition Factor (K)\"\n  ) \n\n\nplot_cf_length"
   },
   {
-    "objectID": "lectures/course_outline.html#module-7-environmental-climate-drivers",
-    "href": "lectures/course_outline.html#module-7-environmental-climate-drivers",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 7: Environmental & Climate Drivers",
-    "text": "MODULE 7: Environmental & Climate Drivers\n\nTopics\n\nClimate change impacts on fish stocks:\n\nRange shifts and redistribution\nPhenological changes (timing of spawning, migration)\nOcean acidification effects\n\nOxygen minimum zones: Habitat compression\nEcosystem changes: Regime shifts, regime indicators\nIncorporating environmental covariates in assessment models\nForecasting under climate scenarios\n\n\n\nKey Considerations\n\nClimate impacts are already observable in many stocks\nHabitat availability is a key constraint under climate change\nEnvironmental variables can improve recruitment predictions\nAdaptation requires flexible management frameworks\n\n\n\nLearning Objectives\n\nUnderstand climate impacts on fish populations\nIncorporate environmental data into assessments\nForecast population responses to climate change\nDevelop adaptive management strategies"
+    "objectID": "practical/length_weight_isometric.html#plot-2-distribution-of-condition-factor",
+    "href": "practical/length_weight_isometric.html#plot-2-distribution-of-condition-factor",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Plot 2: Distribution of condition factor",
+    "text": "Plot 2: Distribution of condition factor\n\nplot_cf_dist &lt;- k_data %&gt;%\n  ggplot(aes(x = condition_factor)) +\n  geom_histogram(\n    bins = 15,\n    fill = \"#F4A261\",\n    color = \"#E76F51\",\n    alpha = 0.8\n  ) +\n  geom_vline(\n    xintercept = mean(k_data$condition_factor),\n    linetype = \"dashed\",\n    color = \"#D62828\",\n    size = 1.2,\n    label = \"Mean\"\n  ) +\n  theme_bw() +\n  labs(\n    title = \"Distribution of Condition Factor\",\n    subtitle = \"Red dashed line shows mean condition factor\",\n    x = \"Condition Factor (K)\",\n    y = \"Frequency\"\n  ) \n\nplot_cf_dist"
   },
   {
-    "objectID": "lectures/course_outline.html#module-8-reference-points-harvest-control-rules",
-    "href": "lectures/course_outline.html#module-8-reference-points-harvest-control-rules",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 8: Reference Points & Harvest Control Rules",
-    "text": "MODULE 8: Reference Points & Harvest Control Rules\n\nTopics\n\nBiological reference points:\n\nMSY (Maximum Sustainable Yield) and implications\nProxy reference points (F₀.₁, B₃₅%, etc.)\nEcosystem-based reference points\n\nHarvest control rules (HCR): Logic and application\nRisk assessment: Probability of meeting management objectives\nRebuilding plans: Recovering overfished stocks\nPrecautionary approach: Decision-making under uncertainty\n\n\n\nHarvest Control Rule Example\nIf \\(B &lt; B_{lim}\\): fishing is prohibited\nIf \\(B_{lim} &lt; B &lt; B_{target}\\): fishing mortality decreases linearly with biomass\nIf \\(B &gt; B_{target}\\): fishing mortality set at \\(F_{target}\\)\n\n\nLearning Objectives\n\nDefine appropriate reference points\nDevelop harvest control rules\nAssess risk and probability of meeting objectives\nDesign rebuilding strategies\nApply precautionary approach"
+    "objectID": "practical/length_weight_isometric.html#summary-and-interpretation",
+    "href": "practical/length_weight_isometric.html#summary-and-interpretation",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "Summary and Interpretation",
+    "text": "Summary and Interpretation\nThe analysis demonstrates several key findings:\n\nGrowth Pattern: The slope value (b = 3.11) indicates that the Red Snapper exhibits isometric growth. With b ≈ 3, the fish maintains proportional body shape as it grows, meaning weight increases approximately with the cube of length.\nModel Fit: The R² value of 0.9947 indicates that 99.5% of the variation in weight is explained by length. This is typical for biological length-weight relationships.\nParameter Estimates:\n\na = 0.010804 - This relates to the body condition and shape of the fish\nb = 3.1101 - This scaling exponent is close to 3, confirming isometric growth\n\nFisheries Application: This relationship allows fisheries managers and researchers to:\n\nEstimate biomass from length measurements alone\nMonitor changes in population condition over time\nAssess growth rates and health status\nConvert between length and weight data in stock assessments"
   },
   {
-    "objectID": "lectures/course_outline.html#module-9-management-strategy-evaluation-mse",
-    "href": "lectures/course_outline.html#module-9-management-strategy-evaluation-mse",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 9: Management Strategy Evaluation (MSE)",
-    "text": "MODULE 9: Management Strategy Evaluation (MSE)\n\nTopics\n\nFramework: Simulation of future outcomes under different strategies\nOperating models: Representation of reality\nEstimation models: Assessment methods tested\nManagement procedures: Decision rules\nPerformance evaluation: Trade-offs between objectives\nRobustness testing: Sensitivity to model assumptions\n\n\n\nMSE Components\nOperating Model (True System)\n        ↓\nSimulated Data\n        ↓\nEstimation Model (Assessment)\n        ↓\nManagement Procedure (HCR)\n        ↓\nManagement Action (Harvest Level)\n        ↓\nPopulation Update\n\n\nLearning Objectives\n\nDesign and implement MSE frameworks\nEvaluate management procedure performance\nAssess robustness to uncertainty\nCompare trade-offs between objectives\nSupport decision-making with simulation results"
+    "objectID": "practical/length_weight_isometric.html#references",
+    "href": "practical/length_weight_isometric.html#references",
+    "title": "Length-Weight Relationship Analysis",
+    "section": "References",
+    "text": "References\n\nFroese, R. (2006). Cube law, condition factor and weight-length relationships: History, meta-analysis and recommendations. Journal of Applied Ichthyology, 22(4), 241-253.\nPetitgas, P. (Ed.). (1998). Geostatistics in fisheries survey design and stock assessment. FAO Fisheries Technical Paper No. 368.\nTanzania Fisheries Research Institute (TAFIRI). Length-weight relationships of East African fish species.\n\n\nExercise Date: “2026-01-07”"
   },
   {
-    "objectID": "lectures/course_outline.html#module-10-ecosystem-social-dimensions",
-    "href": "lectures/course_outline.html#module-10-ecosystem-social-dimensions",
+    "objectID": "lectures/length_weight_relationship.html#length-weight-relationship",
+    "href": "lectures/length_weight_relationship.html#length-weight-relationship",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 10: Ecosystem & Social Dimensions",
-    "text": "MODULE 10: Ecosystem & Social Dimensions\n\nTopics\n\nMultispecies interactions:\n\nPredator-prey relationships\nBycatch and discards\nMixed-stock fisheries\n\nEcosystem services: Food security, livelihoods, biodiversity\nSmall-scale fisheries: Challenges and assessment approaches\nEquity and inclusion: Women in fisheries, indigenous knowledge\nTrade-offs: Balancing conservation, economics, and social goals\nStakeholder engagement: Participatory assessment processes\n\n\n\nKey Principles\n\nFish stocks exist within ecosystems\nSustainability requires considering social and economic dimensions\nInclusive decision-making improves outcomes\nLocal knowledge complements scientific assessment\nEquity is a sustainability requirement\n\n\n\nLearning Objectives\n\nUnderstand ecosystem context of single-stock assessments\nAddress social dimensions of fisheries\nEngage stakeholders in assessment and management\nEvaluate trade-offs between objectives\nIncorporate indigenous and local knowledge"
+    "section": "Length-Weight Relationship",
+    "text": "Length-Weight Relationship\nFundamental Concept in Fish Biology"
   },
   {
-    "objectID": "lectures/course_outline.html#module-11-emerging-technologies-future-directions",
-    "href": "lectures/course_outline.html#module-11-emerging-technologies-future-directions",
+    "objectID": "lectures/length_weight_relationship.html#what-is-length-weight-relationship",
+    "href": "lectures/length_weight_relationship.html#what-is-length-weight-relationship",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 11: Emerging Technologies & Future Directions",
-    "text": "MODULE 11: Emerging Technologies & Future Directions\n\nTopics\n\nGenomic tools: Population genetics, parentage analysis, eDNA\nMachine learning: Pattern recognition, species identification, abundance prediction\nRemote sensing: Satellite data for habitat and biomass estimation\nIntegrated observing systems: Real-time ecosystem monitoring\nCitizen science: Community-based monitoring programs\nOpen data platforms: Transparency and reproducibility\n\n\n\nEmerging Opportunities\n\neDNA provides non-invasive population monitoring\nMachine learning identifies patterns in complex datasets\nRemote sensing expands monitoring to remote areas\nAutonomous platforms reduce survey costs\nOpen science improves reproducibility and collaboration\n\n\n\nLearning Objectives\n\nUnderstand capabilities and limitations of new technologies\nEvaluate appropriateness for different contexts\nImplement emerging tools in assessment workflows\nStay current with rapid technological change"
+    "section": "What is Length-Weight Relationship?",
+    "text": "What is Length-Weight Relationship?\nDefinition: The mathematical relationship between fish body length and body weight\nKey Idea: - Longer fish are generally heavier - But the relationship is NOT linear - Weight increases with the cube of length (cubic relationship) - Different species have different relationships\nWhy Important: - Convert length measurements to biomass - Assess fish condition and health - Estimate population biomass from length data - Understand growth patterns"
   },
   {
-    "objectID": "lectures/course_outline.html#module-12-case-studies-applications",
-    "href": "lectures/course_outline.html#module-12-case-studies-applications",
+    "objectID": "lectures/length_weight_relationship.html#the-allometric-equation",
+    "href": "lectures/length_weight_relationship.html#the-allometric-equation",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "MODULE 12: Case Studies & Applications",
-    "text": "MODULE 12: Case Studies & Applications\n\nTopics\n\nRegional assessments: Contrasting examples (developed vs. developing countries)\nHigh-value species: Tuna, salmon, cod assessments\nData-limited stocks: Tropical and small-scale fisheries\nRebuilding successes and failures: Learning from experience\nEmerging challenges: IUU fishing, marine plastics, coral ecosystem collapse\n\n\n\nCase Study Examples\n\nAtlantic cod collapse and recovery efforts\nTuna stock assessments across ocean basins\nSmall pelagic fisheries (anchoveta) in Peru\nData-limited tropical reef fisheries\nEndangered salmon populations in the Pacific Northwest\n\n\n\nLearning Objectives\n\nApply assessment methods to real-world situations\nLearn from successes and failures\nDevelop context-appropriate solutions\nCommunicate scientific findings to managers and public"
+    "section": "The Allometric Equation",
+    "text": "The Allometric Equation\nStandard Length-Weight Formula:\n\\[W = aL^b\\]\nWhere:\n\n\\(W\\) = weight (grams or kilograms)\n\\(L\\) = length (centimeters or millimeters)\n\\(a\\) = intercept (scale factor)\n\\(b\\) = slope (exponent, typically 2.5-3.5)\n\nLogarithmic Form (for linear regression):\n\\[\\log(W) = \\log(a) + b \\cdot \\log(L)\\]"
   },
   {
-    "objectID": "lectures/course_outline.html#course-learning-outcomes",
-    "href": "lectures/course_outline.html#course-learning-outcomes",
+    "objectID": "lectures/length_weight_relationship.html#understanding-the-parameters",
+    "href": "lectures/length_weight_relationship.html#understanding-the-parameters",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Course Learning Outcomes",
-    "text": "Course Learning Outcomes\nBy the end of this course, students will be able to:\n\nUnderstand and apply population dynamics principles to fish stocks\nDesign and implement data collection programs appropriate to context\nConduct stock assessments using appropriate methods for available data\nInterpret results and communicate uncertainty effectively\nEvaluate management strategies using Management Strategy Evaluation\nConsider ecosystem and social impacts of fishing decisions\nAddress climate change impacts on fisheries and adaptation strategies\nApply modern tools (eDNA, remote sensing, machine learning)\nWork with diverse stakeholders in assessment and management\nContribute to sustainable fisheries management globally"
+    "section": "Understanding the Parameters",
+    "text": "Understanding the Parameters\nWhat does ‘a’ mean?\n\nScale factor or intercept\nRepresents the weight when length = 1 unit\nSpecies-specific (different species have different values)\nRelated to fish condition and body shape\nHeavier fish species have larger ‘a’ values\n\nExample: - Nile Perch: \\(a ≈ 0.0098\\) (robust body) - Cichlid: \\(a ≈ 0.005\\) (slender body) - Same length, different weight due to different ‘a’"
   },
   {
-    "objectID": "lectures/course_outline.html#course-structure-delivery",
-    "href": "lectures/course_outline.html#course-structure-delivery",
+    "objectID": "lectures/length_weight_relationship.html#understanding-the-parameters-1",
+    "href": "lectures/length_weight_relationship.html#understanding-the-parameters-1",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Course Structure & Delivery",
-    "text": "Course Structure & Delivery\n\nLearning Activities\n\nLectures: Concept presentations and discussions\nPractical exercises: Hands-on data analysis and modeling\nCase studies: Real-world application examples\nGroup projects: Collaborative assessment and problem-solving\nStakeholder engagement: Interaction with fisheries professionals\nField components: Where possible, observations of fisheries\n\n\n\nAssessment\n\nParticipation: Engagement in discussions and activities\nAssignments: Problem sets and data analysis exercises\nProject work: Development of assessment framework\nFinal examination: Comprehensive understanding assessment"
+    "section": "Understanding the Parameters…",
+    "text": "Understanding the Parameters…\nWhat does ‘b’ mean?\n\nExponent or slope\nDetermines how weight scales with length\nTypical range: 2.5 to 3.5\n\nInterpretation:\n\n\n\n\n\n\n\nb value\nMeaning\n\n\n\n\nb = 3\nIsometric growth - Perfect cubic relationship\n\n\nb &gt; 3\nAllometric growth (positive) - Fish gets proportionally heavier as it grows\n\n\nb &lt; 3\nAllometric growth (negative) - Fish gets proportionally lighter as it grows\n\n\n\nWhy b ≈ 3? - Volume (and weight) of a 3D object increases with cube of length - A fish that doubles in length becomes ~8× heavier (\\(2^3 = 8\\))"
   },
   {
-    "objectID": "lectures/course_outline.html#recommended-textbooks-references",
-    "href": "lectures/course_outline.html#recommended-textbooks-references",
+    "objectID": "lectures/length_weight_relationship.html#graphical-representation",
+    "href": "lectures/length_weight_relationship.html#graphical-representation",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Recommended Textbooks & References",
-    "text": "Recommended Textbooks & References\n\nPrimary References\n\nQuinn, T. J., & Deriso, R. B. (1999). Quantitative Fish Dynamics. Oxford University Press.\nHilborn, R., & Walters, C. J. (1992). Quantitative Fisheries Stock Assessment. Chapman & Hall.\nMaunder, M. N., & Punt, A. E. (2004). Standardizing catch and effort data: a review of recent approaches. Fisheries Research, 70(2-3), 141-159.\n\n\n\nSupplementary Resources\n\nPetitgas, P. (1998). Geostatistics in fisheries survey design and stock assessment. FAO Fisheries Technical Paper 368.\nFAO (2023). Fisheries and Aquaculture Global Practice - Stock Assessment.\nNOAA Fisheries Stock Assessment Workshop (SAWG) documents\nInternational Council for the Exploration of the Sea (ICES) guidelines\n\n\n\nOpen Access Resources\n\nFishBase (www.fishbase.org)\nSeaLifeBase (www.sealifebase.org)\nICES Stock Assessment WG reports\nUN FAO Fisheries Statistics"
+    "section": "Graphical Representation",
+    "text": "Graphical Representation\n\n  \n  \n  \n  \n  Length-Weight Relationship\n  \n  \n  \n  \n  \n  \n  Length (cm)\n  Weight (g)\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  10\n  20\n  40\n  60\n  \n  0\n  50\n  100\n  150\n  \n  \n  \n  W = aL^b\n  Example: Nile Perch\n  a = 0.0098\n  b = 3.06\n  (Isometric)\n  \n  \n  Non-linear\n  cubic curve\n\nKey Features: - Curved relationship (not straight line) - Accelerating weight gain with increasing length - Small fish weight gain slower than large fish - Data points follow smooth curve"
   },
   {
-    "objectID": "lectures/course_outline.html#prerequisites",
-    "href": "lectures/course_outline.html#prerequisites",
+    "objectID": "lectures/length_weight_relationship.html#isometric-vs.-allometric-growth",
+    "href": "lectures/length_weight_relationship.html#isometric-vs.-allometric-growth",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Prerequisites",
-    "text": "Prerequisites\n\nBasic statistics (hypothesis testing, regression)\nIntroduction to biology and ecology\nQuantitative reasoning skills\nFamiliarity with spreadsheets or programming (R/Python beneficial)"
+    "section": "Isometric vs. Allometric Growth",
+    "text": "Isometric vs. Allometric Growth\nIsometric Growth (b = 3)\n\nFish maintains same body shape as it grows\nWeight increases exactly with cube of length\nFish becomes equally “robust” at all sizes\nLength ratio 2:1 → Weight ratio 8:1\n\nExample: Most fish with uniform body proportions\nPositive Allometric (b &gt; 3)\n\nFish gets relatively heavier as it grows\nBecomes more robust/muscular with age\nWeight increases faster than cubic relationship\nFish condition improves with size\n\nExample: Nile Perch (b ≈ 3.1)\nNegative Allometric (b &lt; 3)\n\nFish gets relatively lighter as it grows\nBody proportions change (e.g., becomes more elongated)\nWeight increases slower than cubic relationship\nFish condition declines with size\n\nExample: Some eels, very elongated fish"
   },
   {
-    "objectID": "lectures/course_outline.html#course-information",
-    "href": "lectures/course_outline.html#course-information",
+    "objectID": "lectures/length_weight_relationship.html#estimating-length-weight-parameters",
+    "href": "lectures/length_weight_relationship.html#estimating-length-weight-parameters",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Course Information",
-    "text": "Course Information\nInstructor: Nyamisi Peter\nDuration: One semester\nCredits: [Variable by institution]\nMeeting Times: [To be scheduled]\nOffice Hours: [To be scheduled]\nContact: [Email to be provided]\n\nLast updated: December 2025"
+    "section": "Estimating Length-Weight Parameters",
+    "text": "Estimating Length-Weight Parameters\nStep 1: Collect Data - Measure length (L) of fish - Measure weight (W) of same fish - Collect multiple specimens across size range - Minimum 20-30 observations (more is better)\nStep 2: Transform Data - Calculate: \\(\\log(W)\\) and \\(\\log(L)\\) - Creates linear relationship for regression\nStep 3: Linear Regression - Plot \\(\\log(W)\\) vs \\(\\log(L)\\) - Fit line: \\(\\log(W) = \\log(a) + b \\cdot \\log(L)\\) - Extract slope (b) and intercept (\\(\\log(a)\\))\nStep 4: Back-Transform - \\(a = 10^{\\text{intercept}}\\) - Use fitted equation: \\(W = aL^b\\)"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#example-calculation-nile-perch",
+    "href": "lectures/length_weight_relationship.html#example-calculation-nile-perch",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Example Calculation: Nile Perch",
+    "text": "Example Calculation: Nile Perch\nSample Data from Lake Victoria Nile Perch:\n\n\n\nLength (cm)\nWeight (g)\nlog(L)\nlog(W)\n\n\n\n\n10\n5.0\n1.000\n0.699\n\n\n20\n42\n1.301\n1.623\n\n\n30\n145\n1.477\n2.161\n\n\n50\n800\n1.699\n2.903\n\n\n80\n3500\n1.903\n3.544\n\n\n120\n12000\n2.079\n4.079\n\n\n\nLinear Regression Result: - Intercept: -2.006 - Slope (b): 3.06 - \\(a = 10^{-2.006} ≈ 0.0098\\)\nFinal Equation: \\[W = 0.0098 \\times L^{3.06}\\]"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#interpreting-nile-perch-relationship",
+    "href": "lectures/length_weight_relationship.html#interpreting-nile-perch-relationship",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Interpreting Nile Perch Relationship",
+    "text": "Interpreting Nile Perch Relationship\nUsing the equation: \\(W = 0.0098 L^{3.06}\\)\nExamples:\n\nLength 20 cm: \\(W = 0.0098 × 20^{3.06} ≈ 45\\) g\nLength 50 cm: \\(W = 0.0098 × 50^{3.06} ≈ 825\\) g\nLength 100 cm: \\(W = 0.0098 × 100^{3.06} ≈ 9,900\\) g (≈10 kg)\nLength 150 cm: \\(W = 0.0098 × 150^{3.06} ≈ 33,000\\) g (≈33 kg)\n\nObservation: - At 20 cm: roughly 45 g - At 100 cm (5× longer): roughly 9.9 kg (220× heavier!) - Shows explosive weight gain with length"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#applications-in-fisheries",
+    "href": "lectures/length_weight_relationship.html#applications-in-fisheries",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Applications in Fisheries",
+    "text": "Applications in Fisheries\n1. Converting Length to Biomass\nProblem: We measure lengths from catches, but need biomass for assessment\nSolution: Use length-weight equation - Measure all fish lengths - Apply equation to get individual weights - Sum for total biomass estimate\nExample Lake Victoria: - Catch: 1000 fish of various lengths - Use L-W equation to get total weight in kg - Compare to previous months/years\n2. Stock Assessment from Length Data\nLBSPR and length-based methods need: - Growth parameters (from Von Bertalanffy) - Length distribution (from catch samples) - Length-weight relationship (to convert to biomass)\nWithout L-W equation, cannot estimate stock biomass from lengths\n3. Fish Condition Index\nCondition Factor (K): \\[K = \\frac{W \\text{ (observed)}}{W \\text{ (expected from equation)}} × 100\\]\n\nK = 100: Fish in expected condition\nK &gt; 100: Fish in better condition (healthier)\nK &lt; 100: Fish in poor condition (underfed/stressed)\n\nIndicates nutritional status and environmental health"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#factors-affecting-length-weight-relationship",
+    "href": "lectures/length_weight_relationship.html#factors-affecting-length-weight-relationship",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Factors Affecting Length-Weight Relationship",
+    "text": "Factors Affecting Length-Weight Relationship\n\n\nBiological Factors: - Sex - Males vs females may differ - Maturity - Mature fish different body shape - Season - Weight varies with reproductive cycle - Nutrition - Well-fed vs starving - Health - Disease affects weight - Age - Older fish may have different slope\n\nEnvironmental Factors: - Water temperature - Affects metabolism - Food availability - Impacts growth - Habitat quality - Influences body condition - Fishing pressure - Selective harvesting - Population density - Competition effects - Salinity - Freshwater vs marine\n\nManagement Implication: - L-W relationship may change over time - Periodic recalibration recommended - Use recent data for accurate estimates"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#species-specific-variations",
+    "href": "lectures/length_weight_relationship.html#species-specific-variations",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Species-Specific Variations",
+    "text": "Species-Specific Variations\nComparative Length-Weight Parameters:\n\n\n\nSpecies\nLake\na\nb\nShape\n\n\n\n\nNile Perch\nVictoria\n0.0098\n3.06\nRobust\n\n\nTilapia\nVarious\n0.0150\n3.00\nBalanced\n\n\nCichlid\nVictoria\n0.0050\n3.05\nSlender\n\n\nCatfish\nAfrican\n0.0080\n3.10\nElongated\n\n\n\nKey Observation: - Different species have very different ‘a’ values - ‘b’ values usually 2.8-3.2 (mostly isometric) - Cannot use one species’ equation for another!"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#data-quality-issues",
+    "href": "lectures/length_weight_relationship.html#data-quality-issues",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Data Quality Issues",
+    "text": "Data Quality Issues\n\n\nCommon Problems:\n\nMeasurement Errors\n\nInconsistent length measurement\nDifferent length types (total vs standard)\nRounding errors\n\nWeighing Issues\n\nScale calibration errors\nWet vs. dry weight confusion\nInternal organ removal\n\nSample Bias\n\nOnly large fish measured\nSex or maturity bias\nSeasonal collection\n\n\n\nQuality Control:\n✓ Use consistent measurement methods ✓ Calibrate scales regularly ✓ Document measurement procedures ✓ Sample across size ranges ✓ Check for outliers ✓ Plot data visually ✓ Report R² and sample size ✓ Use multiple specimens"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#practical-example-lake-victoria-assessment",
+    "href": "lectures/length_weight_relationship.html#practical-example-lake-victoria-assessment",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Practical Example: Lake Victoria Assessment",
+    "text": "Practical Example: Lake Victoria Assessment\nScenario: Estimating Nile Perch catch biomass from market samples\nStep 1: Collect Sample - 200 fish from daily market catch - Measure length and weight for 50 representatives\nStep 2: Establish Relationship - Fit L-W equation: \\(W = 0.0098 L^{3.06}\\) - Check fit quality (R² should be &gt;0.95)\nStep 3: Apply to All Fish - Measure length of all 200 fish - Apply equation to get individual weights - Calculate total catch weight\nStep 4: Compare Over Time - Repeat process monthly - Track catch biomass trends - Identify if stock declining or stable\nStep 5: Management Decision - Declining catch biomass → Reduce fishing - Stable/increasing → Current harvest sustainable"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#summary-key-points",
+    "href": "lectures/length_weight_relationship.html#summary-key-points",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Summary: Key Points",
+    "text": "Summary: Key Points\n\n\nEquation: \\[W = aL^b\\]\nParameters: - a = body shape factor - b = growth pattern (usually ≈3)\nKey Concept: - Weight scales with cube of length - 2× longer = 8× heavier (approximately)\n\nApplications: ✓ Length → Biomass conversion ✓ Fish condition assessment ✓ Stock assessment calculations ✓ Fisheries management\nImportant: ⚠ Species-specific ⚠ Varies by sex/maturity ⚠ Changes seasonally ⚠ Requires periodic updates"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#r-code-example",
+    "href": "lectures/length_weight_relationship.html#r-code-example",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "R Code Example",
+    "text": "R Code Example"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#discussion-questions",
+    "href": "lectures/length_weight_relationship.html#discussion-questions",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nWhy does the length-weight relationship follow a cubic pattern (b ≈ 3)?\nHow would you explain the difference between isometric and allometric growth to fishery managers?\nWhy is it important to update length-weight relationships periodically?\nHow would changes in fish condition (well-fed vs. starving) affect the ‘a’ parameter?\nWhat would be the implications of using wrong L-W parameters in a stock assessment?"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#next-steps",
+    "href": "lectures/length_weight_relationship.html#next-steps",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Next Steps",
+    "text": "Next Steps\nPractice Activities: - Collect length-weight data for local species - Fit your own L-W relationship - Calculate condition factors - Compare parameters across species\nFurther Reading: - Fisheries science literature on allometry - Species-specific L-W parameters (fishbase.org) - Stock assessment applications\nConnection to Course: - Foundation for length-based assessments (LBSPR) - Essential for biomass estimation - Key input to population models"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#resources-references",
+    "href": "lectures/length_weight_relationship.html#resources-references",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Resources & References",
+    "text": "Resources & References\nKey References:\n\nFroese, R. (2006). “Cube law, condition factor and weight-length relationships: History, meta-analysis and recommendations”\nWootton, R.J. (1990). Ecology of Teleost Fishes - Chapter on growth and body form\nFishBase (www.fishbase.org) - Comprehensive L-W parameters by species\n\nSoftware: - R packages: FSA, TropFishR - Excel spreadsheets for simple calculations - Online L-W calculators"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#introduction",
+    "href": "lectures/6_methods_stock_abundance.html#introduction",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Introduction",
+    "text": "Introduction\n\nEstimating fish stock abundance is crucial for sustainable fisheries management.\nVarious methods exist, each with strengths and limitations.\nChoice of method depends on species, habitat, data availability, and resources."
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#categories-of-methods",
+    "href": "lectures/6_methods_stock_abundance.html#categories-of-methods",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Categories of Methods",
+    "text": "Categories of Methods\n1. Direct Methods (Surveys)\n\nTrawl surveys, acoustic surveys, visual surveys\nProvide absolute or relative abundance estimates\nRequire dedicated research vessels and equipment\n\n2. Indirect Methods (Fishery-Dependent)\n\nCPUE, mark-recapture, depletion methods\nUse commercial fishery data\nCost-effective but subject to biases\n\n3. Statistical Models\n\nVirtual Population Analysis, integrated models\nCombine multiple data sources\nRequire specialized software and expertise"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#trawl-surveys",
+    "href": "lectures/6_methods_stock_abundance.html#trawl-surveys",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "1. Trawl Surveys",
+    "text": "1. Trawl Surveys\nPrinciple:\n\nSystematic bottom or mid-water trawling in a grid pattern\nStandardized vessels, gear, and protocols ensure comparability\nProvides age/size composition data\n\nTypes:\n\nBottom trawl - Demersal species (snappers, groupers, flatfish)\nMid-water trawl - Pelagic species (sardines, herring)"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#trawl-surveys-procedure",
+    "href": "lectures/6_methods_stock_abundance.html#trawl-surveys-procedure",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Trawl Surveys: Procedure",
+    "text": "Trawl Surveys: Procedure\n\nDivide survey area into strata (depth, habitat)\nRandomly select stations within each stratum\nTow standardized gear for fixed time/distance\nRecord catch by species, measure length/weight\nCalculate swept area and expand to total area\n\nSwept Area Method:\n\\[B = \\frac{C}{a \\times e}\\]\nWhere:\n\n\\(B\\) = Biomass estimate\n\\(C\\) = Catch weight\n\\(a\\) = Swept area (width × distance)\n\\(e\\) = Catchability coefficient"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#trawl-surveys-advantages-disadvantages",
+    "href": "lectures/6_methods_stock_abundance.html#trawl-surveys-advantages-disadvantages",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Trawl Surveys: Advantages & Disadvantages",
+    "text": "Trawl Surveys: Advantages & Disadvantages\n\n\nAdvantages:\n\nDirect observation of stock\nProvides biological data (age, sex, maturity)\nStandardized for time-series comparison\nSpecies composition data\n\n\nDisadvantages:\n\nExpensive (vessel, crew, equipment)\nGear selectivity (misses small/large fish)\nFish avoidance behavior\nLimited to trawlable habitats\nWeather dependent"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#acoustic-surveys",
+    "href": "lectures/6_methods_stock_abundance.html#acoustic-surveys",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "2. Acoustic Surveys",
+    "text": "2. Acoustic Surveys\nPrinciple:\n\nSound waves detect fish schools through differences in density\nEchosounders transmit pulses and measure returns\nReturns converted to fish density estimates\n\nTechnology:\n\nSingle-beam echosounders\nSplit-beam echosounders (more accurate)\nMultibeam systems for 3D mapping\nAutonomous underwater vehicles (AUVs)"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#acoustic-surveys-target-strength",
+    "href": "lectures/6_methods_stock_abundance.html#acoustic-surveys-target-strength",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Acoustic Surveys: Target Strength",
+    "text": "Acoustic Surveys: Target Strength\nTarget Strength (TS):\n\nMeasure of acoustic reflectivity (in decibels, dB)\nRelates to fish size and species\nMust be calibrated for reliable estimates\n\n\\[TS = 20 \\log_{10}(L) + b_{20}\\]\nWhere:\n\n\\(L\\) = Fish length (cm)\n\\(b_{20}\\) = Species-specific constant\n\nExample values:\n\nHerring: \\(b_{20}\\) ≈ -71.9 dB\nSardine: \\(b_{20}\\) ≈ -72.6 dB"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#acoustic-surveys-advantages-disadvantages",
+    "href": "lectures/6_methods_stock_abundance.html#acoustic-surveys-advantages-disadvantages",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Acoustic Surveys: Advantages & Disadvantages",
+    "text": "Acoustic Surveys: Advantages & Disadvantages\n\n\nAdvantages:\n\nRapid spatial coverage\nNon-lethal to fish\nGood for pelagic schooling species\nReal-time data collection\nCan estimate size distribution\n\n\nDisadvantages:\n\nSpecies identification challenging\nNear-surface blind zone\nBottom detection issues\nExpensive equipment\nRequires calibration\nEnvironmental noise interference"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#visual-surveys",
+    "href": "lectures/6_methods_stock_abundance.html#visual-surveys",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "3. Visual Surveys",
+    "text": "3. Visual Surveys\nMethods:\n\nUnderwater Visual Census (UVC) - Divers count fish along transects\nVideo surveys - Remote cameras or ROVs\nAerial surveys - Aircraft observation of surface schools\n\nApplications:\n\nReef fish communities\nShallow coastal waters\nClear water environments\nSurface schooling species (tuna, sardines)"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#visual-surveys-underwater-methods",
+    "href": "lectures/6_methods_stock_abundance.html#visual-surveys-underwater-methods",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Visual Surveys: Underwater Methods",
+    "text": "Visual Surveys: Underwater Methods\nBelt Transect Method:\n\nDiver swims along fixed transect (e.g., 50 m × 5 m)\nRecords all fish within belt width\nEstimates size classes\nMultiple transects per site\n\nPoint Count Method:\n\nDiver remains stationary\nCounts fish within cylinder (e.g., 7.5 m radius)\nRecords species, size, abundance\nLess affected by fish flight behavior"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#visual-surveys-advantages-disadvantages",
+    "href": "lectures/6_methods_stock_abundance.html#visual-surveys-advantages-disadvantages",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Visual Surveys: Advantages & Disadvantages",
+    "text": "Visual Surveys: Advantages & Disadvantages\n\n\nAdvantages:\n\nDirect observation\nSpecies identification possible\nBehavioral information\nRelatively low cost\nGood for complex habitats (reefs)\n\n\nDisadvantages:\n\nLimited to clear, shallow water\nWeather and visibility dependent\nObserver bias\nDiver safety concerns\nSmall spatial coverage\nFish behavior affects counts"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#catch-per-unit-effort-cpue",
+    "href": "lectures/6_methods_stock_abundance.html#catch-per-unit-effort-cpue",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "4. Catch Per Unit Effort (CPUE)",
+    "text": "4. Catch Per Unit Effort (CPUE)\nDefinition:\n\nCPUE is catch obtained per standardized unit of fishing effort\nUsed as an index of abundance (relative, not absolute)\n\nFormula:\n\\[\\text{CPUE} = \\frac{\\text{Total Catch}}{\\text{Total Effort}}\\]\nEffort units:\n\nFishing hours or days at sea\nNumber of hooks (longline)\nNet length × soak time (gillnet)\nNumber of traps × soak time\nDistance trawled"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#cpue-standardization",
+    "href": "lectures/6_methods_stock_abundance.html#cpue-standardization",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "CPUE: Standardization",
+    "text": "CPUE: Standardization\nWhy standardize?\n\nRaw CPUE affected by many factors unrelated to abundance\nMust remove confounding effects for reliable trends\n\nFactors to standardize:\n\nVessel characteristics (size, power, technology)\nGear type and configuration\nSeasonal effects\nGeographic area\nEnvironmental variables (SST, depth)\n\nMethods:\n\nGeneralized Linear Models (GLM)\nGeneralized Additive Models (GAM)\nDelta-lognormal models (for zero catches)"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#cpue-advantages-disadvantages",
+    "href": "lectures/6_methods_stock_abundance.html#cpue-advantages-disadvantages",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "CPUE: Advantages & Disadvantages",
+    "text": "CPUE: Advantages & Disadvantages\n\n\nAdvantages:\n\nUses existing commercial data\nCost-effective\nLong time series available\nLarge spatial coverage\nReal-time updates possible\n\n\nDisadvantages:\n\nAffected by fisher behavior\nHyperstability (targeting)\nTechnology changes over time\nAssumes effort is independent\nMay not reflect true abundance\nReporting biases"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#mark-recapture-methods",
+    "href": "lectures/6_methods_stock_abundance.html#mark-recapture-methods",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "5. Mark-Recapture Methods",
+    "text": "5. Mark-Recapture Methods\nPrinciple:\n\nCapture, mark, and release known number of fish (\\(M\\))\nAllow time for marked fish to mix with population\nRecapture a sample (\\(C\\))\nCount marked individuals in recapture (\\(R\\))\nEstimate population size\n\nAssumptions:\n\nClosed population (no births, deaths, migration)\nMarks are not lost or overlooked\nMarked and unmarked fish have equal capture probability\nMarks do not affect survival"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#mark-recapture-lincoln-petersen-method",
+    "href": "lectures/6_methods_stock_abundance.html#mark-recapture-lincoln-petersen-method",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Mark-Recapture: Lincoln-Petersen Method",
+    "text": "Mark-Recapture: Lincoln-Petersen Method\nFormula:\n\\[\\hat{N} = \\frac{M \\times C}{R}\\]\nWhere:\n\n\\(\\hat{N}\\) = Estimated population size\n\\(M\\) = Number marked and released\n\\(C\\) = Total number in recapture sample\n\\(R\\) = Number of marked fish recaptured\n\nChapman’s Modification (reduces bias):\n\\[\\hat{N} = \\frac{(M + 1)(C + 1)}{R + 1} - 1\\]"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#mark-recapture-example",
+    "href": "lectures/6_methods_stock_abundance.html#mark-recapture-example",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Mark-Recapture: Example",
+    "text": "Mark-Recapture: Example\nProblem:\n\n500 tilapia are captured, marked, and released in Lake Victoria\nOne week later, 200 fish are recaptured\nOf these, 25 have marks\n\nSolution:\n\\[\\hat{N} = \\frac{M \\times C}{R} = \\frac{500 \\times 200}{25} = 4,000 \\text{ fish}\\]\nChapman’s estimate:\n\\[\\hat{N} = \\frac{(501)(201)}{26} - 1 = 3,872 \\text{ fish}\\]"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#mark-recapture-multiple-recapture-methods",
+    "href": "lectures/6_methods_stock_abundance.html#mark-recapture-multiple-recapture-methods",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Mark-Recapture: Multiple Recapture Methods",
+    "text": "Mark-Recapture: Multiple Recapture Methods\nSchnabel Method:\n\nMultiple capture-recapture events\nMore precise than single event\nFormula uses cumulative marked fish\n\nJolly-Seber Method:\n\nFor open populations (allows births, deaths, migration)\nEstimates survival rates and recruitment\nRequires multiple sampling occasions\n\nCormack-Jolly-Seber (CJS):\n\nFocuses on survival estimation\nUsed when only recaptures (not population size) is of interest"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#mark-recapture-advantages-disadvantages",
+    "href": "lectures/6_methods_stock_abundance.html#mark-recapture-advantages-disadvantages",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Mark-Recapture: Advantages & Disadvantages",
+    "text": "Mark-Recapture: Advantages & Disadvantages\n\n\nAdvantages:\n\nDirect abundance estimate\nProvides movement information\nEstimates survival rates\nUseful for discrete populations\n\n\nDisadvantages:\n\nTagging stress and mortality\nTag loss or shedding\nExpensive and labor-intensive\nAssumption violations common\nLimited to feasible population sizes"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#depletion-methods",
+    "href": "lectures/6_methods_stock_abundance.html#depletion-methods",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "6. Depletion Methods",
+    "text": "6. Depletion Methods\nPrinciple:\n\nRepeated fishing removes fish from a closed population\nDeclining catch rate indicates initial abundance\nAssumes constant catchability\n\nLeslie Method:\n\\[C_t = qN_0 - q\\sum_{i=1}^{t-1}C_i\\]\nWhere:\n\n\\(C_t\\) = Catch in period \\(t\\)\n\\(q\\) = Catchability coefficient\n\\(N_0\\) = Initial population size\nPlot \\(C_t\\) vs. cumulative catch; intercept = \\(N_0\\)"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#depletion-methods-delury-method",
+    "href": "lectures/6_methods_stock_abundance.html#depletion-methods-delury-method",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Depletion Methods: DeLury Method",
+    "text": "Depletion Methods: DeLury Method\nFormula:\n\\[\\ln(\\text{CPUE}_t) = \\ln(qN_0) - q\\sum_{i=1}^{t-1}f_i\\]\nWhere:\n\n\\(f_i\\) = Fishing effort in period \\(i\\)\nPlot \\(\\ln(\\text{CPUE})\\) vs. cumulative effort\nSlope = \\(-q\\), intercept = \\(\\ln(qN_0)\\)\n\nRequirements:\n\nClosed population during study\nSignificant removal (&gt;30% of stock)\nShort time period\nConstant catchability"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#depletion-methods-advantages-disadvantages",
+    "href": "lectures/6_methods_stock_abundance.html#depletion-methods-advantages-disadvantages",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Depletion Methods: Advantages & Disadvantages",
+    "text": "Depletion Methods: Advantages & Disadvantages\n\n\nAdvantages:\n\nSimple data requirements\nUses commercial fishing data\nProvides absolute estimate\nQuick results\n\n\nDisadvantages:\n\nRequires closed population\nNeeds significant depletion\nAssumes constant catchability\nNot suitable for mobile species\nShort-term application only"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#egg-and-larval-surveys",
+    "href": "lectures/6_methods_stock_abundance.html#egg-and-larval-surveys",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "7. Egg and Larval Surveys",
+    "text": "7. Egg and Larval Surveys\nPrinciple:\n\nSample ichthyoplankton (fish eggs and larvae)\nEstimate spawning stock biomass from egg production\n\nDaily Egg Production Method (DEPM):\n\\[SSB = \\frac{P_0 \\times A}{R \\times S \\times F}\\]\nWhere:\n\n\\(P_0\\) = Daily egg production per unit area\n\\(A\\) = Spawning area\n\\(R\\) = Sex ratio (proportion female)\n\\(S\\) = Spawning fraction (proportion spawning per day)\n\\(F\\) = Batch fecundity (eggs per spawning female)"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#egglarval-surveys-applications",
+    "href": "lectures/6_methods_stock_abundance.html#egglarval-surveys-applications",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Egg/Larval Surveys: Applications",
+    "text": "Egg/Larval Surveys: Applications\nBest suited for:\n\nSpecies with pelagic eggs (sardines, anchovies, cod)\nSpawning aggregations\nWhen adult surveys are difficult\n\nRequirements:\n\nKnowledge of spawning season and area\nFecundity estimates\nEgg development rates (temperature-dependent)\nEgg mortality rates"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#virtual-population-analysis-vpa",
+    "href": "lectures/6_methods_stock_abundance.html#virtual-population-analysis-vpa",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "8. Virtual Population Analysis (VPA)",
+    "text": "8. Virtual Population Analysis (VPA)\nPrinciple:\n\nBack-calculate population numbers from catch-at-age data\nUses cohort analysis (track year-classes through time)\nRequires age-structured catch data\n\nBasic Equation:\n\\[N_{a-1,t-1} = (N_{a,t} + C_{a,t}) \\times e^{M}\\]\nWhere:\n\n\\(N_{a,t}\\) = Numbers at age \\(a\\) in year \\(t\\)\n\\(C_{a,t}\\) = Catch at age \\(a\\) in year \\(t\\)\n\\(M\\) = Natural mortality rate"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#vpa-procedure",
+    "href": "lectures/6_methods_stock_abundance.html#vpa-procedure",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "VPA: Procedure",
+    "text": "VPA: Procedure\n\nStart with terminal year estimates (most recent)\nAssume terminal fishing mortality (\\(F\\))\nBack-calculate numbers using catch and mortality\nIterate until convergence\n\nAdvantages:\n\nUses readily available catch data\nProvides age-specific estimates\nLong time series possible\n\nDisadvantages:\n\nRequires accurate age data\nSensitive to terminal \\(F\\) assumptions\nLess reliable for recent years\nNeeds natural mortality estimate"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#integrated-assessment-models",
+    "href": "lectures/6_methods_stock_abundance.html#integrated-assessment-models",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "9. Integrated Assessment Models",
+    "text": "9. Integrated Assessment Models\nPrinciple:\n\nCombine multiple data sources in single framework\nFit population model to all available data\nMaximize information use\n\nCommon Software:\n\nStock Synthesis (SS3) - NOAA, widely used globally\nCASAL - New Zealand, age-structured\nADMB - Automatic differentiation for optimization\nTMB - Template Model Builder (R-based)"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#integrated-models-data-sources",
+    "href": "lectures/6_methods_stock_abundance.html#integrated-models-data-sources",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Integrated Models: Data Sources",
+    "text": "Integrated Models: Data Sources\nData integrated:\n\nCommercial catch (total, by fleet)\nCPUE indices (multiple fleets/surveys)\nAge/length composition\nSurvey biomass indices\nTagging data\nGrowth parameters\nMaturity schedules\n\nAdvantages:\n\nUses all available information\nAccounts for data uncertainty\nConsistent parameter estimates\nUncertainty quantification"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#bayesian-methods",
+    "href": "lectures/6_methods_stock_abundance.html#bayesian-methods",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "10. Bayesian Methods",
+    "text": "10. Bayesian Methods\nPrinciple:\n\nIncorporate prior knowledge with observed data\nProduce posterior distributions of parameters\nBetter uncertainty quantification\n\nBayes’ Theorem:\n\\[P(\\theta|data) = \\frac{P(data|\\theta) \\times P(\\theta)}{P(data)}\\]\nWhere:\n\n\\(P(\\theta|data)\\) = Posterior probability of parameters\n\\(P(data|\\theta)\\) = Likelihood of data given parameters\n\\(P(\\theta)\\) = Prior probability of parameters"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#bayesian-methods-applications",
+    "href": "lectures/6_methods_stock_abundance.html#bayesian-methods-applications",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Bayesian Methods: Applications",
+    "text": "Bayesian Methods: Applications\nAdvantages:\n\nFormal incorporation of prior knowledge\nFull uncertainty quantification\nDecision-making under uncertainty\nWorks with limited data\n\nSoftware:\n\nJAGS - Just Another Gibbs Sampler\nStan - Hamiltonian Monte Carlo\nOpenBUGS - Bayesian inference\nR packages - rstan, brms, rstanarm"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#comparison-of-methods",
+    "href": "lectures/6_methods_stock_abundance.html#comparison-of-methods",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Comparison of Methods",
+    "text": "Comparison of Methods\n\n\n\nMethod\nData Needs\nCost\nPrecision\nBest For\n\n\n\n\nTrawl survey\nHigh\nHigh\nHigh\nDemersal species\n\n\nAcoustic\nMedium\nHigh\nMedium\nPelagic schools\n\n\nVisual\nLow\nLow\nLow\nReef fish\n\n\nCPUE\nMedium\nLow\nMedium\nCommercial stocks\n\n\nMark-recapture\nMedium\nMedium\nMedium\nDiscrete populations\n\n\nDepletion\nLow\nLow\nLow\nClosed populations\n\n\nVPA\nHigh\nLow\nHigh\nLong time series"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#choosing-the-right-method",
+    "href": "lectures/6_methods_stock_abundance.html#choosing-the-right-method",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Choosing the Right Method",
+    "text": "Choosing the Right Method\nConsider:\n\nSpecies characteristics - Habitat, behavior, life history\nData availability - What data already exists?\nResources - Budget, equipment, expertise\nManagement needs - Precision required, time frame\nStock status - Data-rich vs. data-limited\n\nBest Practice:\n\nUse multiple methods when possible\nCross-validate results\nAccount for uncertainty in all estimates"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#example-tanzania-fisheries",
+    "href": "lectures/6_methods_stock_abundance.html#example-tanzania-fisheries",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Example: Tanzania Fisheries",
+    "text": "Example: Tanzania Fisheries\nMarine Fisheries:\n\nTuna - CPUE from longline fleet + acoustic surveys\nSmall pelagics - Acoustic surveys + egg/larval surveys\nReef fish - Underwater visual census\n\nFreshwater Fisheries:\n\nNile perch - Trawl surveys + CPUE standardization\nDagaa - Acoustic surveys + light attraction methods\nTilapia - Frame surveys + CPUE"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#summary",
+    "href": "lectures/6_methods_stock_abundance.html#summary",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Summary",
+    "text": "Summary\n\nNo single method is perfect for all situations\nDirect methods (surveys) provide independent estimates but are costly\nIndirect methods (CPUE, depletion) use existing data but have biases\nStatistical models integrate multiple sources for best estimates\nChoice depends on species, data, resources, and management needs\nMultiple methods increase confidence in abundance estimates"
+  },
+  {
+    "objectID": "lectures/6_methods_stock_abundance.html#references",
+    "href": "lectures/6_methods_stock_abundance.html#references",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "References",
+    "text": "References\n\nHilborn, R., & Walters, C. J. (1992). Quantitative Fisheries Stock Assessment. Chapman & Hall.\nQuinn, T. J., & Deriso, R. B. (1999). Quantitative Fish Dynamics. Oxford University Press.\nSimmonds, J., & MacLennan, D. (2005). Fisheries Acoustics. Blackwell.\nKing, M. (2007). Fisheries Biology, Assessment and Management. Blackwell."
   },
   {
     "objectID": "lectures/4_mortality_pop_models.html#mortality-m",
@@ -1018,7 +1323,7 @@
     "href": "lectures/5_unit_stock.html#introduction",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Introduction",
-    "text": "Introduction\n\nFish stock assessment was developed in the temperate regions where there are very few species of fish.\nIt was based on a single species\nHowever, such a consideration is not very applicable for tropical fisheries where we have multi-species fisheries because;\n\nDifferent species are mixed up\nThere is very high interaction among species\n\nFish populations are divided into stocks for management and assessment purposes\nUnderstanding the distribution, abundance, and methods for estimating these parameters is critical for effective stock assessment and sustainable fisheries management."
+    "text": "Introduction\n\nFish stock assessment was developed in the temperate regions where there are very few species of fish.\nIt was based on a single species\nHowever, such a consideration is not very applicable for tropical fisheries where we have multi-species fisheries because;\n\nDifferent species are mixed up\nThere is very high interaction among species\n\nIn such situation, fish populations are divided into stocks (unit stock) for management and assessment purposes\nUnderstanding the distribution, abundance, and methods for estimating stock parameters is important for effective stock assessment and sustainable fisheries management."
   },
   {
     "objectID": "lectures/5_unit_stock.html#unit-stock",
@@ -1039,7 +1344,7 @@
     "href": "lectures/5_unit_stock.html#distribution-and-abundance",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Distribution and Abundance",
-    "text": "Distribution and Abundance\nGeographic Distribution\n\nGeographic distribution refers to the spatial area where a fish stock is found, including the boundaries of its range.\n\nKey concepts:\n\nFish populations are not uniformly distributed across all suitable habitats\nDistribution patterns change seasonally (spawning, feeding, wintering areas)\nSome species have discrete distributions while others have overlapping ranges\nDistribution limits are determined by temperature, salinity, bathymetry, and food availability\n\nGeographic Distribution\nExamples:\n\nMigratory species (salmon) move between coastal and riverine habitats\nDemersal species (bottom-dwelling) have specific depth distributions\nPelagic species distribute widely in open water\n\nManagement implications:\n\nFishing effort should target areas of highest concentration\nSeasonal closures may protect aggregations during vulnerable periods\nInternational boundaries may complicate management of stocks crossing borders"
+    "text": "Distribution and Abundance\nGeographic Distribution\n\nGeographic distribution refers to the spatial area where a fish stock is found, including the boundaries of its range.\n\nKey concepts:\n\nFish populations are not uniformly distributed across all suitable habitats\nDistribution patterns change seasonally (spawning, feeding, wintering areas)\nSome species have discrete distributions while others have overlapping ranges\nDistribution limits are determined by temperature, salinity, bathymetry, and food availability"
   },
   {
     "objectID": "lectures/5_unit_stock.html#spatial-and-temporal-variation-in-abundance",
@@ -1109,14 +1414,14 @@
     "href": "lectures/5_unit_stock.html#straddling-stock",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Straddling stock",
-    "text": "Straddling stock\n\nStraddling stocks are fish stocks that migrate across more than one EEZ and the high seas\n\nStraddling stocks is the stocks of fish which migrate between, or occur in both, the Exclusive Economic Exclusion Zone (EEZ) of one or more states and the high seas\n\nFish stocks that migrate through, or occur in, more than one exclusive economic zone.\nThey include species such as swordfish and marlin."
+    "text": "Straddling stock\n\nStraddling stocks are fish stocks that migrate across more than one Exclusive Economic Exclusion Zone (EEZ) and the high seas\n\nStraddling stocks is the stocks of fish which migrate between, or occur in both, the EEZ of one or more states and the high seas\n\nFish stocks that migrate through, or occur in more than one exclusive economic zone.\nThey include species such as swordfish and marlin."
   },
   {
     "objectID": "lectures/5_unit_stock.html#highly-migratory-fishes",
     "href": "lectures/5_unit_stock.html#highly-migratory-fishes",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Highly migratory fishes",
-    "text": "Highly migratory fishes\n\nHighly migratory fishes are the ones that travel long distances across international waters\nThese include tuna and tuna-like species, such as marlin, swordfish and sharks."
+    "text": "Highly migratory fishes\n\nHighly migratory fishes are the ones that travel long distances across international waters\nThese include tuna and tuna-like species such as yellowfin tuna, bigeye tuna, and skipjack."
   },
   {
     "objectID": "lectures/5_unit_stock.html#management-of-straddling-stock-and-highly-migratory-fishes",
@@ -1154,144 +1459,67 @@
     "text": "Yellowfin Tuna (Highly Migratory)\n\n\nManagement:\n\nManaged by IOTC (Indian Ocean Tuna Commission)\nTanzania is member state of IOTC\nIOTC sets total allowable catch (TAC) for entire Indian Ocean\nAllocates quota to member countries\nTanzania receives annual catch quota\n\n\n\n\n\nThunnus albacares"
   },
   {
-    "objectID": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory-2",
-    "href": "lectures/5_unit_stock.html#yellowfin-tuna-highly-migratory-2",
+    "objectID": "lectures/5_unit_stock.html#bigeye-tuna",
+    "href": "lectures/5_unit_stock.html#bigeye-tuna",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Yellowfin Tuna (Highly Migratory)",
-    "text": "Yellowfin Tuna (Highly Migratory)\n\n\nChallenges:\n\nIllegal, Unreported, Unregulated (IUU) fishing common\nForeign vessels fish in Tanzanian EEZ without permits\nHigh seas component beyond any nation’s control\nRequires international cooperation and monitoring\n\n\n\n\n\nThunnus albacares"
+    "section": "2: Bigeye Tuna",
+    "text": "2: Bigeye Tuna\n\n\nSpecies: Bigeye tuna (Thunnus obesus)\nDistribution:\n\nFound in tropical/subtropical Indian Ocean waters\nDeep-diving species (300-400 m daytime depth)\nMigratory across multiple EEZs\nYear-round presence in productive upwelling zones\n\n\n\n\n\nThunnus obesus"
   },
   {
-    "objectID": "lectures/5_unit_stock.html#indian-ocean-bigeye-tuna-deep-diving-overfished",
-    "href": "lectures/5_unit_stock.html#indian-ocean-bigeye-tuna-deep-diving-overfished",
+    "objectID": "lectures/5_unit_stock.html#bigeye-tuna-1",
+    "href": "lectures/5_unit_stock.html#bigeye-tuna-1",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "2: Indian Ocean Bigeye Tuna (Deep-Diving, Overfished)",
-    "text": "2: Indian Ocean Bigeye Tuna (Deep-Diving, Overfished)\n\n\nSpecies: Bigeye tuna (Thunnus obesus)\nDistribution: - Found in tropical/subtropical Indian Ocean waters - Deep-diving species (300-400 m daytime depth) - Migratory across multiple EEZs - Year-round presence in productive upwelling zones\n\n\n\n\nThunnus obesus"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#section-1",
-    "href": "lectures/5_unit_stock.html#section-1",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "",
-    "text": "Fishery: - Caught by longlining (deep hooks target night feeders) - High value for sashimi market (Japan, SE Asia) - Tanzania vessels and foreign fleets participate - Increasing fishing pressure in recent decade\nStatus: - OVERFISHED according to latest IOTC assessments - Stock experiencing recruitment overfishing - Fishing mortality exceeds target reference points - International concern about sustainability\nManagement Issues: - Growth to high value before reaching maturity - Young fish size matches market preference - Catches may contain immature individuals - Difficult to monitor deep-diving behavior - Data-limited assessments due to depth complexity"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#case-study-3-indian-ocean-swordfish-straddling",
-    "href": "lectures/5_unit_stock.html#case-study-3-indian-ocean-swordfish-straddling",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Case Study 3: Indian Ocean Swordfish (Straddling)",
-    "text": "Case Study 3: Indian Ocean Swordfish (Straddling)\nSpecies: Swordfish (Xiphias gladius)\nSwordfish Illustration\nDistribution Pattern: - Throughout Indian Ocean - Some stocks straddle between: - Tanzanian EEZ - Mozambican EEZ - High seas regions\nFishery: - Caught by long-line vessels (surface and deep long-lines) - Mixed catch with other tunas - Important for artisanal fisheries in coastal areas\nManagement Issues: - Some populations overfished historically - Requires coordination between Tanzania and Mozambique - IOTC sets recommendations but enforcement challenging - Difficult to distinguish stocks at sea"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#case-study-4-east-african-kingfish-and-snappers-transboundary",
-    "href": "lectures/5_unit_stock.html#case-study-4-east-african-kingfish-and-snappers-transboundary",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Case Study 4: East African Kingfish and Snappers (Transboundary)",
-    "text": "Case Study 4: East African Kingfish and Snappers (Transboundary)\nSpecies: Kingfish (emperors, jobfish) and red snappers\nDistribution: - Demersal species (bottom-dwelling) - Found along continental shelf - Occur in both Tanzanian and Kenyan EEZs - Limited high seas component\nCharacteristics: - Transboundary stock (occurs in 2+ EEZs) - NOT highly migratory - More localized movement - Important for both commercial and artisanal fleets\nManagement: - Less formal international coordination - Tanzania and Kenya set own regulations - Bilateral discussions through regional bodies - Lake Victoria has similar transboundary stocks (Nile Perch)"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#case-study-5-small-pelagics-sardines-and-anchovies---straddling",
-    "href": "lectures/5_unit_stock.html#case-study-5-small-pelagics-sardines-and-anchovies---straddling",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Case Study 5: Small Pelagics (Sardines and Anchovies) - Straddling",
-    "text": "Case Study 5: Small Pelagics (Sardines and Anchovies) - Straddling\nSpecies: - Sardines (Sardinella species) - Anchovies (Engraulis species)\nDistribution: - Occur in coastal zones - Some stocks straddle Tanzanian-Mozambican border - Influenced by Indian Ocean upwelling systems - Seasonal migrations with monsoon currents\nFishery: - Primarily artisanal and semi-industrial - Important for food security - Canned fish export product - Growing demand from aquaculture feed\nManagement Challenge: - Straddling populations with limited coordination - Tanzania and Mozambique have weak management data sharing - Environmental variability affects distribution - Recruitment highly variable (climate-dependent)"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#tanzanias-management-framework",
-    "href": "lectures/5_unit_stock.html#tanzanias-management-framework",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Tanzania’s Management Framework",
-    "text": "Tanzania’s Management Framework\nNational Level: - Ministry of Livestock and Fisheries sets regulations - Licensing system for foreign vessels - Catch monitoring and reporting requirements - Port state measures to prevent IUU fishing\nRegional Level: - IOTC member - Complies with tuna management - SWIOFC (Southwest Indian Ocean Fisheries Commission) - Nairobi Convention for shared environmental concerns\nInternational Level: - Bilateral agreements with neighbors (Kenya, Mozambique) - Participation in IOTC decisions - Port state inspection of foreign vessels - Market-based measures (catch documentation)"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#key-challenges-for-tanzania",
-    "href": "lectures/5_unit_stock.html#key-challenges-for-tanzania",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Key Challenges for Tanzania",
-    "text": "Key Challenges for Tanzania\n1. IUU Fishing: - Foreign vessels fishing without permits - Catch not reported to IOTC - Undermines quota system - Reduces resource access for legitimate fishers\n2. Limited Monitoring, Control, and Surveillance (MCS): - Few patrol vessels available - Large EEZ difficult to monitor - Weak port state infrastructure - Limited satellite monitoring systems\n3. Data Limitations: - Incomplete catch reporting from artisanal sector - Species identification challenges at sea - Limited biological sampling programs - Weak data sharing with neighbors\n4. Stock Mixing: - Cannot distinguish stocks at sea - Straddling populations require coordination - Enforcement of bilateral limits difficult"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#regional-cooperation-initiatives",
-    "href": "lectures/5_unit_stock.html#regional-cooperation-initiatives",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Regional Cooperation Initiatives",
-    "text": "Regional Cooperation Initiatives\nIOTC Resolutions affecting Tanzania: - Yellowfin tuna catch limits (annual review) - Bigeye tuna closure during spawning season - Vessel monitoring systems (VMS) requirements - Port state inspection protocols\nSWIOFC Initiatives: - Shared research on migrant stocks - Harmonized data collection protocols - Capacity building for stock assessment - Training in compliance monitoring\nBilateral with Mozambique: - Joint assessment of shared demersal stocks - Coordinated licensing in border areas - Shared research surveys - Joint enforcement patrols (periodic)"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#summary-tanzania-context",
-    "href": "lectures/5_unit_stock.html#summary-tanzania-context",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Summary: Tanzania Context",
-    "text": "Summary: Tanzania Context\nHighly Migratory Stocks in Tanzanian Waters: - Yellowfin tuna, bigeye tuna, swordfish - Managed through IOTC - Require international compliance - Subject to scientific stock assessments\nStraddling Stocks: - Small pelagics, some demersal species - Require bilateral coordination - Limited formal management - Data sharing challenges\nTransboundary Stocks: - Kingfish, snappers in shared EEZs - Bilateral management with Kenya - Weaker international framework - Growing importance for food security\nManagement Lesson: Fish migration patterns require management cooperation that extends beyond national borders. Tanzania’s challenge is balancing: - National fishing industry needs - International obligation compliance - Regional cooperation requirements - Limited resources for monitoring and enforcement"
+    "section": "Bigeye Tuna",
+    "text": "Bigeye Tuna\n\n\nFishery:\n\nCaught by longlining (deep hooks target night feeders)\nTanzania vessels and foreign fleets participate\nIncreasing fishing pressure in recent decade\n\n\n\n\n\nThunnus obesus"
   },
   {
     "objectID": "lectures/5_unit_stock.html#priority-fisheries-in-tanzania",
     "href": "lectures/5_unit_stock.html#priority-fisheries-in-tanzania",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Priority Fisheries in Tanzania",
-    "text": "Priority Fisheries in Tanzania\nTanzania’s fisheries are strategically important for food security, employment, and economic development. Priority ranking considers: - Economic value (export revenue) - Food security contribution (protein supply) - Employment (fisher livelihoods) - Management feasibility (data availability)\nPriority 1: Indian Ocean Tuna (Yellowfin, Bigeye, Skipjack)\nEconomic Importance: - Highest export value (~$40-60 million annually) - Large foreign fleet participation (revenue from licenses) - International market: Japan, SE Asia, EU - Premium sashimi prices drive fishing pressure\nCurrent Status: - Yellowfin: Fully exploited (IOTC assessments) - Bigeye: Overfished (recruitment concerns) - Skipjack: Lightly exploited (increasing catches)\nManagement Structure: - IOTC sets scientific advice - Tanzania implements catch limits through: - Vessel licensing system - Landing requirements - Port state measures\nChallenges: - IUU fishing reduces legitimate catch opportunities - Data reporting gaps (underreporting common) - Limited monitoring capacity for high seas - Seasonal catchability variations\nPriority Actions: 1. Strengthen vessel monitoring systems (VMS) 2. Improve port state inspection protocols 3. Enhance catch documentation compliance 4. Support scientific observer programs on vessels 5. Develop capacity for onboard monitoring"
+    "text": "Priority Fisheries in Tanzania\nTanzania’s fisheries are strategically important for food security, employment, and economic development. Priority ranking considers:\n\nEconomic value (export revenue)\nFood security contribution (protein supply)\nEmployment (fisher livelihoods)\nManagement feasibility (data availability)"
   },
   {
-    "objectID": "lectures/5_unit_stock.html#management-priorities-matrix",
-    "href": "lectures/5_unit_stock.html#management-priorities-matrix",
+    "objectID": "lectures/5_unit_stock.html#priority-fisheries-in-tanzania-1",
+    "href": "lectures/5_unit_stock.html#priority-fisheries-in-tanzania-1",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Management Priorities Matrix",
-    "text": "Management Priorities Matrix\n\n\n\n\n\n\n\n\n\n\n\nFishery\nEconomic Value\nFood Security\nEmployment\nData Status\nManagement Priority\n\n\n\n\nTuna (Ocean)\nVery High\nMedium\nHigh\nGood (IOTC)\nTier 1\n\n\nSmall Pelagics\nMedium\nVery High\nHigh\nPoor\nTier 1\n\n\nDemersal Fish\nMedium\nHigh\nVery High\nPoor\nTier 2\n\n\nLake Victoria\nLow\nHigh\nHigh\nPoor\nTier 2\n\n\nEmerging\nPotential\nLow\nLow\nVery Poor\nTier 3"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#integrated-management-strategy",
-    "href": "lectures/5_unit_stock.html#integrated-management-strategy",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Integrated Management Strategy",
-    "text": "Integrated Management Strategy\nShort-term (1-2 years): - Improve catch monitoring across all sectors - Enhance data collection infrastructure - Build capacity in stock assessment methods - Strengthen port state controls\nMedium-term (3-5 years): - Implement harvest control rules for priority stocks - Develop marine spatial planning - Establish management strategy evaluations (MSE) - Regional cooperation protocols\nLong-term (5+ years): - Ecosystem-based fisheries management - Climate adaptation strategies - Sustainable livelihood diversification - Capacity for advanced stock assessments"
+    "section": "Priority Fisheries in Tanzania",
+    "text": "Priority Fisheries in Tanzania\n\nMajor priority fishery in Tanzania:\n\n\n\nMarine\n\nTuna and Tuna-like species (Yellowfin, Bigeye, Skipjack)\nSmall Pelagics (Sardines, Anchovies)\nOctopus fisheries\n\n\nFreshwater\nLake Victoria\n\nNile Perch (Lates niloticus)\nDagaa (Rastriger argentea)\n\nLake Tanganyika\n\nCichlids (Lates stappersii),\nSardines (Stolothrissa tanganicae, Limnothrissa miodon)"
   },
   {
     "objectID": "lectures/5_unit_stock.html#mixed-stock",
     "href": "lectures/5_unit_stock.html#mixed-stock",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Mixed stock",
-    "text": "Mixed stock\n\nA mixed stock fishery is a fishery stock of variety ages, sizes, species, geographic or genetic origins or any combination of these variables.\nIt has some challenges in management due to difficulties in targeting a specific fish type using a certain fishing methods.\nMixed stock of a species has significant differences in morphological and biological characteristics.\nThe mixed stock population may unite into a unit stock by gene flow."
+    "text": "Mixed stock\n\nA mixed stock occurs when individuals from two or more genetically distinct populations are found together in the same geographic area\nFish from multiple spawning populations intermingle during feeding, migration, or overwintering\nCannot be easily distinguished visually but are genetically or demographically separate"
   },
   {
-    "objectID": "lectures/5_unit_stock.html#mixed-stock-1",
-    "href": "lectures/5_unit_stock.html#mixed-stock-1",
+    "objectID": "lectures/5_unit_stock.html#common-scenarios-for-mixed-stock",
+    "href": "lectures/5_unit_stock.html#common-scenarios-for-mixed-stock",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Mixed stock…",
-    "text": "Mixed stock…\n\nThe morphometric characters and meristic characters are to be taken for different stocks/populations of a species.\nThe population are to be segregated using PCA statistical test\nMixed stock of a species is common in tropical waters.\nAssessment of such tropical stocks becomes difficult by using conventional models."
+    "section": "Common Scenarios for Mixed Stock",
+    "text": "Common Scenarios for Mixed Stock\n1. Feeding Aggregations\n\nFish from different spawning stocks congregate in productive feeding grounds\nExample: Salmon from multiple rivers feeding together in the ocean\n\n2. Migratory Overlap\n\nDifferent populations share migration routes\nExample: Tuna stocks from different ocean regions mixing along migration corridors\n\n3. Seasonal Mixing\n\nPopulations separate for spawning but mix at other times\nExample: Herring from different spawning grounds overwintering together"
   },
   {
-    "objectID": "lectures/5_unit_stock.html#mixed-stock-2",
-    "href": "lectures/5_unit_stock.html#mixed-stock-2",
+    "objectID": "lectures/5_unit_stock.html#mixed-stock-management-challenges",
+    "href": "lectures/5_unit_stock.html#mixed-stock-management-challenges",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Mixed stock…",
-    "text": "Mixed stock…\n\nRefinements are needed for proper assessment.\nThe aging becomes difficult in a mixed stock of tropical species.\nUsually many cohorts are released from a tropical stock; hence the assessment becomes a problem on tropical stocks of a mixed species.\nMixed stock of a species has varied spawning seasons and the calculation of length at first maturity and growth gets varied"
+    "section": "Mixed Stock: Management Challenges",
+    "text": "Mixed Stock: Management Challenges\n\n\n\n\n\n\n\nChallenge\nImplication\n\n\n\n\nIdentification\nDifficult to assign individuals to source populations\n\n\nHarvest allocation\nRisk of overfishing weaker stocks while targeting abundant ones\n\n\nStock assessment\nComplex models needed to account for mixing rates\n\n\nWeak stock concern\nLess productive stocks may be depleted if managed as one unit"
   },
   {
-    "objectID": "lectures/5_unit_stock.html#limitations-in-the-assessment-of-tropical-fish-stocks",
-    "href": "lectures/5_unit_stock.html#limitations-in-the-assessment-of-tropical-fish-stocks",
+    "objectID": "lectures/5_unit_stock.html#mixed-stock-identification-methods",
+    "href": "lectures/5_unit_stock.html#mixed-stock-identification-methods",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Limitations in the assessment of tropical fish stocks",
-    "text": "Limitations in the assessment of tropical fish stocks\n\nFor calculation of stock assessment of mixed stock of a species, the conventional models framed for temperate species should be used in caution.\nThe mortality parameters such as F and M, fishing effort and growth parameters are to be calculated separately\nBecause these parameters form input data for estimation of stock in conventional models."
+    "section": "Mixed Stock: Identification Methods",
+    "text": "Mixed Stock: Identification Methods\nMethods to identify and separate mixed stocks:\n\nGenetic markers (microsatellites)\nOtolith microchemistry (trace elements indicate natal origin)\nParasite tags (different parasites in different regions)\nMorphometric analysis (body shape differences)\nTagging studies (track individual movements)"
   },
   {
-    "objectID": "lectures/5_unit_stock.html#part-2-methods-of-estimating-fish-stock-abundance",
-    "href": "lectures/5_unit_stock.html#part-2-methods-of-estimating-fish-stock-abundance",
+    "objectID": "lectures/5_unit_stock.html#mixed-stock-example-from-east-africa",
+    "href": "lectures/5_unit_stock.html#mixed-stock-example-from-east-africa",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Part 2: Methods of Estimating Fish Stock Abundance",
-    "text": "Part 2: Methods of Estimating Fish Stock Abundance\n2.1 Direct Methods (Surveys and Sampling)\nTrawl Surveys: - Bottom or mid-water trawling in systematic grid pattern - Standardized vessels, gear, and protocols ensure comparability - Provides age/size composition data - Index of relative abundance (CPUE) - Advantages: Direct observation, compositional data - Disadvantages: Gear selectivity, avoidance behavior, high cost\nDredges and Dip Nets: - For benthic and demersal species - Smaller spatial coverage than trawls - High observation effort per area\nSeining and Gillnetting: - Specialized methods for coastal and nearshore areas - Often used in smaller-scale fisheries"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#synthesis-choosing-methods",
-    "href": "lectures/5_unit_stock.html#synthesis-choosing-methods",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Synthesis: Choosing Methods",
-    "text": "Synthesis: Choosing Methods\nDecision Framework\n\n\n\nSituation\nRecommended Method\n\n\n\n\nLarge pelagic stock\nAcoustic + CPUE standardization\n\n\nSmall demersal stock\nTrawl survey + tagging\n\n\nCommercial fishery with long history\nCPUE standardization\n\n\nData-limited situation\nVisual survey + simple models\n\n\nHigh-value species\nMultiple methods for comparison\n\n\n\nBest Practices\n\nUse multiple methods - Cross-validation improves confidence\nStandardize protocols - Ensures comparability over time\nInclude uncertainty - All estimates have limits\nRegular calibration - Maintain data quality\nIntegrate data sources - Combine for maximum information"
-  },
-  {
-    "objectID": "lectures/5_unit_stock.html#conclusion",
-    "href": "lectures/5_unit_stock.html#conclusion",
-    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
-    "section": "Conclusion",
-    "text": "Conclusion\nEstimating fish stock abundance requires understanding both the biological characteristics of the stock and the strengths/limitations of available methods. No single method is perfect; successful stock assessment typically combines multiple approaches to maximize accuracy and precision of estimates."
+    "section": "Mixed Stock: Example from East Africa",
+    "text": "Mixed Stock: Example from East Africa\nLake Victoria Dagaa (Rastrelliger argentea)\n\nThe dagaa fishery may include mixed stocks from different lake regions\nFish aggregate in certain areas for feeding\nDifferent populations have varying productivity levels\nRequires careful management to avoid depleting localized populations\n\nIndian Ocean Yellowfin Tuna\n\nMixing of stocks from Western and Eastern Indian Ocean\nGenetic studies show population structure across the ocean basin\nIOTC manages as a single stock but monitors regional differences"
   },
   {
     "objectID": "lectures/5_unit_stock.html#references-and-further-reading",
@@ -1301,158 +1529,175 @@
     "text": "References and Further Reading\n\nQuinn, T. J., & Deriso, R. B. (1999). Quantitative Fish Dynamics. Oxford University Press.\nHilborn, R., & Walters, C. J. (1992). Quantitative Fisheries Stock Assessment. Chapman & Hall.\nPetitgas, P. (1998). Geostatistics in fisheries survey design and stock assessment. FAO Fisheries Technical Paper 368."
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#length-weight-relationship",
-    "href": "lectures/length_weight_relationship.html#length-weight-relationship",
+    "objectID": "lectures/course_outline.html",
+    "href": "lectures/course_outline.html",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Length-Weight Relationship",
-    "text": "Length-Weight Relationship\nFundamental Concept in Fish Biology"
+    "section": "",
+    "text": "This course provides a comprehensive introduction to fish population dynamics and stock assessment methods in the context of modern global fisheries challenges. Students will learn to assess fish populations using contemporary scientific approaches while considering ecosystem, social, and climate dimensions of sustainable fisheries management."
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#what-is-length-weight-relationship",
-    "href": "lectures/length_weight_relationship.html#what-is-length-weight-relationship",
+    "objectID": "lectures/course_outline.html#course-overview",
+    "href": "lectures/course_outline.html#course-overview",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "What is Length-Weight Relationship?",
-    "text": "What is Length-Weight Relationship?\nDefinition: The mathematical relationship between fish body length and body weight\nKey Idea: - Longer fish are generally heavier - But the relationship is NOT linear - Weight increases with the cube of length (cubic relationship) - Different species have different relationships\nWhy Important: - Convert length measurements to biomass - Assess fish condition and health - Estimate population biomass from length data - Understand growth patterns"
+    "section": "",
+    "text": "This course provides a comprehensive introduction to fish population dynamics and stock assessment methods in the context of modern global fisheries challenges. Students will learn to assess fish populations using contemporary scientific approaches while considering ecosystem, social, and climate dimensions of sustainable fisheries management."
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#the-allometric-equation",
-    "href": "lectures/length_weight_relationship.html#the-allometric-equation",
+    "objectID": "lectures/course_outline.html#module-1-introduction-context",
+    "href": "lectures/course_outline.html#module-1-introduction-context",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "The Allometric Equation",
-    "text": "The Allometric Equation\nStandard Length-Weight Formula:\n\\[W = aL^b\\]\nWhere:\n\n\\(W\\) = weight (grams or kilograms)\n\\(L\\) = length (centimeters or millimeters)\n\\(a\\) = intercept (scale factor)\n\\(b\\) = slope (exponent, typically 2.5-3.5)\n\nLogarithmic Form (for linear regression):\n\\[\\log(W) = \\log(a) + b \\cdot \\log(L)\\]"
+    "section": "MODULE 1: Introduction & Context",
+    "text": "MODULE 1: Introduction & Context\n\nTopics\n\nHistorical perspective: From single-species to ecosystem-based management\nGlobal fisheries crisis: Current state of world fish stocks\nSustainable Development Goals (SDG 14): Life Below Water\nKey definitions: Stock, recruitment, sustainability, overfishing\nCareer pathways in fisheries science\n\n\n\nLearning Objectives\n\nUnderstand the evolution of fisheries science and management\nRecognize global challenges in sustaining fish stocks\nDefine fundamental concepts and terminology\nExplore career opportunities in fisheries"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#understanding-the-parameters",
-    "href": "lectures/length_weight_relationship.html#understanding-the-parameters",
+    "objectID": "lectures/course_outline.html#module-2-fundamentals-of-fish-population-dynamics",
+    "href": "lectures/course_outline.html#module-2-fundamentals-of-fish-population-dynamics",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Understanding the Parameters",
-    "text": "Understanding the Parameters\nWhat does ‘a’ mean?\n\nScale factor or intercept\nRepresents the weight when length = 1 unit\nSpecies-specific (different species have different values)\nRelated to fish condition and body shape\nHeavier fish species have larger ‘a’ values\n\nExample: - Nile Perch: \\(a ≈ 0.0098\\) (robust body) - Cichlid: \\(a ≈ 0.005\\) (slender body) - Same length, different weight due to different ‘a’"
+    "section": "MODULE 2: Fundamentals of Fish Population Dynamics",
+    "text": "MODULE 2: Fundamentals of Fish Population Dynamics\n\nTopics\n\nPopulation structure: Age, size, sex ratios\nVital rates: Birth (recruitment), death (natural & fishing mortality), growth\nPopulation models:\n\nExponential and logistic growth\nBeverton-Holt and Ricker stock-recruitment models\nAge-structured population models\nSize-structured models (relevant for data-limited stocks)\n\nEquilibrium vs. dynamic concepts\nDensity-dependent processes\n\n\n\nKey Equations\nExponential growth: \\[N_t = N_0 e^{rt}\\]\nLogistic growth: \\[\\frac{dN}{dt} = rN\\left(1 - \\frac{N}{K}\\right)\\]\nBeverton-Holt recruitment: \\[R_t = \\frac{aS_t}{1 + bS_t}\\]\nRicker recruitment: \\[R_t = aS_t e^{-bS_t}\\]\n\n\nLearning Objectives\n\nUnderstand population structure and vital rates\nApply growth models to fish populations\nInterpret stock-recruitment relationships\nRecognize density-dependent effects in fish populations"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#understanding-the-parameters-1",
-    "href": "lectures/length_weight_relationship.html#understanding-the-parameters-1",
+    "objectID": "lectures/course_outline.html#module-3-the-unit-stock",
+    "href": "lectures/course_outline.html#module-3-the-unit-stock",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Understanding the Parameters…",
-    "text": "Understanding the Parameters…\nWhat does ‘b’ mean?\n\nExponent or slope\nDetermines how weight scales with length\nTypical range: 2.5 to 3.5\n\nInterpretation:\n\n\n\n\n\n\n\nb value\nMeaning\n\n\n\n\nb = 3\nIsometric growth - Perfect cubic relationship\n\n\nb &gt; 3\nAllometric growth (positive) - Fish gets proportionally heavier as it grows\n\n\nb &lt; 3\nAllometric growth (negative) - Fish gets proportionally lighter as it grows\n\n\n\nWhy b ≈ 3? - Volume (and weight) of a 3D object increases with cube of length - A fish that doubles in length becomes ~8× heavier (\\(2^3 = 8\\))"
+    "section": "MODULE 3: The Unit Stock",
+    "text": "MODULE 3: The Unit Stock\n\nTopics\n\nDefining management units in the modern context\nDistribution patterns:\n\nGeographic distribution and boundaries\nSeasonal migrations and habitat use\nClimate change impacts on range shifts\n\nAbundance estimation methods:\n\nSurvey design (trawls, acoustic, visual)\nCPUE standardization (commercial data)\nMark-recapture and tagging\nEmerging technologies (eDNA, environmental DNA monitoring)\nAutonomous platforms (drones, gliders)\n\n\n\n\nKey Concepts\n\nA unit stock is the fundamental management unit in fisheries\nDelineation depends on biological, physical, and political factors\nDistribution is dynamic and changing with climate\nMultiple methods provide complementary information on abundance\n\n\n\nLearning Objectives\n\nDefine and delineate appropriate unit stocks\nDesign surveys to estimate stock abundance\nEvaluate advantages and limitations of different methods\nIntegrate multiple data sources for robust estimates"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#graphical-representation",
-    "href": "lectures/length_weight_relationship.html#graphical-representation",
+    "objectID": "lectures/course_outline.html#module-4-data-collection-quality",
+    "href": "lectures/course_outline.html#module-4-data-collection-quality",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Graphical Representation",
-    "text": "Graphical Representation\n\n  \n  \n  \n  \n  Length-Weight Relationship\n  \n  \n  \n  \n  \n  \n  Length (cm)\n  Weight (g)\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  10\n  20\n  40\n  60\n  \n  0\n  50\n  100\n  150\n  \n  \n  \n  W = aL^b\n  Example: Nile Perch\n  a = 0.0098\n  b = 3.06\n  (Isometric)\n  \n  \n  Non-linear\n  cubic curve\n\nKey Features: - Curved relationship (not straight line) - Accelerating weight gain with increasing length - Small fish weight gain slower than large fish - Data points follow smooth curve"
+    "section": "MODULE 4: Data Collection & Quality",
+    "text": "MODULE 4: Data Collection & Quality\n\nTopics\n\nTypes of data:\n\nFishery-dependent (commercial catch, effort, size/age composition)\nFishery-independent (research surveys, ecosystem monitoring)\nBiological data (maturity, fecundity, diet, parasite load)\nEnvironmental data (temperature, oxygen, currents, ecosystem indicators)\n\nData-limited approaches: Tools for developing nations/underfunded fisheries\nData quality assurance: Bias detection and correction\nReal-time monitoring: Vessel monitoring systems (VMS), electronic logbooks\nBig Data in fisheries: Machine learning for pattern recognition\n\n\n\nBest Practices\n\nEstablish standardized protocols for data collection\nImplement quality control measures\nDocument data collection metadata\nBalance cost with data precision requirements\nEngage with stakeholders in data collection planning\n\n\n\nLearning Objectives\n\nDesign data collection programs appropriate to context\nAssess data quality and identify biases\nUnderstand advantages of different data types\nApply data-limited approaches when necessary\nUse modern technology for monitoring"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#isometric-vs.-allometric-growth",
-    "href": "lectures/length_weight_relationship.html#isometric-vs.-allometric-growth",
+    "objectID": "lectures/course_outline.html#module-5-stock-assessment-methods",
+    "href": "lectures/course_outline.html#module-5-stock-assessment-methods",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Isometric vs. Allometric Growth",
-    "text": "Isometric vs. Allometric Growth\nIsometric Growth (b = 3)\n\nFish maintains same body shape as it grows\nWeight increases exactly with cube of length\nFish becomes equally “robust” at all sizes\nLength ratio 2:1 → Weight ratio 8:1\n\nExample: Most fish with uniform body proportions\nPositive Allometric (b &gt; 3)\n\nFish gets relatively heavier as it grows\nBecomes more robust/muscular with age\nWeight increases faster than cubic relationship\nFish condition improves with size\n\nExample: Nile Perch (b ≈ 3.1)\nNegative Allometric (b &lt; 3)\n\nFish gets relatively lighter as it grows\nBody proportions change (e.g., becomes more elongated)\nWeight increases slower than cubic relationship\nFish condition declines with size\n\nExample: Some eels, very elongated fish"
+    "section": "MODULE 5: Stock Assessment Methods",
+    "text": "MODULE 5: Stock Assessment Methods\n\nTopics\n\nTraditional approaches:\n\nVirtual Population Analysis (VPA)\nSurplus production models (Schaefer, Fox)\nAge-structured models (Stock Synthesis, CASAL2)\n\nModern integrated approaches:\n\nBayesian methods and uncertainty quantification\nState-space models\nMulti-species and ecosystem models\n\nData-limited methods:\n\nLength-based spawning potential ratio (LB-SPR)\nCatch-only models\nLife-history-based approaches\n\nModel selection and validation\nUncertainty in assessment: Propagation and communication\n\n\n\nSchaefer Surplus Production Model\n\\[C_t = q \\cdot E_t \\cdot B_t\\]\n\\[B_{t+1} = B_t + rB_t\\left(1 - \\frac{B_t}{K}\\right) - C_t\\]\nWhere: - \\(C_t\\) = catch at time t - \\(q\\) = catchability coefficient - \\(E_t\\) = fishing effort - \\(B_t\\) = biomass - \\(r\\) = intrinsic rate of increase - \\(K\\) = carrying capacity\n\n\nLearning Objectives\n\nSelect appropriate assessment methods for different contexts\nUnderstand assumptions underlying each method\nImplement and interpret assessment models\nCommunicate uncertainty appropriately\nValidate model outputs"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#estimating-length-weight-parameters",
-    "href": "lectures/length_weight_relationship.html#estimating-length-weight-parameters",
+    "objectID": "lectures/course_outline.html#module-6-key-biological-parameters",
+    "href": "lectures/course_outline.html#module-6-key-biological-parameters",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Estimating Length-Weight Parameters",
-    "text": "Estimating Length-Weight Parameters\nStep 1: Collect Data - Measure length (L) of fish - Measure weight (W) of same fish - Collect multiple specimens across size range - Minimum 20-30 observations (more is better)\nStep 2: Transform Data - Calculate: \\(\\log(W)\\) and \\(\\log(L)\\) - Creates linear relationship for regression\nStep 3: Linear Regression - Plot \\(\\log(W)\\) vs \\(\\log(L)\\) - Fit line: \\(\\log(W) = \\log(a) + b \\cdot \\log(L)\\) - Extract slope (b) and intercept (\\(\\log(a)\\))\nStep 4: Back-Transform - \\(a = 10^{\\text{intercept}}\\) - Use fitted equation: \\(W = aL^b\\)"
+    "section": "MODULE 6: Key Biological Parameters",
+    "text": "MODULE 6: Key Biological Parameters\n\nTopics\n\nGrowth: Von Bertalanffy models, environmental effects\nRecruitment: Spawner-recruit relationships, recruitment variability\n\nClimate drivers of recruitment (oceanographic indices)\nEarly life-stage survival\n\nMortality:\n\nNatural mortality estimation\nFishing mortality and selectivity\nEstimating discard mortality\n\nReproductive biology: Maturity schedules, fecundity, sex ratios\nGenetic population structure: Implications for management boundaries\n\n\n\nVon Bertalanffy Growth Model\n\\[L_t = L_\\infty(1 - e^{-K(t - t_0)})\\]\nWhere: - \\(L_t\\) = length at age t - \\(L_\\infty\\) = asymptotic length - \\(K\\) = growth rate coefficient - \\(t_0\\) = theoretical age at zero length\n\n\nLearning Objectives\n\nEstimate biological parameters from data\nUnderstand environmental effects on biological rates\nApply parameter estimates to population models\nRecognize importance of genetic structure"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#example-calculation-nile-perch",
-    "href": "lectures/length_weight_relationship.html#example-calculation-nile-perch",
+    "objectID": "lectures/course_outline.html#module-7-environmental-climate-drivers",
+    "href": "lectures/course_outline.html#module-7-environmental-climate-drivers",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Example Calculation: Nile Perch",
-    "text": "Example Calculation: Nile Perch\nSample Data from Lake Victoria Nile Perch:\n\n\n\nLength (cm)\nWeight (g)\nlog(L)\nlog(W)\n\n\n\n\n10\n5.0\n1.000\n0.699\n\n\n20\n42\n1.301\n1.623\n\n\n30\n145\n1.477\n2.161\n\n\n50\n800\n1.699\n2.903\n\n\n80\n3500\n1.903\n3.544\n\n\n120\n12000\n2.079\n4.079\n\n\n\nLinear Regression Result: - Intercept: -2.006 - Slope (b): 3.06 - \\(a = 10^{-2.006} ≈ 0.0098\\)\nFinal Equation: \\[W = 0.0098 \\times L^{3.06}\\]"
+    "section": "MODULE 7: Environmental & Climate Drivers",
+    "text": "MODULE 7: Environmental & Climate Drivers\n\nTopics\n\nClimate change impacts on fish stocks:\n\nRange shifts and redistribution\nPhenological changes (timing of spawning, migration)\nOcean acidification effects\n\nOxygen minimum zones: Habitat compression\nEcosystem changes: Regime shifts, regime indicators\nIncorporating environmental covariates in assessment models\nForecasting under climate scenarios\n\n\n\nKey Considerations\n\nClimate impacts are already observable in many stocks\nHabitat availability is a key constraint under climate change\nEnvironmental variables can improve recruitment predictions\nAdaptation requires flexible management frameworks\n\n\n\nLearning Objectives\n\nUnderstand climate impacts on fish populations\nIncorporate environmental data into assessments\nForecast population responses to climate change\nDevelop adaptive management strategies"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#interpreting-nile-perch-relationship",
-    "href": "lectures/length_weight_relationship.html#interpreting-nile-perch-relationship",
+    "objectID": "lectures/course_outline.html#module-8-reference-points-harvest-control-rules",
+    "href": "lectures/course_outline.html#module-8-reference-points-harvest-control-rules",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Interpreting Nile Perch Relationship",
-    "text": "Interpreting Nile Perch Relationship\nUsing the equation: \\(W = 0.0098 L^{3.06}\\)\nExamples:\n\nLength 20 cm: \\(W = 0.0098 × 20^{3.06} ≈ 45\\) g\nLength 50 cm: \\(W = 0.0098 × 50^{3.06} ≈ 825\\) g\nLength 100 cm: \\(W = 0.0098 × 100^{3.06} ≈ 9,900\\) g (≈10 kg)\nLength 150 cm: \\(W = 0.0098 × 150^{3.06} ≈ 33,000\\) g (≈33 kg)\n\nObservation: - At 20 cm: roughly 45 g - At 100 cm (5× longer): roughly 9.9 kg (220× heavier!) - Shows explosive weight gain with length"
+    "section": "MODULE 8: Reference Points & Harvest Control Rules",
+    "text": "MODULE 8: Reference Points & Harvest Control Rules\n\nTopics\n\nBiological reference points:\n\nMSY (Maximum Sustainable Yield) and implications\nProxy reference points (F₀.₁, B₃₅%, etc.)\nEcosystem-based reference points\n\nHarvest control rules (HCR): Logic and application\nRisk assessment: Probability of meeting management objectives\nRebuilding plans: Recovering overfished stocks\nPrecautionary approach: Decision-making under uncertainty\n\n\n\nHarvest Control Rule Example\nIf \\(B &lt; B_{lim}\\): fishing is prohibited\nIf \\(B_{lim} &lt; B &lt; B_{target}\\): fishing mortality decreases linearly with biomass\nIf \\(B &gt; B_{target}\\): fishing mortality set at \\(F_{target}\\)\n\n\nLearning Objectives\n\nDefine appropriate reference points\nDevelop harvest control rules\nAssess risk and probability of meeting objectives\nDesign rebuilding strategies\nApply precautionary approach"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#applications-in-fisheries",
-    "href": "lectures/length_weight_relationship.html#applications-in-fisheries",
+    "objectID": "lectures/course_outline.html#module-9-management-strategy-evaluation-mse",
+    "href": "lectures/course_outline.html#module-9-management-strategy-evaluation-mse",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Applications in Fisheries",
-    "text": "Applications in Fisheries\n1. Converting Length to Biomass\nProblem: We measure lengths from catches, but need biomass for assessment\nSolution: Use length-weight equation - Measure all fish lengths - Apply equation to get individual weights - Sum for total biomass estimate\nExample Lake Victoria: - Catch: 1000 fish of various lengths - Use L-W equation to get total weight in kg - Compare to previous months/years\n2. Stock Assessment from Length Data\nLBSPR and length-based methods need: - Growth parameters (from Von Bertalanffy) - Length distribution (from catch samples) - Length-weight relationship (to convert to biomass)\nWithout L-W equation, cannot estimate stock biomass from lengths\n3. Fish Condition Index\nCondition Factor (K): \\[K = \\frac{W \\text{ (observed)}}{W \\text{ (expected from equation)}} × 100\\]\n\nK = 100: Fish in expected condition\nK &gt; 100: Fish in better condition (healthier)\nK &lt; 100: Fish in poor condition (underfed/stressed)\n\nIndicates nutritional status and environmental health"
+    "section": "MODULE 9: Management Strategy Evaluation (MSE)",
+    "text": "MODULE 9: Management Strategy Evaluation (MSE)\n\nTopics\n\nFramework: Simulation of future outcomes under different strategies\nOperating models: Representation of reality\nEstimation models: Assessment methods tested\nManagement procedures: Decision rules\nPerformance evaluation: Trade-offs between objectives\nRobustness testing: Sensitivity to model assumptions\n\n\n\nMSE Components\nOperating Model (True System)\n        ↓\nSimulated Data\n        ↓\nEstimation Model (Assessment)\n        ↓\nManagement Procedure (HCR)\n        ↓\nManagement Action (Harvest Level)\n        ↓\nPopulation Update\n\n\nLearning Objectives\n\nDesign and implement MSE frameworks\nEvaluate management procedure performance\nAssess robustness to uncertainty\nCompare trade-offs between objectives\nSupport decision-making with simulation results"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#factors-affecting-length-weight-relationship",
-    "href": "lectures/length_weight_relationship.html#factors-affecting-length-weight-relationship",
+    "objectID": "lectures/course_outline.html#module-10-ecosystem-social-dimensions",
+    "href": "lectures/course_outline.html#module-10-ecosystem-social-dimensions",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Factors Affecting Length-Weight Relationship",
-    "text": "Factors Affecting Length-Weight Relationship\n\n\nBiological Factors: - Sex - Males vs females may differ - Maturity - Mature fish different body shape - Season - Weight varies with reproductive cycle - Nutrition - Well-fed vs starving - Health - Disease affects weight - Age - Older fish may have different slope\n\nEnvironmental Factors: - Water temperature - Affects metabolism - Food availability - Impacts growth - Habitat quality - Influences body condition - Fishing pressure - Selective harvesting - Population density - Competition effects - Salinity - Freshwater vs marine\n\nManagement Implication: - L-W relationship may change over time - Periodic recalibration recommended - Use recent data for accurate estimates"
+    "section": "MODULE 10: Ecosystem & Social Dimensions",
+    "text": "MODULE 10: Ecosystem & Social Dimensions\n\nTopics\n\nMultispecies interactions:\n\nPredator-prey relationships\nBycatch and discards\nMixed-stock fisheries\n\nEcosystem services: Food security, livelihoods, biodiversity\nSmall-scale fisheries: Challenges and assessment approaches\nEquity and inclusion: Women in fisheries, indigenous knowledge\nTrade-offs: Balancing conservation, economics, and social goals\nStakeholder engagement: Participatory assessment processes\n\n\n\nKey Principles\n\nFish stocks exist within ecosystems\nSustainability requires considering social and economic dimensions\nInclusive decision-making improves outcomes\nLocal knowledge complements scientific assessment\nEquity is a sustainability requirement\n\n\n\nLearning Objectives\n\nUnderstand ecosystem context of single-stock assessments\nAddress social dimensions of fisheries\nEngage stakeholders in assessment and management\nEvaluate trade-offs between objectives\nIncorporate indigenous and local knowledge"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#species-specific-variations",
-    "href": "lectures/length_weight_relationship.html#species-specific-variations",
+    "objectID": "lectures/course_outline.html#module-11-emerging-technologies-future-directions",
+    "href": "lectures/course_outline.html#module-11-emerging-technologies-future-directions",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Species-Specific Variations",
-    "text": "Species-Specific Variations\nComparative Length-Weight Parameters:\n\n\n\nSpecies\nLake\na\nb\nShape\n\n\n\n\nNile Perch\nVictoria\n0.0098\n3.06\nRobust\n\n\nTilapia\nVarious\n0.0150\n3.00\nBalanced\n\n\nCichlid\nVictoria\n0.0050\n3.05\nSlender\n\n\nCatfish\nAfrican\n0.0080\n3.10\nElongated\n\n\n\nKey Observation: - Different species have very different ‘a’ values - ‘b’ values usually 2.8-3.2 (mostly isometric) - Cannot use one species’ equation for another!"
+    "section": "MODULE 11: Emerging Technologies & Future Directions",
+    "text": "MODULE 11: Emerging Technologies & Future Directions\n\nTopics\n\nGenomic tools: Population genetics, parentage analysis, eDNA\nMachine learning: Pattern recognition, species identification, abundance prediction\nRemote sensing: Satellite data for habitat and biomass estimation\nIntegrated observing systems: Real-time ecosystem monitoring\nCitizen science: Community-based monitoring programs\nOpen data platforms: Transparency and reproducibility\n\n\n\nEmerging Opportunities\n\neDNA provides non-invasive population monitoring\nMachine learning identifies patterns in complex datasets\nRemote sensing expands monitoring to remote areas\nAutonomous platforms reduce survey costs\nOpen science improves reproducibility and collaboration\n\n\n\nLearning Objectives\n\nUnderstand capabilities and limitations of new technologies\nEvaluate appropriateness for different contexts\nImplement emerging tools in assessment workflows\nStay current with rapid technological change"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#data-quality-issues",
-    "href": "lectures/length_weight_relationship.html#data-quality-issues",
+    "objectID": "lectures/course_outline.html#module-12-case-studies-applications",
+    "href": "lectures/course_outline.html#module-12-case-studies-applications",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Data Quality Issues",
-    "text": "Data Quality Issues\n\n\nCommon Problems:\n\nMeasurement Errors\n\nInconsistent length measurement\nDifferent length types (total vs standard)\nRounding errors\n\nWeighing Issues\n\nScale calibration errors\nWet vs. dry weight confusion\nInternal organ removal\n\nSample Bias\n\nOnly large fish measured\nSex or maturity bias\nSeasonal collection\n\n\n\nQuality Control:\n✓ Use consistent measurement methods ✓ Calibrate scales regularly ✓ Document measurement procedures ✓ Sample across size ranges ✓ Check for outliers ✓ Plot data visually ✓ Report R² and sample size ✓ Use multiple specimens"
+    "section": "MODULE 12: Case Studies & Applications",
+    "text": "MODULE 12: Case Studies & Applications\n\nTopics\n\nRegional assessments: Contrasting examples (developed vs. developing countries)\nHigh-value species: Tuna, salmon, cod assessments\nData-limited stocks: Tropical and small-scale fisheries\nRebuilding successes and failures: Learning from experience\nEmerging challenges: IUU fishing, marine plastics, coral ecosystem collapse\n\n\n\nCase Study Examples\n\nAtlantic cod collapse and recovery efforts\nTuna stock assessments across ocean basins\nSmall pelagic fisheries (anchoveta) in Peru\nData-limited tropical reef fisheries\nEndangered salmon populations in the Pacific Northwest\n\n\n\nLearning Objectives\n\nApply assessment methods to real-world situations\nLearn from successes and failures\nDevelop context-appropriate solutions\nCommunicate scientific findings to managers and public"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#practical-example-lake-victoria-assessment",
-    "href": "lectures/length_weight_relationship.html#practical-example-lake-victoria-assessment",
+    "objectID": "lectures/course_outline.html#course-learning-outcomes",
+    "href": "lectures/course_outline.html#course-learning-outcomes",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Practical Example: Lake Victoria Assessment",
-    "text": "Practical Example: Lake Victoria Assessment\nScenario: Estimating Nile Perch catch biomass from market samples\nStep 1: Collect Sample - 200 fish from daily market catch - Measure length and weight for 50 representatives\nStep 2: Establish Relationship - Fit L-W equation: \\(W = 0.0098 L^{3.06}\\) - Check fit quality (R² should be &gt;0.95)\nStep 3: Apply to All Fish - Measure length of all 200 fish - Apply equation to get individual weights - Calculate total catch weight\nStep 4: Compare Over Time - Repeat process monthly - Track catch biomass trends - Identify if stock declining or stable\nStep 5: Management Decision - Declining catch biomass → Reduce fishing - Stable/increasing → Current harvest sustainable"
+    "section": "Course Learning Outcomes",
+    "text": "Course Learning Outcomes\nBy the end of this course, students will be able to:\n\nUnderstand and apply population dynamics principles to fish stocks\nDesign and implement data collection programs appropriate to context\nConduct stock assessments using appropriate methods for available data\nInterpret results and communicate uncertainty effectively\nEvaluate management strategies using Management Strategy Evaluation\nConsider ecosystem and social impacts of fishing decisions\nAddress climate change impacts on fisheries and adaptation strategies\nApply modern tools (eDNA, remote sensing, machine learning)\nWork with diverse stakeholders in assessment and management\nContribute to sustainable fisheries management globally"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#summary-key-points",
-    "href": "lectures/length_weight_relationship.html#summary-key-points",
+    "objectID": "lectures/course_outline.html#course-structure-delivery",
+    "href": "lectures/course_outline.html#course-structure-delivery",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Summary: Key Points",
-    "text": "Summary: Key Points\n\n\nEquation: \\[W = aL^b\\]\nParameters: - a = body shape factor - b = growth pattern (usually ≈3)\nKey Concept: - Weight scales with cube of length - 2× longer = 8× heavier (approximately)\n\nApplications: ✓ Length → Biomass conversion ✓ Fish condition assessment ✓ Stock assessment calculations ✓ Fisheries management\nImportant: ⚠ Species-specific ⚠ Varies by sex/maturity ⚠ Changes seasonally ⚠ Requires periodic updates"
+    "section": "Course Structure & Delivery",
+    "text": "Course Structure & Delivery\n\nLearning Activities\n\nLectures: Concept presentations and discussions\nPractical exercises: Hands-on data analysis and modeling\nCase studies: Real-world application examples\nGroup projects: Collaborative assessment and problem-solving\nStakeholder engagement: Interaction with fisheries professionals\nField components: Where possible, observations of fisheries\n\n\n\nAssessment\n\nParticipation: Engagement in discussions and activities\nAssignments: Problem sets and data analysis exercises\nProject work: Development of assessment framework\nFinal examination: Comprehensive understanding assessment"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#r-code-example",
-    "href": "lectures/length_weight_relationship.html#r-code-example",
+    "objectID": "lectures/course_outline.html#recommended-textbooks-references",
+    "href": "lectures/course_outline.html#recommended-textbooks-references",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "R Code Example",
-    "text": "R Code Example"
+    "section": "Recommended Textbooks & References",
+    "text": "Recommended Textbooks & References\n\nPrimary References\n\nQuinn, T. J., & Deriso, R. B. (1999). Quantitative Fish Dynamics. Oxford University Press.\nHilborn, R., & Walters, C. J. (1992). Quantitative Fisheries Stock Assessment. Chapman & Hall.\nMaunder, M. N., & Punt, A. E. (2004). Standardizing catch and effort data: a review of recent approaches. Fisheries Research, 70(2-3), 141-159.\n\n\n\nSupplementary Resources\n\nPetitgas, P. (1998). Geostatistics in fisheries survey design and stock assessment. FAO Fisheries Technical Paper 368.\nFAO (2023). Fisheries and Aquaculture Global Practice - Stock Assessment.\nNOAA Fisheries Stock Assessment Workshop (SAWG) documents\nInternational Council for the Exploration of the Sea (ICES) guidelines\n\n\n\nOpen Access Resources\n\nFishBase (www.fishbase.org)\nSeaLifeBase (www.sealifebase.org)\nICES Stock Assessment WG reports\nUN FAO Fisheries Statistics"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#discussion-questions",
-    "href": "lectures/length_weight_relationship.html#discussion-questions",
+    "objectID": "lectures/course_outline.html#prerequisites",
+    "href": "lectures/course_outline.html#prerequisites",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\n\nWhy does the length-weight relationship follow a cubic pattern (b ≈ 3)?\nHow would you explain the difference between isometric and allometric growth to fishery managers?\nWhy is it important to update length-weight relationships periodically?\nHow would changes in fish condition (well-fed vs. starving) affect the ‘a’ parameter?\nWhat would be the implications of using wrong L-W parameters in a stock assessment?"
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\nBasic statistics (hypothesis testing, regression)\nIntroduction to biology and ecology\nQuantitative reasoning skills\nFamiliarity with spreadsheets or programming (R/Python beneficial)"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#next-steps",
-    "href": "lectures/length_weight_relationship.html#next-steps",
+    "objectID": "lectures/course_outline.html#course-information",
+    "href": "lectures/course_outline.html#course-information",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Next Steps",
-    "text": "Next Steps\nPractice Activities: - Collect length-weight data for local species - Fit your own L-W relationship - Calculate condition factors - Compare parameters across species\nFurther Reading: - Fisheries science literature on allometry - Species-specific L-W parameters (fishbase.org) - Stock assessment applications\nConnection to Course: - Foundation for length-based assessments (LBSPR) - Essential for biomass estimation - Key input to population models"
+    "section": "Course Information",
+    "text": "Course Information\nInstructor: Nyamisi Peter\nDuration: One semester\nCredits: [Variable by institution]\nMeeting Times: [To be scheduled]\nOffice Hours: [To be scheduled]\nContact: [Email to be provided]\n\nLast updated: December 2025"
   },
   {
-    "objectID": "lectures/length_weight_relationship.html#resources-references",
-    "href": "lectures/length_weight_relationship.html#resources-references",
-    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
-    "section": "Resources & References",
-    "text": "Resources & References\nKey References:\n\nFroese, R. (2006). “Cube law, condition factor and weight-length relationships: History, meta-analysis and recommendations”\nWootton, R.J. (1990). Ecology of Teleost Fishes - Chapter on growth and body form\nFishBase (www.fishbase.org) - Comprehensive L-W parameters by species\n\nSoftware: - R packages: FSA, TropFishR - Excel spreadsheets for simple calculations - Online L-W calculators"
+    "objectID": "lectures/synopsis.html#course-synopsiscontents",
+    "href": "lectures/synopsis.html#course-synopsiscontents",
+    "title": "Content and Objectives",
+    "section": "Course Synopsis/contents",
+    "text": "Course Synopsis/contents\n\nModule 1: Course Introduction\nModule 2: Data used in stock assessment\nModule 3: The Unit stock\n\nDistribution and abundance\nMethods of estimating fish stock abundance\n\nModule 4: Key Biological Parameters\n\nFish population Growth\nFish recruitment\nFish Mortality\n\nModule 5: Population Dynamics\n\nBasic concepts of fish population dynamics\nPopulation models\nSurplus production models\nAge-structured population models\nEquilibrium versus dynamic concepts",
+    "crumbs": [
+      "Home",
+      "Course synopsis",
+      "Content and Objectives"
+    ]
+  },
+  {
+    "objectID": "lectures/synopsis.html#course-objectives",
+    "href": "lectures/synopsis.html#course-objectives",
+    "title": "Content and Objectives",
+    "section": "Course Objectives",
+    "text": "Course Objectives\n\nAt the end of the course, you should be able to;\n\nUnderstand what a fish population is and\nIdentify and define a fish stock and its properties\nEstimate the abundance of fish stocks\nExplain how fish populations are affected by external and internal influences i.e growth, recruitment and mortality.\nUse models to forecast on future trends of a fishery",
+    "crumbs": [
+      "Home",
+      "Course synopsis",
+      "Content and Objectives"
+    ]
   },
   {
     "objectID": "practical/length_weight_practical.html",
     "href": "practical/length_weight_practical.html",
     "title": "Practical on Length-weight measurements",
     "section": "",
-    "text": "The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:\n\\[\nW = a * L^b\n\\]\nWhere:\n\n W  = weight of the fish (in grams),\n L  = length of the fish (in centimeters),\n a  = intercept (a coefficient related to the condition factor of the fish),\n b  = slope (an exponent indicating the type of growth).\n\nFor easier statistical analysis, the equation is typically converted to a linear form using logarithms:\n\\[\nLog(W) = Log(a) + b * Log(L)\n\\]"
+    "text": "The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:\n\\[\nW = a \\times L^b\n\\]\nWhere:\n\n W  = weight of the fish (in grams),\n L  = length of the fish (in centimeters),\n a  = intercept (a coefficient related to the condition factor of the fish),\n b  = slope (an exponent indicating the type of growth).\n\nFor easier statistical analysis, the equation is typically converted to a linear form using logarithms:\n\\[\nLog(W) = Log(a) + b \\times Log(L)\n\\]"
   },
   {
     "objectID": "practical/length_weight_practical.html#overview",
     "href": "practical/length_weight_practical.html#overview",
     "title": "Practical on Length-weight measurements",
     "section": "",
-    "text": "The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:\n\\[\nW = a * L^b\n\\]\nWhere:\n\n W  = weight of the fish (in grams),\n L  = length of the fish (in centimeters),\n a  = intercept (a coefficient related to the condition factor of the fish),\n b  = slope (an exponent indicating the type of growth).\n\nFor easier statistical analysis, the equation is typically converted to a linear form using logarithms:\n\\[\nLog(W) = Log(a) + b * Log(L)\n\\]"
+    "text": "The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:\n\\[\nW = a \\times L^b\n\\]\nWhere:\n\n W  = weight of the fish (in grams),\n L  = length of the fish (in centimeters),\n a  = intercept (a coefficient related to the condition factor of the fish),\n b  = slope (an exponent indicating the type of growth).\n\nFor easier statistical analysis, the equation is typically converted to a linear form using logarithms:\n\\[\nLog(W) = Log(a) + b \\times Log(L)\n\\]"
   },
   {
     "objectID": "practical/length_weight_practical.html#growth-patterns-based-on-the-exponent-b",
@@ -1509,5 +1754,12 @@
     "title": "Glossary",
     "section": "Symbols and Abbreviations",
     "text": "Symbols and Abbreviations\n\n\n\nSymbol/Abbreviation\nDefinition\n\n\n\n\nB\nBiomass\n\n\nBMU\nBeach Management Unit\n\n\nCAS\nCatch Assessment Survey\n\n\nCPUE\nCatch Per Unit Effort\n\n\nCV\nCoefficient of Variation\n\n\nEEZ\nExclusive Economic Zone\n\n\nF\nFishing Mortality Rate\n\n\nFAO\nFood and Agriculture Organization of the UN\n\n\nFSA\nFish Stock Assessment\n\n\nGLM\nGeneral Linear Model\n\n\nK\nBrody’s growth coefficient (von Bertalanffy)\n\n\nL∞\nAsymptotic maximum length (von Bertalanffy)\n\n\nM\nNatural Mortality Rate\n\n\nN\nPopulation abundance (number of fish)\n\n\nq\nCatchability coefficient\n\n\nRF\nRaising Factor\n\n\nVMS\nVessel Monitoring System\n\n\nW\nWeight\n\n\n\n\nLast updated: December 2025"
+  },
+  {
+    "objectID": "lectures/5_unit_stock.html#geographic-distribution-1",
+    "href": "lectures/5_unit_stock.html#geographic-distribution-1",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Geographic Distribution",
+    "text": "Geographic Distribution\nExamples:\n\nMigratory species (salmon) move between coastal and riverine habitats\nDemersal species (bottom-dwelling) have specific depth distributions\nPelagic species distribute widely in open water\n\nManagement implications:\n\nFishing effort should target areas of highest concentration\nSeasonal closures may protect aggregations during vulnerable periods\nInternational boundaries may complicate management of stocks crossing borders"
   }
 ]

@@ -102,6 +102,13 @@
     "length_weight_relationship.html": "795e1920"
   },
   "practical/length_weight_practical.qmd": {
-    "length_weight_practical.html": "df295948"
+    "length_weight_practical.html": "df295948",
+    "length_weight_practical.docx": "5dae494b"
+  },
+  "practical/length_weight_isometric.qmd": {
+    "length_weight_isometric.html": "11c2db81"
+  },
+  "lectures/6_methods_stock_abundance.qmd": {
+    "6_methods_stock_abundance.html": "15dd479f"
   }
 }

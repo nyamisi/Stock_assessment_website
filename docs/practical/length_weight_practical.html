@@ -145,6 +145,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../lectures/4_mortality_pop_models.html">
  <span class="dropdown-text">Mortality population models</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../lectures/5_unit_stock.html">
+ <span class="dropdown-text">The Unit Stock</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -155,6 +159,10 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../practical/length_weight_practical.html">
  <span class="dropdown-text">Length-Weight Relationships</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../practical/length_weight_isometric.html">
+ <span class="dropdown-text">Length-Weight Relationships (Using R)</span></a>
   </li>  
     </ul>
   </li>
@@ -243,7 +251,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>The length-weight relationship (LWR) remains a fundamental tool in fisheries science for estimating biomass, assessing fish health, and understanding growth patterns. This relationship is mathematically defined by the power law equation:</p>
 <p><span class="math display">\[
-W = a * L^b
+W = a \times L^b
 \]</span></p>
 <p>Where:</p>
 <ul>
@@ -254,7 +262,7 @@ W = a * L^b
 </ul>
 <p>For easier statistical analysis, the equation is typically converted to a linear form using logarithms:</p>
 <p><span class="math display">\[
-Log(W) = Log(a) + b * Log(L)
+Log(W) = Log(a) + b \times Log(L)
 \]</span></p>
 </section>
 <section id="growth-patterns-based-on-the-exponent-b" class="level2">
