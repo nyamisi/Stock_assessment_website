@@ -13,15 +13,15 @@ website:
       - text: "Presentations"
 
         menu:
-          - text: "Course Introduction"
+          - text: "Course introduction"
             href: lectures/1_intro.qmd
           - text: "Data used in stock assessment"
             href: lectures/2_data_used.qmd
-          - text: "Fish Population Dynamics"
+          - text: "Fish population dynamics"
             href: lectures/3_popl_dynamics.qmd
           - text: "Mortality population models"
             href: lectures/4_mortality_pop_models.qmd
-          - text: "The Unit Stock"
+          - text: "The unit stock"
             href: lectures/5_unit_stock.qmd
           # - text: "Methods for estimating stock abundance"
           #   href: lectures/6_methods_stock_abundance.qmd
