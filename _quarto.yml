@@ -23,15 +23,17 @@ website:
             href: lectures/4_mortality_pop_models.qmd
           - text: "The unit stock"
             href: lectures/5_unit_stock.qmd
-          # - text: "Methods for estimating stock abundance"
-          #   href: lectures/6_methods_stock_abundance.qmd
+          - text: "Methods for estimating stock abundance"
+            href: lectures/6_methods_stock_abundance.qmd
+          - text: "Methods for estimating stock abundance part2"
+            href: lectures/7_methods_stock_abundance2.qmd
 
       - text: "Practicals"
         menu:
           - text: "Length-Weight Relationships"
             href: practical/length_weight_practical.qmd
-          - text: "Length-Weight Relationships (Using R)"
-            href: practical/length_weight_isometric.qmd
+          # - text: "Length-Weight Relationships (Using R)"
+          #   href: practical/length_weight_isometric.qmd
 
 
       - text: "Resources"
@@ -62,7 +64,7 @@ website:
 
   page-footer:
     left: "Fish Stock Assessment Course | AQ 232"
-    right: "© 2025 Nyamisi Peter"
+    right: "© 2025/2026 Nyamisi Peter"
 
 format:
   html:

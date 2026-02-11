@@ -2,7 +2,7 @@
 title: "AQ 232 -- Fish Population Dynamics and Stock Assessment"
 subtitle: "Methods of Estimating Fish Stock Abundance"
 author: "Nyamisi Peter"
-date: "today"
+date: "2026-01-23"
 format: 
     revealjs:
       standalone: true
@@ -23,13 +23,97 @@ code-line-numbers: true
 css: ../style.css
 ---
 
-## Introduction
+```{r}
+require(tidyverse)
+```
+## [Introduction]{style="background: #4a1035ff; color: #bebe56ff"}
 
-- Estimating fish stock abundance is crucial for sustainable fisheries management.
+- Estimating fish stock abundance is important for sustainable fisheries management.
 - Various methods exist, each with strengths and limitations.
 - Choice of method depends on species, habitat, data availability, and resources.
 
-## [Categories of Methods]{style="background: #4a1035ff; color: #bebe56ff"}
+## [Fish abundance]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Fish abundance refers to the number of individuals in a fish population within a defined area.
+- It is a key metric for assessing the health and sustainability of fish stocks.
+- Accurate abundance estimates inform management decisions, such as setting catch limits and conservation measures.
+- Abundance can be expressed as:
+
+    - **Absolute abundance** -- Measure the actual number of fish in an area i.e Pond
+    - **Relative abundance** -- Estimate the number of fish at a given locality
+
+## [Fish abundance...]{style="background: #4a1035ff; color: #bebe56ff"}
+ 
+- Abundance is not a fixed quantity -- Varies from time to time (seasonal) due to;
+
+  - **Internal forces** i.e births and deaths and 
+  - **External forces** i.e seasonal availability of food, changes in environmental conditions that may affect the population
+  
+- It varies from place to place because of the heterogeneity of the environment 
+
+## [Fish abundance...]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Within the area of distribution the abundance of a population always vary -- either grow (increase) or decline
+
+- The population may vary with season due to;
+
+  - Births
+  - Deaths  
+  - Seasonal migration (spawning, feeding and over-wintering) recruitment
+
+## [Fish migration]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Fish migration is mass relocation by fish from one area or body of water to another.
+- Fish migrate;
+
+  - On a regular basis   
+  - On time scales -- from daily, seasonal, annually or   
+  - Longer, and over distances -- from a few metres to thousands of kilometres. 
+- Such migrations are usually done for feeding or to reproduce, but in other cases the reasons are unclear.
+- Migration affects local abundance estimates and must be considered in survey design.
+
+
+## [Fish migration...]{style="background: #4a1035ff; color: #bebe56ff"}
+
+```{mermaid}
+
+flowchart LR
+  A(Spawning </br> Ground) --> B(Feeding </br> Ground)
+  B --> C(Wintering </br> Ground)
+  C --> A
+  B --> A
+  A --> C
+  C --> B
+
+
+```
+
+## [Terminologies in fish migration]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- **Diadromous** -- Fishes that migrate between the sea and freshwater.
+- **Anadromous** -- Diadromous fishes which spend most of their lives in the sea and migrate to freshwater to breed (salmon, sea trout, shad, sea lampreys, sturgeons)
+- **Catadromous** -- Diadromous fishes which spend most of their lives in freshwater and migrate to the sea to breed (eel, Salangidae, Galaxidae, Retropinnidae).
+- **Amphidromous** -- Diadromous fishes which migrate from the sea to freshwater or vice versa, but not for the purpose of breeding (some Exocidae,Perca fluviatilis, some Mugilidae).
+
+
+## [Terminologies in fish migration...]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- **Potamodromous** --  Migratory fishes that live and migrate wholly within freshwater systems (rivers, lakes, streams). They never enter marine environments e.g (trout, bream, Coregonoids)
+
+    - Complete their entire life cycle in freshwater. 
+    - Migrate between different freshwater habitats for spawning, feeding, or overwintering
+
+- Their migration patterns are triggered by Water temperature changes, Flooding (access to floodplain habitats), Photoperiod (day length), Food availability, Spawning readiness
+
+## [Terminologies in fish migration...]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- **Oceanodromous** -- Migratory fishes that live and migrate wholly within the sea (marine environment). They never enter freshwater. (cod, herring, capelin, tuna, mackerel).
+- Complete their entire life cycle in marine waters
+- Migrate between different ocean habitats for spawning, feeding, or seasonal movements
+- Migration distances can range from coastal movements to trans-oceanic journeys (thousands of kilometers)
+- Their migration patterns are triggered by Sea surface temperature gradients, Ocean current patterns (monsoons in Indian Ocean), Prey availability (following zooplankton blooms), Spawning readiness and lunar cycles, Upwelling events
+
+## [Methods for estimating fish abundance]{style="background: #4a1035ff; color: #bebe56ff"}
 
 **1. Direct Methods (Surveys)**
 
@@ -49,586 +133,123 @@ css: ../style.css
 - Combine multiple data sources
 - Require specialized software and expertise
 
-## [1. Trawl Surveys]{style="background: #4a1035ff; color: #bebe56ff"}
+## [1. Trawl Surveys--Swept area method]{style="background: #4a1035ff; color: #bebe56ff"}
 
-**Principle:**
+- It is assumed that the area swept by the trawl is representative for the entire area over which the fishes are distributed.
+- That fish caught within the area swept by the trawl net is proportion to their abundance
 
-- Systematic bottom or mid-water trawling in a grid pattern
-- Standardized vessels, gear, and protocols ensure comparability
-- Provides age/size composition data
+## [Trawl net]{style="background: #4a1035ff; color: #bebe56ff"}
 
-**Types:**
+::: {.columns}
+::: {.column width="60%"}
+- Trawl net is a conical bag with a wide mouth fitted with otter boards for horizontal opening and floats and weights for vertical opening.
+- This net sweeps the sea bed over a wide area. 
+- The tail end of the gear where the fishes are collected is called **codend**.
+:::
+::: {.column width="40%"}
 
+![Trawl Net](graphics/Midwater-trawl-Scalefish-sector.jpg){width="100%"}
+:::
+::: 
+
+## [Types of Trawl Nets]{style="background: #4a1035ff; color: #bebe56ff"}
+
+- Trawl nets that are dragged on the sea floor are called **bottom trawls**.
 - **Bottom trawl** - Demersal species (snappers, groupers, flatfish)
 - **Mid-water trawl** - Pelagic species (sardines, herring)
 
-## [Trawl Surveys: Procedure]{style="background: #4a1035ff; color: #bebe56ff"}
+## [Swept area method]{style="background: #4a1035ff; color: #bebe56ff"}
 
-1. Divide survey area into strata (depth, habitat)
-2. Randomly select stations within each stratum
-3. Tow standardized gear for fixed time/distance
-4. Record catch by species, measure length/weight
-5. Calculate swept area and expand to total area
+**Principle of swept area method:**
 
-**Swept Area Method:**
+- The mean catch (either in weight or in numbers) per unit of effort or per unit of area is an index of the stock abundance.
+- This index is converted into an absolute measure of biomass.
 
-$$B = \frac{C}{a \times e}$$
+## [Swept area method...]{style="background: #4a1035ff; color: #bebe56ff"}
 
-Where:
+$$\frac{a}{A} = \frac{c}{B}$$ 
 
-- $B$ = Biomass estimate
-- $C$ = Catch weight
-- $a$ = Swept area (width × distance)
-- $e$ = Catchability coefficient
+- The biomass (B) is converted to absolute biomass by multiplying with constant R
 
-## [Trawl Surveys: Advantages & Disadvantages]{style="background: #4a1035ff; color: #bebe56ff"}
+$$\frac{a}{A}=\frac{c}{BR}$$
 
-::: {.columns}
-::: {.column}
-**Advantages:**
 
-- Direct observation of stock
-- Provides biological data (age, sex, maturity)
-- Standardized for time-series comparison
-- Species composition data
-:::
-::: {.column}
-**Disadvantages:**
+## [Swept area method...]{style="background: #4a1035ff; color: #bebe56ff"}
 
-- Expensive (vessel, crew, equipment)
-- Gear selectivity (misses small/large fish)
-- Fish avoidance behavior
-- Limited to trawlable habitats
-- Weather dependent
-:::
-:::
+$$B = \frac{cA}{aR}$$
 
-## [2. Acoustic Surveys]{style="background: #4a1035ff; color: #bebe56ff"}
+Where; 
 
-**Principle:**
+B = Biomass
+a = area swept by the net
+c = catch
+A = area of distribution of the fish stock
+R = retention rate of the net (0.5 - 0.8)
 
-- Sound waves detect fish schools through differences in density
-- Echosounders transmit pulses and measure returns
-- Returns converted to fish density estimates
+## [Swept area method...]{style="background: #4a1035ff; color: #bebe56ff"}
 
-**Technology:**
+- A trawl net is used to estimate the mean catch at a number of stations in a fish stock
+- A towed trawl net samples fish in an area (a) prescribed by the net's effective width and distance traveled by the net
 
-- Single-beam echosounders
-- Split-beam echosounders (more accurate)
-- Multibeam systems for 3D mapping
-- Autonomous underwater vehicles (AUVs)
 
-## [Acoustic Surveys: Target Strength]{style="background: #4a1035ff; color: #bebe56ff"}
+## [Calculations on swept area method]{style="background: #4a1035ff; color: #bebe56ff"}
 
-**Target Strength (TS):**
+- Let 
 
-- Measure of acoustic reflectivity (in decibels, dB)
-- Relates to fish size and species
-- Must be calibrated for reliable estimates
+  **a** be the area prescribed by the net
+  **h** is the length of the net head rope
+  
+  If the effective width of the net (w) is proportion to the head rope (e.g 0.6);
+  
+  Then,
+  
+  $w = 0.6h$
+  
 
-$$TS = 20 \log_{10}(L) + b_{20}$$
+## [Swept area method...]{style="background: #4a1035ff; color: #bebe56ff"}
 
-Where:
+- If the towing speed (v) and time for trawling (t) is known then, it is possible to calculate the distance (d) covered during towing 
 
-- $L$ = Fish length (cm)
-- $b_{20}$ = Species-specific constant
+$$d = v\times t$$
 
-**Example values:**
+- Then, the area prescribed by the net during towing is 
+$$a = w \times d$$
+ $$a = w\times v\times t$$
 
-- Herring: $b_{20}$ ≈ -71.9 dB
-- Sardine: $b_{20}$ ≈ -72.6 dB
+## [Question 1]{style="background: #4a1035ff; color: #bebe56ff"}
 
-## [Acoustic Surveys: Advantages & Disadvantages]{style="background: #4a1035ff; color: #bebe56ff"}
 
-::: {.columns}
-::: {.column}
-**Advantages:**
+After 0.5 hour of trawling at a speed of 2 km per hour, 3 tons of fish were caught by a trawl net with a head rope measuring 20m. If the retention rate of the net was 50% and only 0.6 of the head rope was making an effective width of the path, calculate the biomass of a fish stock of *Solea solea* distributed over an area of 4 km^2^
 
-- Rapid spatial coverage
-- Non-lethal to fish
-- Good for pelagic schooling species
-- Real-time data collection
-- Can estimate size distribution
-:::
-::: {.column}
-**Disadvantages:**
+## [Solution]{style="background: #4a1035ff; color: #bebe56ff"}
 
-- Species identification challenging
-- Near-surface blind zone
-- Bottom detection issues
-- Expensive equipment
-- Requires calibration
-- Environmental noise interference
-:::
-:::
+$$\frac{a}{A} = \frac{c}{BR}$$ 
+$$B = \frac{cA}{aR}$$ 
 
-## [3. Visual Surveys]{style="background: #4a1035ff; color: #bebe56ff"}
+## [Solution]{style="background: #4a1035ff; color: #bebe56ff"}
 
-**Methods:**
+t = 0.5hr
 
-- **Underwater Visual Census (UVC)** - Divers count fish along transects
-- **Video surveys** - Remote cameras or ROVs
-- **Aerial surveys** - Aircraft observation of surface schools
+v = 2km/hr
 
-**Applications:**
+c = 3tons
 
-- Reef fish communities
-- Shallow coastal waters
-- Clear water environments
-- Surface schooling species (tuna, sardines)
+h = 20m = 0.02km
 
-## [Visual Surveys: Underwater Methods]{style="background: #4a1035ff; color: #bebe56ff"}
+R = 50% = 0.5
 
-**Belt Transect Method:**
+w = 0.6h = 0.6*0.02
 
-1. Diver swims along fixed transect (e.g., 50 m × 5 m)
-2. Records all fish within belt width
-3. Estimates size classes
-4. Multiple transects per site
+A = 4 km2
 
-**Point Count Method:**
+B = ?
 
-1. Diver remains stationary
-2. Counts fish within cylinder (e.g., 7.5 m radius)
-3. Records species, size, abundance
-4. Less affected by fish flight behavior
+## [Solution...]{style="background: #4a1035ff; color: #bebe56ff"}
 
-## [Visual Surveys: Advantages & Disadvantages]{style="background: #4a1035ff; color: #bebe56ff"}
+$$B = \frac{3tons\times 4km2}{0.6\times0.02km\times2km/hr\times0.5hr\times0.5}$$
 
-::: {.columns}
-::: {.column}
-**Advantages:**
 
-- Direct observation
-- Species identification possible
-- Behavioral information
-- Relatively low cost
-- Good for complex habitats (reefs)
-:::
-::: {.column}
-**Disadvantages:**
-
-- Limited to clear, shallow water
-- Weather and visibility dependent
-- Observer bias
-- Diver safety concerns
-- Small spatial coverage
-- Fish behavior affects counts
-:::
-:::
-
-## [4. Catch Per Unit Effort (CPUE)]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Definition:**
-
-- CPUE is catch obtained per standardized unit of fishing effort
-- Used as an **index of abundance** (relative, not absolute)
-
-**Formula:**
-
-$$\text{CPUE} = \frac{\text{Total Catch}}{\text{Total Effort}}$$
-
-**Effort units:**
-
-- Fishing hours or days at sea
-- Number of hooks (longline)
-- Net length × soak time (gillnet)
-- Number of traps × soak time
-- Distance trawled
-
-## [CPUE: Standardization]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Why standardize?**
-
-- Raw CPUE affected by many factors unrelated to abundance
-- Must remove confounding effects for reliable trends
-
-**Factors to standardize:**
-
-- Vessel characteristics (size, power, technology)
-- Gear type and configuration
-- Seasonal effects
-- Geographic area
-- Environmental variables (SST, depth)
-
-**Methods:**
-
-- Generalized Linear Models (GLM)
-- Generalized Additive Models (GAM)
-- Delta-lognormal models (for zero catches)
-
-## [CPUE: Advantages & Disadvantages]{style="background: #4a1035ff; color: #bebe56ff"}
-
-::: {.columns}
-::: {.column}
-**Advantages:**
-
-- Uses existing commercial data
-- Cost-effective
-- Long time series available
-- Large spatial coverage
-- Real-time updates possible
-:::
-::: {.column}
-**Disadvantages:**
-
-- Affected by fisher behavior
-- Hyperstability (targeting)
-- Technology changes over time
-- Assumes effort is independent
-- May not reflect true abundance
-- Reporting biases
-:::
-:::
-
-## [5. Mark-Recapture Methods]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Principle:**
-
-1. Capture, mark, and release known number of fish ($M$)
-2. Allow time for marked fish to mix with population
-3. Recapture a sample ($C$)
-4. Count marked individuals in recapture ($R$)
-5. Estimate population size
-
-**Assumptions:**
-
-- Closed population (no births, deaths, migration)
-- Marks are not lost or overlooked
-- Marked and unmarked fish have equal capture probability
-- Marks do not affect survival
-
-## [Mark-Recapture: Lincoln-Petersen Method]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Formula:**
-
-$$\hat{N} = \frac{M \times C}{R}$$
-
-Where:
-
-- $\hat{N}$ = Estimated population size
-- $M$ = Number marked and released
-- $C$ = Total number in recapture sample
-- $R$ = Number of marked fish recaptured
-
-**Chapman's Modification (reduces bias):**
-
-$$\hat{N} = \frac{(M + 1)(C + 1)}{R + 1} - 1$$
-
-## [Mark-Recapture: Example]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Problem:**
-
-- 500 tilapia are captured, marked, and released in Lake Victoria
-- One week later, 200 fish are recaptured
-- Of these, 25 have marks
-
-**Solution:**
-
-$$\hat{N} = \frac{M \times C}{R} = \frac{500 \times 200}{25} = 4,000 \text{ fish}$$
-
-**Chapman's estimate:**
-
-$$\hat{N} = \frac{(501)(201)}{26} - 1 = 3,872 \text{ fish}$$
-
-## [Mark-Recapture: Multiple Recapture Methods]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Schnabel Method:**
-
-- Multiple capture-recapture events
-- More precise than single event
-- Formula uses cumulative marked fish
-
-**Jolly-Seber Method:**
-
-- For open populations (allows births, deaths, migration)
-- Estimates survival rates and recruitment
-- Requires multiple sampling occasions
-
-**Cormack-Jolly-Seber (CJS):**
-
-- Focuses on survival estimation
-- Used when only recaptures (not population size) is of interest
-
-## [Mark-Recapture: Advantages & Disadvantages]{style="background: #4a1035ff; color: #bebe56ff"}
-
-::: {.columns}
-::: {.column}
-**Advantages:**
-
-- Direct abundance estimate
-- Provides movement information
-- Estimates survival rates
-- Useful for discrete populations
-:::
-::: {.column}
-**Disadvantages:**
-
-- Tagging stress and mortality
-- Tag loss or shedding
-- Expensive and labor-intensive
-- Assumption violations common
-- Limited to feasible population sizes
-:::
-:::
-
-## [6. Depletion Methods]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Principle:**
-
-- Repeated fishing removes fish from a closed population
-- Declining catch rate indicates initial abundance
-- Assumes constant catchability
-
-**Leslie Method:**
-
-$$C_t = qN_0 - q\sum_{i=1}^{t-1}C_i$$
-
-Where:
-
-- $C_t$ = Catch in period $t$
-- $q$ = Catchability coefficient
-- $N_0$ = Initial population size
-- Plot $C_t$ vs. cumulative catch; intercept = $N_0$
-
-## [Depletion Methods: DeLury Method]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Formula:**
-
-$$\ln(\text{CPUE}_t) = \ln(qN_0) - q\sum_{i=1}^{t-1}f_i$$
-
-Where:
-
-- $f_i$ = Fishing effort in period $i$
-- Plot $\ln(\text{CPUE})$ vs. cumulative effort
-- Slope = $-q$, intercept = $\ln(qN_0)$
-
-**Requirements:**
-
-- Closed population during study
-- Significant removal (>30% of stock)
-- Short time period
-- Constant catchability
-
-## [Depletion Methods: Advantages & Disadvantages]{style="background: #4a1035ff; color: #bebe56ff"}
-
-::: {.columns}
-::: {.column}
-**Advantages:**
-
-- Simple data requirements
-- Uses commercial fishing data
-- Provides absolute estimate
-- Quick results
-:::
-::: {.column}
-**Disadvantages:**
-
-- Requires closed population
-- Needs significant depletion
-- Assumes constant catchability
-- Not suitable for mobile species
-- Short-term application only
-:::
-:::
-
-## [7. Egg and Larval Surveys]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Principle:**
-
-- Sample ichthyoplankton (fish eggs and larvae)
-- Estimate spawning stock biomass from egg production
-
-**Daily Egg Production Method (DEPM):**
-
-$$SSB = \frac{P_0 \times A}{R \times S \times F}$$
-
-Where:
-
-- $P_0$ = Daily egg production per unit area
-- $A$ = Spawning area
-- $R$ = Sex ratio (proportion female)
-- $S$ = Spawning fraction (proportion spawning per day)
-- $F$ = Batch fecundity (eggs per spawning female)
-
-## [Egg/Larval Surveys: Applications]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Best suited for:**
-
-- Species with pelagic eggs (sardines, anchovies, cod)
-- Spawning aggregations
-- When adult surveys are difficult
-
-**Requirements:**
-
-- Knowledge of spawning season and area
-- Fecundity estimates
-- Egg development rates (temperature-dependent)
-- Egg mortality rates
-
-## [8. Virtual Population Analysis (VPA)]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Principle:**
-
-- Back-calculate population numbers from catch-at-age data
-- Uses cohort analysis (track year-classes through time)
-- Requires age-structured catch data
-
-**Basic Equation:**
-
-$$N_{a-1,t-1} = (N_{a,t} + C_{a,t}) \times e^{M}$$
-
-Where:
-
-- $N_{a,t}$ = Numbers at age $a$ in year $t$
-- $C_{a,t}$ = Catch at age $a$ in year $t$
-- $M$ = Natural mortality rate
-
-## [VPA: Procedure]{style="background: #4a1035ff; color: #bebe56ff"}
-
-1. Start with terminal year estimates (most recent)
-2. Assume terminal fishing mortality ($F$)
-3. Back-calculate numbers using catch and mortality
-4. Iterate until convergence
-
-**Advantages:**
-
-- Uses readily available catch data
-- Provides age-specific estimates
-- Long time series possible
-
-**Disadvantages:**
-
-- Requires accurate age data
-- Sensitive to terminal $F$ assumptions
-- Less reliable for recent years
-- Needs natural mortality estimate
-
-## [9. Integrated Assessment Models]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Principle:**
-
-- Combine multiple data sources in single framework
-- Fit population model to all available data
-- Maximize information use
-
-**Common Software:**
-
-- **Stock Synthesis (SS3)** - NOAA, widely used globally
-- **CASAL** - New Zealand, age-structured
-- **ADMB** - Automatic differentiation for optimization
-- **TMB** - Template Model Builder (R-based)
-
-## [Integrated Models: Data Sources]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Data integrated:**
-
-- Commercial catch (total, by fleet)
-- CPUE indices (multiple fleets/surveys)
-- Age/length composition
-- Survey biomass indices
-- Tagging data
-- Growth parameters
-- Maturity schedules
-
-**Advantages:**
-
-- Uses all available information
-- Accounts for data uncertainty
-- Consistent parameter estimates
-- Uncertainty quantification
-
-## [10. Bayesian Methods]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Principle:**
-
-- Incorporate prior knowledge with observed data
-- Produce posterior distributions of parameters
-- Better uncertainty quantification
-
-**Bayes' Theorem:**
-
-$$P(\theta|data) = \frac{P(data|\theta) \times P(\theta)}{P(data)}$$
-
-Where:
-
-- $P(\theta|data)$ = Posterior probability of parameters
-- $P(data|\theta)$ = Likelihood of data given parameters
-- $P(\theta)$ = Prior probability of parameters
-
-## [Bayesian Methods: Applications]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Advantages:**
-
-- Formal incorporation of prior knowledge
-- Full uncertainty quantification
-- Decision-making under uncertainty
-- Works with limited data
-
-**Software:**
-
-- **JAGS** - Just Another Gibbs Sampler
-- **Stan** - Hamiltonian Monte Carlo
-- **OpenBUGS** - Bayesian inference
-- **R packages** - rstan, brms, rstanarm
-
-## [Comparison of Methods]{style="background: #4a1035ff; color: #bebe56ff"}
-
-| Method | Data Needs | Cost | Precision | Best For |
-|--------|------------|------|-----------|----------|
-| Trawl survey | High | High | High | Demersal species |
-| Acoustic | Medium | High | Medium | Pelagic schools |
-| Visual | Low | Low | Low | Reef fish |
-| CPUE | Medium | Low | Medium | Commercial stocks |
-| Mark-recapture | Medium | Medium | Medium | Discrete populations |
-| Depletion | Low | Low | Low | Closed populations |
-| VPA | High | Low | High | Long time series |
-
-## [Choosing the Right Method]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Consider:**
-
-1. **Species characteristics** - Habitat, behavior, life history
-2. **Data availability** - What data already exists?
-3. **Resources** - Budget, equipment, expertise
-4. **Management needs** - Precision required, time frame
-5. **Stock status** - Data-rich vs. data-limited
-
-**Best Practice:**
-
-- Use **multiple methods** when possible
-- Cross-validate results
-- Account for uncertainty in all estimates
-
-## [Example: Tanzania Fisheries]{style="background: #4a1035ff; color: #bebe56ff"}
-
-**Marine Fisheries:**
-
-- **Tuna** - CPUE from longline fleet + acoustic surveys
-- **Small pelagics** - Acoustic surveys + egg/larval surveys
-- **Reef fish** - Underwater visual census
-
-**Freshwater Fisheries:**
-
-- **Nile perch** - Trawl surveys + CPUE standardization
-- **Dagaa** - Acoustic surveys + light attraction methods
-- **Tilapia** - Frame surveys + CPUE
-
-## [Summary]{style="background: #4a1035ff; color: #bebe56ff"}
-
-- No single method is perfect for all situations
-- **Direct methods** (surveys) provide independent estimates but are costly
-- **Indirect methods** (CPUE, depletion) use existing data but have biases
-- **Statistical models** integrate multiple sources for best estimates
-- Choice depends on species, data, resources, and management needs
-- **Multiple methods** increase confidence in abundance estimates
-
-## [References]{style="background: #4a1035ff; color: #bebe56ff"}
-
-- Hilborn, R., & Walters, C. J. (1992). *Quantitative Fisheries Stock Assessment*. Chapman & Hall.
-- Quinn, T. J., & Deriso, R. B. (1999). *Quantitative Fish Dynamics*. Oxford University Press.
-- Simmonds, J., & MacLennan, D. (2005). *Fisheries Acoustics*. Blackwell.
-- King, M. (2007). *Fisheries Biology, Assessment and Management*. Blackwell.
+$$B = 2000tons$$
 
 ---
 

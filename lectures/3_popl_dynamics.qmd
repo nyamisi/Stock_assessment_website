@@ -1,7 +1,7 @@
 ---
 title: "AQ 232: Fish Population Dynamics and Stock Assessment"
 subtitle: "Fish Population Dynamics"
-date: "today"
+date: "2025-12-10"
 author: "Nyamisi Peter"
 format: 
     revealjs:

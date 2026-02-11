@@ -3,7 +3,7 @@ title: "Course Modules"
 subtitle: "AQ 232 -- Fish Population Dynamics and Stock Assessment"
 author: "Nyamisi Peter"
 format: html
-date: "today"
+date: "2025-12-01"
 execute: 
   echo: false
   warning: false
