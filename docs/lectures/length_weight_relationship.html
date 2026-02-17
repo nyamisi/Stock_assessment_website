@@ -442,7 +442,7 @@
   <meta name="generator" content="quarto-1.7.32">
 
   <meta name="author" content="Nyamisi Peter">
-  <meta name="dcterms.date" content="2026-02-11">
+  <meta name="dcterms.date" content="2026-02-18">
   <title>Fish Stock Assessment Course – AQ 232: Fish Population Dynamics and Stock Assessment</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -1000,47 +1000,72 @@ Nyamisi Peter
 </div>
 </div>
 
-  <p class="date">2026-02-11</p>
-</section>
-<section id="length-weight-relationship" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Length-Weight Relationship</span></h2>
-<h3 id="fundamental-concept-in-fish-biology"><span style="background: #453d42ff; color: #f6773cff">Fundamental Concept in Fish Biology</span></h3>
+  <p class="date">2026-02-18</p>
 </section>
 <section id="what-is-length-weight-relationship" class="slide level2">
 <h2><span style="background: #4a1035ff; color: #bebe56ff">What is Length-Weight Relationship?</span></h2>
-<p><strong>Definition:</strong> The mathematical relationship between fish body length and body weight</p>
-<p><strong>Key Idea:</strong> - Longer fish are generally heavier - But the relationship is NOT linear - Weight increases with the <strong>cube</strong> of length (cubic relationship) - Different species have different relationships</p>
-<p><strong>Why Important:</strong> - Convert length measurements to biomass - Assess fish condition and health - Estimate population biomass from length data - Understand growth patterns</p>
+<ul>
+<li>The mathematical relationship between fish body length and body weight</li>
+<li>Different species have different relationships</li>
+</ul>
+<p><strong>Key idea:</strong></p>
+<ul>
+<li>Longer fish are generally heavier</li>
+<li>But the relationship is NOT linear</li>
+<li>Weight increases with the <strong>cube</strong> of length (cubic relationship) – <strong><em>Cube Law</em></strong> <span class="math display">\[W \propto L^3\]</span></li>
+</ul>
+<p><span class="math display">\[W = aL^3\]</span></p>
 </section>
-<section id="the-allometric-equation" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">The Allometric Equation</span></h2>
-<p><strong>Standard Length-Weight Formula:</strong></p>
-<p><span class="math display">\[W = aL^b\]</span></p>
+<section id="weakness-of-cube-law" class="slide level2">
+<h2><span style="background: #4a1035ff; color: #bebe56ff">Weakness of Cube Law</span></h2>
+<ul>
+<li>Not all fish grow isometrically (b=3)</li>
+<li>Some species get heavier (b&gt;3) or lighter (b&lt;3) as they grow</li>
+<li>Body shape and condition affect weight gain</li>
+<li>Environmental factors (food, habitat) also influence growth patterns</li>
+</ul>
+</section>
+<section id="allometry" class="slide level2">
+<h2><span style="background: #4a1035ff; color: #bebe56ff">Allometry</span></h2>
+<ul>
+<li>Allometry describes how body proportions change with size</li>
+<li>In fish, allometric growth means weight does not increase exactly with cube of length</li>
+<li>The general formula is: <span class="math display">\[W = aL^b\]</span></li>
+</ul>
 <p>Where:</p>
 <ul>
-<li><span class="math inline">\(W\)</span> = weight (grams or kilograms)</li>
-<li><span class="math inline">\(L\)</span> = length (centimeters or millimeters)</li>
-<li><span class="math inline">\(a\)</span> = intercept (scale factor)</li>
-<li><span class="math inline">\(b\)</span> = slope (exponent, typically 2.5-3.5)</li>
+<li><span class="math inline">\(W\)</span> = weight</li>
+<li><span class="math inline">\(L\)</span> = length</li>
+<li><span class="math inline">\(a\)</span> = intercept</li>
+<li><span class="math inline">\(b\)</span> = slope</li>
 </ul>
-<p><strong>Logarithmic Form (for linear regression):</strong></p>
+</section>
+<section id="logarithmic-form-for-allometric-equation" class="slide level2">
+<h2><span style="background: #4a1035ff; color: #bebe56ff">Logarithmic Form for allometric equation</span></h2>
+<p><strong>Logarithmic form(linear regression):</strong></p>
+<ul>
+<li><p><span class="math display">\[W = aL^b\]</span></p></li>
+<li><p>Taking log of both sides gives:</p></li>
+</ul>
 <p><span class="math display">\[\log(W) = \log(a) + b \cdot \log(L)\]</span></p>
 </section>
-<section id="understanding-the-parameters" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Understanding the Parameters</span></h2>
-<h3 id="what-does-a-mean"><span style="background: #453d42ff; color: #f6773cff">What does ‘a’ mean?</span></h3>
+<section id="what-does-a-mean" class="slide level2">
+<h2><span style="background: #453d42ff; color: #f6773cff">What does ‘a’ mean?</span></h2>
 <ul>
-<li><strong>Scale factor</strong> or <strong>intercept</strong></li>
-<li>Represents the <strong>weight when length = 1 unit</strong></li>
-<li>Species-specific (different species have different values)</li>
-<li>Related to fish <strong>condition</strong> and <strong>body shape</strong></li>
-<li>Heavier fish species have larger ‘a’ values</li>
+<li><p><strong>Scale factor</strong> or <strong>intercept</strong></p></li>
+<li><p>Species-specific (different species have different values)</p></li>
+<li><p>Related to fish <strong>condition</strong> and <strong>body shape</strong></p></li>
+<li><p>Heavier fish species have larger ‘a’ values</p></li>
 </ul>
-<p><strong>Example:</strong> - Nile Perch: <span class="math inline">\(a ≈ 0.0098\)</span> (robust body) - Cichlid: <span class="math inline">\(a ≈ 0.005\)</span> (slender body) - Same length, different weight due to different ‘a’</p>
+<p><strong>Example:</strong></p>
+<ul>
+<li>Nile Perch: <span class="math inline">\(a ≈ 0.0098\)</span> (robust body)</li>
+<li>Cichlid: <span class="math inline">\(a ≈ 0.005\)</span> (slender body)</li>
+<li>Same length, different weight due to different ‘a’</li>
+</ul>
 </section>
-<section id="understanding-the-parameters-1" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Understanding the Parameters…</span></h2>
-<h3 id="what-does-b-mean"><span style="background: #453d42ff; color: #f6773cff">What does ‘b’ mean?</span></h3>
+<section id="what-does-b-mean" class="slide level2">
+<h2><span style="background: #453d42ff; color: #f6773cff">What does ‘b’ mean?</span></h2>
 <ul>
 <li><strong>Exponent</strong> or <strong>slope</strong></li>
 <li>Determines how <strong>weight scales with length</strong></li>
@@ -1073,7 +1098,6 @@ Nyamisi Peter
 </tr>
 </tbody>
 </table>
-<p><strong>Why b ≈ 3?</strong> - Volume (and weight) of a 3D object increases with cube of length - A fish that doubles in length becomes ~8× heavier (<span class="math inline">\(2^3 = 8\)</span>)</p>
 </section>
 <section id="graphical-representation" class="slide level2">
 <h2><span style="background: #4a1035ff; color: #bebe56ff">Graphical Representation</span></h2>
@@ -1134,181 +1158,71 @@ Nyamisi Peter
   <text x="150" y="150" font-size="12" fill="#e74c3c" font-weight="bold">Non-linear</text>
   <text x="150" y="165" font-size="12" fill="#e74c3c" font-weight="bold">cubic curve</text>
 </svg>
-<p><strong>Key Features:</strong> - <strong>Curved relationship</strong> (not straight line) - <strong>Accelerating weight gain</strong> with increasing length - Small fish weight gain slower than large fish - Data points follow smooth curve</p>
-</section>
-<section id="isometric-vs.-allometric-growth" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Isometric vs. Allometric Growth</span></h2>
-<h3 id="isometric-growth-b-3"><span style="background: #453d42ff; color: #f6773cff">Isometric Growth (b = 3)</span></h3>
+<p><strong>Key Features:</strong></p>
 <ul>
-<li>Fish <strong>maintains same body shape</strong> as it grows</li>
-<li>Weight increases exactly with cube of length</li>
-<li>Fish becomes equally “robust” at all sizes</li>
-<li>Length ratio 2:1 → Weight ratio 8:1</li>
+<li><strong>Curved relationship</strong> (not straight line)</li>
+<li><strong>Accelerating weight gain</strong> with increasing length</li>
+<li>Small fish weight gain slower than large fish</li>
+<li>Data points follow smooth curve</li>
 </ul>
-<p><strong>Example:</strong> Most fish with uniform body proportions</p>
-<h3 id="positive-allometric-b-3"><span style="background: #453d42ff; color: #f6773cff">Positive Allometric (b &gt; 3)</span></h3>
-<ul>
-<li>Fish <strong>gets relatively heavier</strong> as it grows</li>
-<li>Becomes more robust/muscular with age</li>
-<li>Weight increases faster than cubic relationship</li>
-<li>Fish condition improves with size</li>
-</ul>
-<p><strong>Example:</strong> Nile Perch (b ≈ 3.1)</p>
-<h3 id="negative-allometric-b-3"><span style="background: #453d42ff; color: #f6773cff">Negative Allometric (b &lt; 3)</span></h3>
-<ul>
-<li>Fish <strong>gets relatively lighter</strong> as it grows</li>
-<li>Body proportions change (e.g., becomes more elongated)</li>
-<li>Weight increases slower than cubic relationship</li>
-<li>Fish condition declines with size</li>
-</ul>
-<p><strong>Example:</strong> Some eels, very elongated fish</p>
-</section>
-<section id="estimating-length-weight-parameters" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Estimating Length-Weight Parameters</span></h2>
-<p><strong>Step 1: Collect Data</strong> - Measure length (L) of fish - Measure weight (W) of same fish - Collect multiple specimens across size range - Minimum 20-30 observations (more is better)</p>
-<p><strong>Step 2: Transform Data</strong> - Calculate: <span class="math inline">\(\log(W)\)</span> and <span class="math inline">\(\log(L)\)</span> - Creates linear relationship for regression</p>
-<p><strong>Step 3: Linear Regression</strong> - Plot <span class="math inline">\(\log(W)\)</span> vs <span class="math inline">\(\log(L)\)</span> - Fit line: <span class="math inline">\(\log(W) = \log(a) + b \cdot \log(L)\)</span> - Extract slope (b) and intercept (<span class="math inline">\(\log(a)\)</span>)</p>
-<p><strong>Step 4: Back-Transform</strong> - <span class="math inline">\(a = 10^{\text{intercept}}\)</span> - Use fitted equation: <span class="math inline">\(W = aL^b\)</span></p>
-</section>
-<section id="example-calculation-nile-perch" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Example Calculation: Nile Perch</span></h2>
-<p><strong>Sample Data from Lake Victoria Nile Perch:</strong></p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Length (cm)</th>
-<th>Weight (g)</th>
-<th>log(L)</th>
-<th>log(W)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>10</td>
-<td>5.0</td>
-<td>1.000</td>
-<td>0.699</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>42</td>
-<td>1.301</td>
-<td>1.623</td>
-</tr>
-<tr class="odd">
-<td>30</td>
-<td>145</td>
-<td>1.477</td>
-<td>2.161</td>
-</tr>
-<tr class="even">
-<td>50</td>
-<td>800</td>
-<td>1.699</td>
-<td>2.903</td>
-</tr>
-<tr class="odd">
-<td>80</td>
-<td>3500</td>
-<td>1.903</td>
-<td>3.544</td>
-</tr>
-<tr class="even">
-<td>120</td>
-<td>12000</td>
-<td>2.079</td>
-<td>4.079</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Linear Regression Result:</strong> - Intercept: -2.006 - Slope (b): 3.06 - <span class="math inline">\(a = 10^{-2.006} ≈ 0.0098\)</span></p>
-<p><strong>Final Equation:</strong> <span class="math display">\[W = 0.0098 \times L^{3.06}\]</span></p>
-</section>
-<section id="interpreting-nile-perch-relationship" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Interpreting Nile Perch Relationship</span></h2>
-<p><strong>Using the equation: <span class="math inline">\(W = 0.0098 L^{3.06}\)</span></strong></p>
-<p><strong>Examples:</strong></p>
-<ul>
-<li><strong>Length 20 cm:</strong> <span class="math inline">\(W = 0.0098 × 20^{3.06} ≈ 45\)</span> g</li>
-<li><strong>Length 50 cm:</strong> <span class="math inline">\(W = 0.0098 × 50^{3.06} ≈ 825\)</span> g</li>
-<li><strong>Length 100 cm:</strong> <span class="math inline">\(W = 0.0098 × 100^{3.06} ≈ 9,900\)</span> g (≈10 kg)</li>
-<li><strong>Length 150 cm:</strong> <span class="math inline">\(W = 0.0098 × 150^{3.06} ≈ 33,000\)</span> g (≈33 kg)</li>
-</ul>
-<p><strong>Observation:</strong> - At 20 cm: roughly 45 g - At 100 cm (5× longer): roughly 9.9 kg (220× heavier!) - Shows explosive weight gain with length</p>
 </section>
 <section id="applications-in-fisheries" class="slide level2">
 <h2><span style="background: #4a1035ff; color: #bebe56ff">Applications in Fisheries</span></h2>
-<h3 id="converting-length-to-biomass"><span style="background: #453d42ff; color: #f6773cff">1. Converting Length to Biomass</span></h3>
-<p><strong>Problem:</strong> We measure lengths from catches, but need biomass for assessment</p>
-<p><strong>Solution:</strong> Use length-weight equation - Measure all fish lengths - Apply equation to get individual weights - Sum for total biomass estimate</p>
-<p><strong>Example Lake Victoria:</strong> - Catch: 1000 fish of various lengths - Use L-W equation to get total weight in kg - Compare to previous months/years</p>
-<h3 id="stock-assessment-from-length-data"><span style="background: #453d42ff; color: #f6773cff">2. Stock Assessment from Length Data</span></h3>
-<p><strong>LBSPR and length-based methods need:</strong> - Growth parameters (from Von Bertalanffy) - Length distribution (from catch samples) - <strong>Length-weight relationship</strong> (to convert to biomass)</p>
-<p>Without L-W equation, cannot estimate stock biomass from lengths</p>
-<h3 id="fish-condition-index"><span style="background: #453d42ff; color: #f6773cff">3. Fish Condition Index</span></h3>
-<p><strong>Condition Factor (K):</strong> <span class="math display">\[K = \frac{W \text{ (observed)}}{W \text{ (expected from equation)}} × 100\]</span></p>
 <ul>
-<li>K = 100: Fish in expected condition</li>
-<li>K &gt; 100: Fish in better condition (healthier)</li>
-<li>K &lt; 100: Fish in poor condition (underfed/stressed)</li>
+<li><p>Converting Length to Biomass; we measure lengths from catches, but need biomass for assessment</p></li>
+<li><p>Stock Assessment from Length Data</p>
+<ul>
+<li><p>Length Based Spawning Potential Ratio (LBSPR) and length-based methods need:</p>
+<ul>
+<li>Growth parameters (from Von Bertalanffy)</li>
+<li>Length distribution (from catch samples)</li>
+</ul></li>
+</ul></li>
+<li><p>Length-weight relationship (to convert to biomass); without L-W equation, cannot estimate stock biomass from lengths</p></li>
 </ul>
-<p>Indicates <strong>nutritional status</strong> and <strong>environmental health</strong></p>
+</section>
+<section id="fultons-condition-factors" class="slide level2">
+<h2><span style="background: #4a1035ff; color: #bebe56ff">Fulton’s Condition Factors</span></h2>
+<p><strong>Condition Factor (K):</strong></p>
+<ul>
+<li><p>It is expressed as capital (<strong>K</strong>) <span class="math display">\[
+K = \frac{W}{L^3} * 100
+\]</span></p></li>
+<li><p>It indicates <strong>nutritional status</strong> and <strong>environmental health</strong></p></li>
+</ul>
 </section>
 <section id="factors-affecting-length-weight-relationship" class="slide level2">
 <h2><span style="background: #4a1035ff; color: #bebe56ff">Factors Affecting Length-Weight Relationship</span></h2>
 <div class="columns">
 <div class="column">
-<p><strong>Biological Factors:</strong> - <strong>Sex</strong> - Males vs females may differ - <strong>Maturity</strong> - Mature fish different body shape - <strong>Season</strong> - Weight varies with reproductive cycle - <strong>Nutrition</strong> - Well-fed vs starving - <strong>Health</strong> - Disease affects weight - <strong>Age</strong> - Older fish may have different slope</p>
+<p><strong>Biological Factors:</strong></p>
+<ul>
+<li><strong>Sex</strong> - Males vs females may differ</li>
+<li><strong>Maturity</strong> - Mature fish different body shape</li>
+<li><strong>Season</strong> - Weight varies with reproductive cycle</li>
+<li><strong>Nutrition</strong> - Well-fed vs starving</li>
+<li><strong>Health</strong> - Disease affects weight</li>
+<li><strong>Age</strong> - Older fish may have different shape</li>
+</ul>
 </div><div class="column">
-<p><strong>Environmental Factors:</strong> - <strong>Water temperature</strong> - Affects metabolism - <strong>Food availability</strong> - Impacts growth - <strong>Habitat quality</strong> - Influences body condition - <strong>Fishing pressure</strong> - Selective harvesting - <strong>Population density</strong> - Competition effects - <strong>Salinity</strong> - Freshwater vs marine</p>
+<p><strong>Environmental Factors:</strong></p>
+<ul>
+<li><strong>Water temperature</strong> - Affects metabolism</li>
+<li><strong>Food availability</strong> - Impacts growth</li>
+<li><strong>Habitat quality</strong> - Influences body condition</li>
+<li><strong>Fishing pressure</strong> - Selective harvesting</li>
+<li><strong>Population density</strong> - Competition effects</li>
+<li><strong>Salinity</strong> - Freshwater vs marine</li>
+</ul>
 </div></div>
-<p><strong>Management Implication:</strong> - L-W relationship may <strong>change over time</strong> - Periodic recalibration recommended - Use recent data for accurate estimates</p>
 </section>
-<section id="species-specific-variations" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Species-Specific Variations</span></h2>
-<p><strong>Comparative Length-Weight Parameters:</strong></p>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th>Species</th>
-<th>Lake</th>
-<th>a</th>
-<th>b</th>
-<th>Shape</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Nile Perch</strong></td>
-<td>Victoria</td>
-<td>0.0098</td>
-<td>3.06</td>
-<td>Robust</td>
-</tr>
-<tr class="even">
-<td><strong>Tilapia</strong></td>
-<td>Various</td>
-<td>0.0150</td>
-<td>3.00</td>
-<td>Balanced</td>
-</tr>
-<tr class="odd">
-<td><strong>Cichlid</strong></td>
-<td>Victoria</td>
-<td>0.0050</td>
-<td>3.05</td>
-<td>Slender</td>
-</tr>
-<tr class="even">
-<td><strong>Catfish</strong></td>
-<td>African</td>
-<td>0.0080</td>
-<td>3.10</td>
-<td>Elongated</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Key Observation:</strong> - Different species have very different ‘a’ values - ‘b’ values usually 2.8-3.2 (mostly isometric) - <strong>Cannot use one species’ equation for another!</strong></p>
+<section id="management-implication" class="slide level2">
+<h2><span style="background: #4a1035ff; color: #bebe56ff">Management Implication</span></h2>
+<ul>
+<li>L-W relationship may <strong>change over time</strong></li>
+<li>Periodic recalibration recommended</li>
+<li>Use recent data for accurate estimates</li>
+</ul>
 </section>
 <section id="data-quality-issues" class="slide level2 scrollable">
 <h2><span style="background: #4a1035ff; color: #bebe56ff">Data Quality Issues</span></h2>
@@ -1316,19 +1230,19 @@ Nyamisi Peter
 <div class="column">
 <p><strong>Common Problems:</strong></p>
 <ol type="1">
-<li><strong>Measurement Errors</strong>
+<li><p><strong>Measurement errors</strong></p>
 <ul>
 <li>Inconsistent length measurement</li>
 <li>Different length types (total vs standard)</li>
 <li>Rounding errors</li>
 </ul></li>
-<li><strong>Weighing Issues</strong>
+<li><p><strong>Weighing issues</strong></p>
 <ul>
 <li>Scale calibration errors</li>
 <li>Wet vs. dry weight confusion</li>
 <li>Internal organ removal</li>
 </ul></li>
-<li><strong>Sample Bias</strong>
+<li><p><strong>Sample Bias</strong></p>
 <ul>
 <li>Only large fish measured</li>
 <li>Sex or maturity bias</li>
@@ -1336,62 +1250,11 @@ Nyamisi Peter
 </ul></li>
 </ol>
 </div><div class="column">
-<p><strong>Quality Control:</strong></p>
+<section id="quality-control-measures" class="slide level2">
+<h2><span style="background: #4a1035ff; color: #bebe56ff">Quality Control measures</span></h2>
 <p>✓ Use consistent measurement methods ✓ Calibrate scales regularly ✓ Document measurement procedures ✓ Sample across size ranges ✓ Check for outliers ✓ Plot data visually ✓ Report R² and sample size ✓ Use multiple specimens</p>
+</section>
 </div></div>
-</section>
-<section id="practical-example-lake-victoria-assessment" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Practical Example: Lake Victoria Assessment</span></h2>
-<p><strong>Scenario:</strong> Estimating Nile Perch catch biomass from market samples</p>
-<p><strong>Step 1: Collect Sample</strong> - 200 fish from daily market catch - Measure length and weight for 50 representatives</p>
-<p><strong>Step 2: Establish Relationship</strong> - Fit L-W equation: <span class="math inline">\(W = 0.0098 L^{3.06}\)</span> - Check fit quality (R² should be &gt;0.95)</p>
-<p><strong>Step 3: Apply to All Fish</strong> - Measure length of all 200 fish - Apply equation to get individual weights - Calculate total catch weight</p>
-<p><strong>Step 4: Compare Over Time</strong> - Repeat process monthly - Track catch biomass trends - Identify if stock declining or stable</p>
-<p><strong>Step 5: Management Decision</strong> - Declining catch biomass → Reduce fishing - Stable/increasing → Current harvest sustainable</p>
-</section>
-<section id="summary-key-points" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Summary: Key Points</span></h2>
-<div class="columns">
-<div class="column">
-<p><strong>Equation:</strong> <span class="math display">\[W = aL^b\]</span></p>
-<p><strong>Parameters:</strong> - <strong>a</strong> = body shape factor - <strong>b</strong> = growth pattern (usually ≈3)</p>
-<p><strong>Key Concept:</strong> - Weight scales with <strong>cube</strong> of length - 2× longer = 8× heavier (approximately)</p>
-</div><div class="column">
-<p><strong>Applications:</strong> ✓ Length → Biomass conversion ✓ Fish condition assessment ✓ Stock assessment calculations ✓ Fisheries management</p>
-<p><strong>Important:</strong> ⚠ Species-specific ⚠ Varies by sex/maturity ⚠ Changes seasonally ⚠ Requires periodic updates</p>
-</div></div>
-</section>
-<section id="r-code-example" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">R Code Example</span></h2>
-</section>
-<section id="discussion-questions" class="slide level2 scrollable">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Discussion Questions</span></h2>
-<ol type="1">
-<li><p>Why does the length-weight relationship follow a cubic pattern (b ≈ 3)?</p></li>
-<li><p>How would you explain the difference between isometric and allometric growth to fishery managers?</p></li>
-<li><p>Why is it important to update length-weight relationships periodically?</p></li>
-<li><p>How would changes in fish condition (well-fed vs. starving) affect the ‘a’ parameter?</p></li>
-<li><p>What would be the implications of using wrong L-W parameters in a stock assessment?</p></li>
-</ol>
-</section>
-<section id="next-steps" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Next Steps</span></h2>
-<p><strong>Practice Activities:</strong> - Collect length-weight data for local species - Fit your own L-W relationship - Calculate condition factors - Compare parameters across species</p>
-<p><strong>Further Reading:</strong> - Fisheries science literature on allometry - Species-specific L-W parameters (fishbase.org) - Stock assessment applications</p>
-<p><strong>Connection to Course:</strong> - Foundation for length-based assessments (LBSPR) - Essential for biomass estimation - Key input to population models</p>
-</section>
-<section id="resources-references" class="slide level2">
-<h2><span style="background: #4a1035ff; color: #bebe56ff">Resources &amp; References</span></h2>
-<p><strong>Key References:</strong></p>
-<ul>
-<li><p>Froese, R. (2006). “Cube law, condition factor and weight-length relationships: History, meta-analysis and recommendations”</p></li>
-<li><p>Wootton, R.J. (1990). <em>Ecology of Teleost Fishes</em> - Chapter on growth and body form</p></li>
-<li><p><strong>FishBase</strong> (www.fishbase.org) - Comprehensive L-W parameters by species</p></li>
-</ul>
-<p><strong>Software:</strong> - R packages: <code>FSA</code>, <code>TropFishR</code> - Excel spreadsheets for simple calculations - Online L-W calculators</p>
-</section>
-<section class="slide level2">
-
 <p>Thank you!</p>
 <p><strong>Questions?</strong></p>
 </section>
@@ -1400,7 +1263,7 @@ Nyamisi Peter
 <p><em>AQ 232: Fish Population Dynamics and Stock Assessment</em></p>
 <p><em>Module: Length-Weight Relationship</em></p>
 <p><em>Nyamisi Peter</em></p>
-<p><em>December 2025</em></p>
+<p><em>January 2026</em></p>
 
 
 </section>
@@ -2580,82 +2443,6 @@ window.QuartoSupport = function () {
         ]
       });
     </script>
-    
-
-    <script>
-
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-
-      // slide changes (different for each slide format).
-
-      (function () {
-
-        // dispatch for htmlwidgets
-
-        function fireSlideEnter() {
-
-          const event = window.document.createEvent("Event");
-
-          event.initEvent("slideenter", true, true);
-
-          window.document.dispatchEvent(event);
-
-        }
-
-    
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          fireSlideEnter();
-
-    
-
-          // dispatch for shiny
-
-          if (window.jQuery) {
-
-            if (previousSlide) {
-
-              window.jQuery(previousSlide).trigger("hidden");
-
-            }
-
-            if (currentSlide) {
-
-              window.jQuery(currentSlide).trigger("shown");
-
-            }
-
-          }
-
-        }
-
-    
-
-        // hookup for slidy
-
-        if (window.w3c_slidy) {
-
-          window.w3c_slidy.add_observer(function (slide_num) {
-
-            // slide_num starts at position 1
-
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-
-          });
-
-        }
-
-    
-
-      })();
-
-    </script>
-
-    
-
     <script id="quarto-html-after-body" type="application/javascript">
       window.document.addEventListener("DOMContentLoaded", function (event) {
         const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")

@@ -27,6 +27,9 @@ website:
             href: lectures/6_methods_stock_abundance.qmd
           - text: "Methods for estimating stock abundance part2"
             href: lectures/7_methods_stock_abundance2.qmd
+          - text: "Length-weight relationships"
+            href: lectures/8_length_weight_relationship.qmd
+          
 
       - text: "Practicals"
         menu:

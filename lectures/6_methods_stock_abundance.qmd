@@ -181,9 +181,13 @@ $$B = \frac{cA}{aR}$$
 Where; 
 
 B = Biomass
+
 a = area swept by the net
+
 c = catch
+
 A = area of distribution of the fish stock
+
 R = retention rate of the net (0.5 - 0.8)
 
 ## [Swept area method...]{style="background: #4a1035ff; color: #bebe56ff"}

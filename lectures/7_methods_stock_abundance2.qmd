@@ -234,7 +234,7 @@ $$\text{CPUE} = \frac{\text{Total Catch}}{\text{Total Effort}}$$
 - Is a Relative Fish abundance estimation 
 - It involves capturing, marking, release and recapturing
 - The basic concept is that;
-  - The ratio of recaptures in the second sample is equivalent to the proportion of those that were marked during the first sampling occasion to the whole population. 
+  - *The ratio of recaptures in the second sample is equivalent to the proportion of those that were marked during the first sampling occasion to the whole population*. 
   
 ## [5. Mark-Recapture Methods...]{style="background: #4a1035ff; color: #bebe56ff"}
 
@@ -244,6 +244,7 @@ $$
 \frac{m_2}{n_2} = \frac{n_1}{N}
 $$
   
+
 - Sample 1 -- marked and released	
 
   - $n_1$ = number captured and marked on the 1st sampling occasion
@@ -391,7 +392,7 @@ Where:
 - $N_0$ = Initial population size
 - $\sum_{i=1}^{t-1}C_i$ = Cumulative catch up to time $t-1$
 
-- Then, plot $C_t$ vs. cumulative catch; y-intercept = $N_0$, slope = $-q$
+- Then, plot $C_t$ vs. cumulative catch; y-intercept = $qN_0$, slope = $-q$
 
 ## [Leslie Method: Octopus Example]{style="background: #4a1035ff; color: #bebe56ff"}
 
@@ -427,8 +428,12 @@ octopus_data |>
   )
 ```
 
+## [Leslie Method: Octopus Example...]{style="background: #4a1035ff; color: #bebe56ff"}
 
 ```{r}
+#| include: true
+#| echo: true
+#| 
 # Fit linear regression: Catch vs Cumulative Catch
 leslie_model <- lm(catch ~ cumulative_catch, data = octopus_data)
 N0_estimate <- coef(leslie_model)[1]
@@ -441,6 +446,8 @@ q_estimate <- -coef(leslie_model)[2]
 # therefore N0 = intercept/q
 
 ```
+
+## [Leslie graph]{style="background: #4a1035ff; color: #bebe56ff"}
 
 ```{r}
 # Plot

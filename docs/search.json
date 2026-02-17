@@ -452,7 +452,7 @@
     "href": "lectures/6_methods_stock_abundance.html#swept-area-method-2",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "Swept area method…",
-    "text": "Swept area method…\n\\[B = \\frac{cA}{aR}\\]\nWhere;\nB = Biomass a = area swept by the net c = catch A = area of distribution of the fish stock R = retention rate of the net (0.5 - 0.8)"
+    "text": "Swept area method…\n\\[B = \\frac{cA}{aR}\\]\nWhere;\nB = Biomass\na = area swept by the net\nc = catch\nA = area of distribution of the fish stock\nR = retention rate of the net (0.5 - 0.8)"
   },
   {
     "objectID": "lectures/6_methods_stock_abundance.html#swept-area-method-3",
@@ -1722,7 +1722,7 @@
     "href": "lectures/7_methods_stock_abundance2.html#depletion-method-3",
     "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
     "section": "6. Depletion method…",
-    "text": "6. Depletion method…\nOr the Leslie formula can be expressed as;\n\\[\nC_t = qN_0 - q\\sum_{i=1}^{t-1}C_i\n\\qquad(2)\\]\nWhere:\n\n\\(C_t\\) = Catch in period \\(t\\)\n\\(q\\) = Catchability coefficient\n\\(N_0\\) = Initial population size\n\\(\\sum_{i=1}^{t-1}C_i\\) = Cumulative catch up to time \\(t-1\\)\nThen, plot \\(C_t\\) vs. cumulative catch; y-intercept = \\(N_0\\), slope = \\(-q\\)"
+    "text": "6. Depletion method…\nOr the Leslie formula can be expressed as;\n\\[\nC_t = qN_0 - q\\sum_{i=1}^{t-1}C_i\n\\qquad(2)\\]\nWhere:\n\n\\(C_t\\) = Catch in period \\(t\\)\n\\(q\\) = Catchability coefficient\n\\(N_0\\) = Initial population size\n\\(\\sum_{i=1}^{t-1}C_i\\) = Cumulative catch up to time \\(t-1\\)\nThen, plot \\(C_t\\) vs. cumulative catch; y-intercept = \\(qN_0\\), slope = \\(-q\\)"
   },
   {
     "objectID": "lectures/7_methods_stock_abundance2.html#leslie-method-octopus-example",
@@ -1813,7 +1813,7 @@
     "href": "lectures/length_weight_relationship.html#what-is-length-weight-relationship",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
     "section": "What is Length-Weight Relationship?",
-    "text": "What is Length-Weight Relationship?\nDefinition: The mathematical relationship between fish body length and body weight\nKey Idea: - Longer fish are generally heavier - But the relationship is NOT linear - Weight increases with the cube of length (cubic relationship) - Different species have different relationships\nWhy Important: - Convert length measurements to biomass - Assess fish condition and health - Estimate population biomass from length data - Understand growth patterns"
+    "text": "What is Length-Weight Relationship?\n\nThe mathematical relationship between fish body length and body weight\nDifferent species have different relationships\n\nKey idea:\n\nLonger fish are generally heavier\nBut the relationship is NOT linear\nWeight increases with the cube of length (cubic relationship) – Cube Law \\[W \\propto L^3\\]\n\n\\[W = aL^3\\]"
   },
   {
     "objectID": "lectures/length_weight_relationship.html#the-allometric-equation",
@@ -1841,7 +1841,7 @@
     "href": "lectures/length_weight_relationship.html#graphical-representation",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
     "section": "Graphical Representation",
-    "text": "Graphical Representation\n\n  \n  \n  \n  \n  Length-Weight Relationship\n  \n  \n  \n  \n  \n  \n  Length (cm)\n  Weight (g)\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  10\n  20\n  40\n  60\n  \n  0\n  50\n  100\n  150\n  \n  \n  \n  W = aL^b\n  Example: Nile Perch\n  a = 0.0098\n  b = 3.06\n  (Isometric)\n  \n  \n  Non-linear\n  cubic curve\n\nKey Features: - Curved relationship (not straight line) - Accelerating weight gain with increasing length - Small fish weight gain slower than large fish - Data points follow smooth curve"
+    "text": "Graphical Representation\n\n  \n  \n  \n  \n  Length-Weight Relationship\n  \n  \n  \n  \n  \n  \n  Length (cm)\n  Weight (g)\n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  \n  10\n  20\n  40\n  60\n  \n  0\n  50\n  100\n  150\n  \n  \n  \n  W = aL^b\n  Example: Nile Perch\n  a = 0.0098\n  b = 3.06\n  (Isometric)\n  \n  \n  Non-linear\n  cubic curve\n\nKey Features:\n\nCurved relationship (not straight line)\nAccelerating weight gain with increasing length\nSmall fish weight gain slower than large fish\nData points follow smooth curve"
   },
   {
     "objectID": "lectures/length_weight_relationship.html#isometric-vs.-allometric-growth",
@@ -1876,14 +1876,14 @@
     "href": "lectures/length_weight_relationship.html#applications-in-fisheries",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
     "section": "Applications in Fisheries",
-    "text": "Applications in Fisheries\n1. Converting Length to Biomass\nProblem: We measure lengths from catches, but need biomass for assessment\nSolution: Use length-weight equation - Measure all fish lengths - Apply equation to get individual weights - Sum for total biomass estimate\nExample Lake Victoria: - Catch: 1000 fish of various lengths - Use L-W equation to get total weight in kg - Compare to previous months/years\n2. Stock Assessment from Length Data\nLBSPR and length-based methods need: - Growth parameters (from Von Bertalanffy) - Length distribution (from catch samples) - Length-weight relationship (to convert to biomass)\nWithout L-W equation, cannot estimate stock biomass from lengths\n3. Fish Condition Index\nCondition Factor (K): \\[K = \\frac{W \\text{ (observed)}}{W \\text{ (expected from equation)}} × 100\\]\n\nK = 100: Fish in expected condition\nK &gt; 100: Fish in better condition (healthier)\nK &lt; 100: Fish in poor condition (underfed/stressed)\n\nIndicates nutritional status and environmental health"
+    "text": "Applications in Fisheries\n\nConverting Length to Biomass; we measure lengths from catches, but need biomass for assessment\nStock Assessment from Length Data\n\nLength Based Spawning Potential Ratio (LBSPR) and length-based methods need:\n\nGrowth parameters (from Von Bertalanffy)\nLength distribution (from catch samples)\n\n\nLength-weight relationship (to convert to biomass); without L-W equation, cannot estimate stock biomass from lengths"
   },
   {
     "objectID": "lectures/length_weight_relationship.html#factors-affecting-length-weight-relationship",
     "href": "lectures/length_weight_relationship.html#factors-affecting-length-weight-relationship",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
     "section": "Factors Affecting Length-Weight Relationship",
-    "text": "Factors Affecting Length-Weight Relationship\n\n\nBiological Factors: - Sex - Males vs females may differ - Maturity - Mature fish different body shape - Season - Weight varies with reproductive cycle - Nutrition - Well-fed vs starving - Health - Disease affects weight - Age - Older fish may have different slope\n\nEnvironmental Factors: - Water temperature - Affects metabolism - Food availability - Impacts growth - Habitat quality - Influences body condition - Fishing pressure - Selective harvesting - Population density - Competition effects - Salinity - Freshwater vs marine\n\nManagement Implication: - L-W relationship may change over time - Periodic recalibration recommended - Use recent data for accurate estimates"
+    "text": "Factors Affecting Length-Weight Relationship\n\n\nBiological Factors:\n\nSex - Males vs females may differ\nMaturity - Mature fish different body shape\nSeason - Weight varies with reproductive cycle\nNutrition - Well-fed vs starving\nHealth - Disease affects weight\nAge - Older fish may have different shape\n\n\nEnvironmental Factors:\n\nWater temperature - Affects metabolism\nFood availability - Impacts growth\nHabitat quality - Influences body condition\nFishing pressure - Selective harvesting\nPopulation density - Competition effects\nSalinity - Freshwater vs marine"
   },
   {
     "objectID": "lectures/length_weight_relationship.html#species-specific-variations",
@@ -1897,7 +1897,7 @@
     "href": "lectures/length_weight_relationship.html#data-quality-issues",
     "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
     "section": "Data Quality Issues",
-    "text": "Data Quality Issues\n\n\nCommon Problems:\n\nMeasurement Errors\n\nInconsistent length measurement\nDifferent length types (total vs standard)\nRounding errors\n\nWeighing Issues\n\nScale calibration errors\nWet vs. dry weight confusion\nInternal organ removal\n\nSample Bias\n\nOnly large fish measured\nSex or maturity bias\nSeasonal collection\n\n\n\nQuality Control:\n✓ Use consistent measurement methods ✓ Calibrate scales regularly ✓ Document measurement procedures ✓ Sample across size ranges ✓ Check for outliers ✓ Plot data visually ✓ Report R² and sample size ✓ Use multiple specimens"
+    "text": "Data Quality Issues\n\n\nCommon Problems:\n\nMeasurement errors\n\nInconsistent length measurement\nDifferent length types (total vs standard)\nRounding errors\n\nWeighing issues\n\nScale calibration errors\nWet vs. dry weight confusion\nInternal organ removal\n\nSample Bias\n\nOnly large fish measured\nSex or maturity bias\nSeasonal collection\n\n\n\n\nQuality Control measures\n✓ Use consistent measurement methods ✓ Calibrate scales regularly ✓ Document measurement procedures ✓ Sample across size ranges ✓ Check for outliers ✓ Plot data visually ✓ Report R² and sample size ✓ Use multiple specimens\n\n\nThank you!\nQuestions?"
   },
   {
     "objectID": "lectures/length_weight_relationship.html#practical-example-lake-victoria-assessment",
@@ -2034,5 +2034,75 @@
     "title": "Glossary",
     "section": "Symbols and Abbreviations",
     "text": "Symbols and Abbreviations\n\n\n\nSymbol/Abbreviation\nDefinition\n\n\n\n\nB\nBiomass\n\n\nBMU\nBeach Management Unit\n\n\nCAS\nCatch Assessment Survey\n\n\nCPUE\nCatch Per Unit Effort\n\n\nCV\nCoefficient of Variation\n\n\nEEZ\nExclusive Economic Zone\n\n\nF\nFishing Mortality Rate\n\n\nFAO\nFood and Agriculture Organization of the UN\n\n\nFSA\nFish Stock Assessment\n\n\nGLM\nGeneral Linear Model\n\n\nK\nBrody’s growth coefficient (von Bertalanffy)\n\n\nL∞\nAsymptotic maximum length (von Bertalanffy)\n\n\nM\nNatural Mortality Rate\n\n\nN\nPopulation abundance (number of fish)\n\n\nq\nCatchability coefficient\n\n\nRF\nRaising Factor\n\n\nVMS\nVessel Monitoring System\n\n\nW\nWeight\n\n\n\n\nLast updated: December 2025"
+  },
+  {
+    "objectID": "lectures/7_methods_stock_abundance2.html#leslie-method-octopus-example-1",
+    "href": "lectures/7_methods_stock_abundance2.html#leslie-method-octopus-example-1",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Leslie Method: Octopus Example…",
+    "text": "Leslie Method: Octopus Example…\n\n# Fit linear regression: Catch vs Cumulative Catch\nleslie_model &lt;- lm(catch ~ cumulative_catch, data = octopus_data)\nN0_estimate &lt;- coef(leslie_model)[1]\nq_estimate &lt;- -coef(leslie_model)[2]\n\n# intercept = coef(leslie_model)[1]\n# q = coef(leslie_model)[2] #slope\n# from C_t = qN0 - q*IC\n# intercept = qN0\n# therefore N0 = intercept/q"
+  },
+  {
+    "objectID": "lectures/7_methods_stock_abundance2.html#leslie-graph",
+    "href": "lectures/7_methods_stock_abundance2.html#leslie-graph",
+    "title": "AQ 232 – Fish Population Dynamics and Stock Assessment",
+    "section": "Leslie graph",
+    "text": "Leslie graph"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#weakness-of-cube-law",
+    "href": "lectures/length_weight_relationship.html#weakness-of-cube-law",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Weakness of Cube Law",
+    "text": "Weakness of Cube Law\n\nNot all fish grow isometrically (b=3)\nSome species get heavier (b&gt;3) or lighter (b&lt;3) as they grow\nBody shape and condition affect weight gain\nEnvironmental factors (food, habitat) also influence growth patterns"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#allometry",
+    "href": "lectures/length_weight_relationship.html#allometry",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Allometry",
+    "text": "Allometry\n\nAllometry describes how body proportions change with size\nIn fish, allometric growth means weight does not increase exactly with cube of length\nThe general formula is: \\[W = aL^b\\]\n\nWhere:\n\n\\(W\\) = weight\n\\(L\\) = length\n\\(a\\) = intercept\n\\(b\\) = slope"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#logarithmic-form-for-allometric-equation",
+    "href": "lectures/length_weight_relationship.html#logarithmic-form-for-allometric-equation",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Logarithmic Form for allometric equation",
+    "text": "Logarithmic Form for allometric equation\nLogarithmic form(linear regression):\n\n\\[W = aL^b\\]\nTaking log of both sides gives:\n\n\\[\\log(W) = \\log(a) + b \\cdot \\log(L)\\]"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#what-does-a-mean",
+    "href": "lectures/length_weight_relationship.html#what-does-a-mean",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "What does ‘a’ mean?",
+    "text": "What does ‘a’ mean?\n\nScale factor or intercept\nSpecies-specific (different species have different values)\nRelated to fish condition and body shape\nHeavier fish species have larger ‘a’ values\n\nExample:\n\nNile Perch: \\(a ≈ 0.0098\\) (robust body)\nCichlid: \\(a ≈ 0.005\\) (slender body)\nSame length, different weight due to different ‘a’"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#what-does-b-mean",
+    "href": "lectures/length_weight_relationship.html#what-does-b-mean",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "What does ‘b’ mean?",
+    "text": "What does ‘b’ mean?\n\nExponent or slope\nDetermines how weight scales with length\nTypical range: 2.5 to 3.5\n\nInterpretation:\n\n\n\n\n\n\n\nb value\nMeaning\n\n\n\n\nb = 3\nIsometric growth - Perfect cubic relationship\n\n\nb &gt; 3\nAllometric growth (positive) - Fish gets proportionally heavier as it grows\n\n\nb &lt; 3\nAllometric growth (negative) - Fish gets proportionally lighter as it grows"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#management-implication",
+    "href": "lectures/length_weight_relationship.html#management-implication",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Management Implication",
+    "text": "Management Implication\n\nL-W relationship may change over time\nPeriodic recalibration recommended\nUse recent data for accurate estimates"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#quality-control-measures",
+    "href": "lectures/length_weight_relationship.html#quality-control-measures",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Quality Control measures",
+    "text": "Quality Control measures\n✓ Use consistent measurement methods ✓ Calibrate scales regularly ✓ Document measurement procedures ✓ Sample across size ranges ✓ Check for outliers ✓ Plot data visually ✓ Report R² and sample size ✓ Use multiple specimens"
+  },
+  {
+    "objectID": "lectures/length_weight_relationship.html#fultons-condition-factors",
+    "href": "lectures/length_weight_relationship.html#fultons-condition-factors",
+    "title": "AQ 232: Fish Population Dynamics and Stock Assessment",
+    "section": "Fulton’s Condition Factors",
+    "text": "Fulton’s Condition Factors\nCondition Factor (K):\n\nIt is expressed as capital (K) \\[\nK = \\frac{W}{L^3} * 100\n\\]\nIt indicates nutritional status and environmental health"
   }
 ]
